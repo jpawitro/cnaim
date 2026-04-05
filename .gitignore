@@ -61,8 +61,10 @@ coverage.xml
 # Jupyter
 .ipynb_checkpoints
 
-# VS Code
-.vscode/
+# Workspace-local folders/symlinks
+/.github
+/.vscode
+/references/
 
 # IDEs (optional)
 .idea/
