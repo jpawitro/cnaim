@@ -1,0 +1,56 @@
+{
+  "table_id": "oci_lv_ugb_phase_barriers",
+  "table_number": "40",
+  "table_name": "Observed Condition Input - LV UGB: Phase Barriers",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Phase barriers Present?",
+      "key": "condition_criteria_phase_barriers_present"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_phase_barriers_present": "Yes",
+      "description": "Phase Barriers Present",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_phase_barriers_present": "Missing",
+      "description": "Phase Barriers Not Present (in whole or part)",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_phase_barriers_present": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 3
+}

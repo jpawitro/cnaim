@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cnaim"
+version = "0.1.0"
+description = "Python implementation foundation for CNAIM risk modelling"
+readme = "README.md"
+requires-python = ">=3.13.8"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pydantic>=2.12.5",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.20.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.2",
+    "pre-commit>=4.5.1",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.9",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cnaim"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-q --cov=cnaim --cov-report=term-missing"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.flake8]
+max-line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.13"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+no_implicit_optional = true
+strict_equality = true
+mypy_path = "src"

@@ -1,0 +1,70 @@
+{
+  "table_id": "oci_hv_swg_dist_oil_lek_gas_pr",
+  "table_number": "55",
+  "table_name": "Observed Condition Input - HV Switchgear (GM) - Distribution: Oil Leaks / Gas Pressure",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "No deterioration:",
+      "description": "Oil: No Oil appears to be actively leaking from the component in question. This may include assets with minor stains or marks Gas: Gas pressure reading is within the expected limit",
+      "condition_input_factor": 0.9,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Superficial/minor deterioration",
+      "description": "Oil: There is evidence of a small leak, but this is limited to staining of the asset or the ground around the asset AND oil still visible in the sight glass where fitted. Repairs / intervention to the asset (or a sub component) is not expected to be required between now and the next planned maintenance Gas: Not used",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "Oil: There is evidence of a small active oil leak from the switchgear e.g. droplets or weeping beneath the fixed portion. Minor maintenance or refurbishment activities (as a minimum) are required to address the identified issue(s) Gas: Gas pressure outside of acceptable range",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10,
+      "condition_input_collar": 3.0
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "Oil: There is evidence of a significant oil leak from the switchgear e.g. pool of oil under/around the equipment, the switchgear may be draining or completely drained of oil and / or compound. Gas: Severe unrepairable leak or equipment requiring repeated top ups.",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

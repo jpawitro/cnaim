@@ -1,0 +1,61 @@
+{
+  "table_id": "ffa_test_factor",
+  "table_number": "215",
+  "table_name": "FFA Test Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "FFA Test Factor",
+      "key": "ffa_test_factor"
+    }
+  ],
+  "rows": [
+    {
+      "lower": -0.01,
+      "upper": 4.0,
+      "bound_description": "FFA value (ppm)",
+      "ffa_test_factor": 1.0
+    },
+    {
+      "lower": 4.0,
+      "upper": 5.0,
+      "bound_description": "FFA value (ppm)",
+      "ffa_test_factor": 1.1
+    },
+    {
+      "lower": 5.0,
+      "upper": 6.0,
+      "bound_description": "FFA value (ppm)",
+      "ffa_test_factor": 1.25
+    },
+    {
+      "lower": 6.0,
+      "upper": 7.0,
+      "bound_description": "FFA value (ppm)",
+      "ffa_test_factor": 1.4
+    },
+    {
+      "lower": 7.0,
+      "upper": "Infinity",
+      "bound_description": "FFA value (ppm)",
+      "ffa_test_factor": 1.6
+    }
+  ],
+  "row_count": 5
+}

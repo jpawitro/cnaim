@@ -1,0 +1,43 @@
+{
+  "table_id": "dga_test_factor_calib",
+  "table_number": "214",
+  "table_name": "DGA Test Factor Calibration",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "> % Change",
+      "key": "pct_change"
+    },
+    {
+      "original": "DGA Test Factor",
+      "key": "dga_test_factor"
+    }
+  ],
+  "rows": [
+    {
+      "pct_change": "Negative",
+      "dga_test_factor": 0.9
+    },
+    {
+      "pct_change": "Neutral",
+      "dga_test_factor": 1.0
+    },
+    {
+      "pct_change": "Small",
+      "dga_test_factor": 1.1
+    },
+    {
+      "pct_change": "Significant",
+      "dga_test_factor": 1.2
+    },
+    {
+      "pct_change": "Large",
+      "dga_test_factor": 1.5
+    }
+  ],
+  "row_count": 5
+}

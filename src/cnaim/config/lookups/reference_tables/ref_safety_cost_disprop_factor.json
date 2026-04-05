@@ -1,0 +1,27 @@
+{
+  "table_id": "ref_safety_cost_disprop_factor",
+  "table_number": "223",
+  "table_name": "Reference Safety Cost - Disproportion Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Reference safety cost",
+      "key": "reference_safety_cost"
+    },
+    {
+      "original": "Value",
+      "key": "value"
+    }
+  ],
+  "rows": [
+    {
+      "reference_safety_cost": "Disproportion Factor",
+      "value": 6.25
+    }
+  ],
+  "row_count": 1
+}

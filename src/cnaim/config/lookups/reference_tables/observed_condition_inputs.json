@@ -1,0 +1,192 @@
+{
+  "table_id": "observed_condition_inputs",
+  "table_number": "12",
+  "table_name": "Observed Condition Inputs",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Subcomponent",
+      "key": "subcomponent"
+    },
+    {
+      "original": "Observed Condition Input",
+      "key": "observed_condition_input"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "LV UGB",
+      "subcomponent": null,
+      "observed_condition_input": "1. Steel Cover and Pit condition, 2. Water/Moisture, 3. Bell Condition, 4. Insulation Condition, 5. Signs of heating, 6. Phase Barriers"
+    },
+    {
+      "asset_category": "LV Circuit Breaker",
+      "subcomponent": null,
+      "observed_condition_input": "1. Switchgear external condition"
+    },
+    {
+      "asset_category": "LV Board (WM)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Switchgear external condition, 2. Compound Leaks, 3. Switchgear internal condition, 4. Insulation, 5. Signs of Heating, 6. Phase Barriers"
+    },
+    {
+      "asset_category": "LV Pillars",
+      "subcomponent": null,
+      "observed_condition_input": "1. Switchgear external condition, 2. Compound Leaks, 3. Switchgear internal condition, 4. Insulation, 5. Signs of Heating, 6. Phase Barriers"
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Primary",
+      "subcomponent": null,
+      "observed_condition_input": "1. Switchgear external condition, 2. Cable boxes conditions, 3. Oil leaks/ Gas pressure, 4. Thermographic Assessment, 5. Switchgear internal condition and operation, 6. Indoor Environment"
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Distribution",
+      "subcomponent": null,
+      "observed_condition_input": "1. Switchgear external condition, 2. Cable boxes conditions, 3. Oil leaks/ Gas pressure, 4. Thermographic Assessment, 5. Switchgear internal condition and operation, 6. Indoor Environment"
+    },
+    {
+      "asset_category": "EHV Switchgear (GM)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Switchgear external condition, 2. Cable boxes conditions, 3. Oil leaks/ Gas pressure, 4. Thermographic Assessment, 5. Switchgear internal condition and operation, 6. Indoor Environment, 7. Support Structures"
+    },
+    {
+      "asset_category": "132kV Switchgear (GM)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Switchgear external condition, 2. Cable boxes conditions, 3. Oil leaks/ Gas pressure, 4. Thermographic Assessment, 5. Switchgear internal condition and operation, 6. Indoor Environment, 7. Support Structures, 8. Air systems"
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Transformer external condition, 2. Cabel boxes condition"
+    },
+    {
+      "asset_category": "EHV Transformer (GM)",
+      "subcomponent": "Main Transformer",
+      "observed_condition_input": "1. Main tank condition, 2. Coolers/Radiator condition 3. Bushings condition 4. Kiosk condition 5. Cable boxes condition"
+    },
+    {
+      "asset_category": "EHV Transformer (GM)",
+      "subcomponent": "Tapchanger",
+      "observed_condition_input": "1. Tapchanger external condition, 2. Internal Condition, 3. Drive Mechanism Condition, 4. Condition of Selector & Diverter Contacts, 5. Condition of Selector & Diverter Braids"
+    },
+    {
+      "asset_category": "132kV Transformer (GM)",
+      "subcomponent": "Main Transformer",
+      "observed_condition_input": "1. Main tank condition, 2. Coolers/Radiator condition 3. Bushings condition 4. Kiosk condition 5. Cable boxes condition"
+    },
+    {
+      "asset_category": "132kV Transformer (GM)",
+      "subcomponent": "Tapchanger",
+      "observed_condition_input": "1. Tapchanger external condition, 2. Internal Condition, 3. Drive Mechanism Condition, 4. Condition of Selector & Diverter Contacts, 5. Condition of Selector & Diverter Braids"
+    },
+    {
+      "asset_category": "EHV Cable (Non Pressurised)",
+      "subcomponent": null,
+      "observed_condition_input": null
+    },
+    {
+      "asset_category": "EHV Cable (Oil)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Presence of Crystalline Lead"
+    },
+    {
+      "asset_category": "EHV Cable (Gas)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Presence of Crystalline Lead"
+    },
+    {
+      "asset_category": "132kV Cable (Non Pressurised)",
+      "subcomponent": null,
+      "observed_condition_input": null
+    },
+    {
+      "asset_category": "132kV Cable (Oil)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Presence of Crystalline Lead"
+    },
+    {
+      "asset_category": "132kV Cable (Gas)",
+      "subcomponent": null,
+      "observed_condition_input": "1. Presence of Crystalline Lead"
+    },
+    {
+      "asset_category": "Submarine Cable",
+      "subcomponent": null,
+      "observed_condition_input": "1. External Condition of Armour"
+    },
+    {
+      "asset_category": "LV Poles",
+      "subcomponent": null,
+      "observed_condition_input": "1. Visual Pole Condition, 2. Pole Top Rot, 3. Pole Leaning, 4. Bird / Animal Damage"
+    },
+    {
+      "asset_category": "HV Poles",
+      "subcomponent": null,
+      "observed_condition_input": "1. Visual Pole Condition, 2. Pole Top Rot, 3. Pole Leaning, 4. Bird / Animal Damage"
+    },
+    {
+      "asset_category": "EHV Poles",
+      "subcomponent": null,
+      "observed_condition_input": "1. Visual Pole Condition, 2. Pole Top Rot, 3. Pole Leaning, 4. Bird / Animal Damage"
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Tower Steelwork",
+      "observed_condition_input": "1. Tower Legs, 2. Bracings, 3. Crossarms, 4. Peak"
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Tower Paintwork",
+      "observed_condition_input": "1. Paintwork Condition"
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Foundations",
+      "observed_condition_input": "1. Foundation Condition"
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Tower Steelwork",
+      "observed_condition_input": "1. Tower Legs, 2. Bracings, 3. Crossarms, 4. Peak"
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Tower Paintwork",
+      "observed_condition_input": "1. Paintwork Condition"
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Foundations",
+      "observed_condition_input": "1. Foundation Condition"
+    },
+    {
+      "asset_category": "EHV Fittings",
+      "subcomponent": null,
+      "observed_condition_input": "1. Tower fittings, 2. Conductor fittings, 3. Insulators - Electrical, 4. Insulators - Mechanical"
+    },
+    {
+      "asset_category": "132kV Fittings",
+      "subcomponent": null,
+      "observed_condition_input": "1. Tower fittings, 2. Conductor fittings, 3. Insulators - Electrical, 4. Insulators - Mechanical"
+    },
+    {
+      "asset_category": "EHV Tower Line Conductor",
+      "subcomponent": null,
+      "observed_condition_input": "1. Visual Condition, 2. Midspan joints"
+    },
+    {
+      "asset_category": "132kV Tower Line Conductor",
+      "subcomponent": null,
+      "observed_condition_input": "1. Visual Condition, 2. Midspan joints"
+    }
+  ],
+  "row_count": 33
+}

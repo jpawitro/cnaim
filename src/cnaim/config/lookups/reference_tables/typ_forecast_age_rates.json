@@ -1,0 +1,332 @@
+{
+  "table_id": "typ_forecast_age_rates",
+  "table_number": "239",
+  "table_name": "Typical Forecast Ageing Rates for use in Determination of Cumulative Discounted PoF Weightings for Risk Matrices",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Forecast Ageing Rate",
+      "key": "forecast_ageing_rate"
+    },
+    {
+      "original": "Comments",
+      "key": "comments"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for Wood Pole subdivision"
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for Wood Pole subdivision"
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for Wood Pole subdivision"
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for Wood Pole subdivision"
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for Wood Pole subdivision"
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for ACSR - greased subdivision"
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "forecast_ageing_rate": 0.02997369,
+      "comments": "From Normal Expected Life for Steelwork subcomponent"
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "forecast_ageing_rate": 0.05994738,
+      "comments": null
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for ACSR - greased subdivision"
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "forecast_ageing_rate": 0.02997369,
+      "comments": "From Normal Expected Life for Steelwork subcomponent"
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "forecast_ageing_rate": 0.05994738,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "forecast_ageing_rate": 0.02397895,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "forecast_ageing_rate": 0.03197194,
+      "comments": "From Normal Expected Life for Aluminium Sheath - Copper Conductor subdivision"
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "forecast_ageing_rate": 0.03425565,
+      "comments": "From Normal Expected Life for Aluminium Sheath - Copper Conductor subdivision"
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "forecast_ageing_rate": 0.02397895,
+      "comments": null
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "forecast_ageing_rate": 0.03197194,
+      "comments": "From Normal Expected Life for Aluminium Sheath - Copper Conductor subdivision"
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "forecast_ageing_rate": 0.03425565,
+      "comments": "From Normal Expected Life for Aluminium Sheath - Copper Conductor subdivision"
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID)(GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD) (GM)",
+      "forecast_ageing_rate": 0.04795791,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "forecast_ageing_rate": 0.04795791,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID)(GM)",
+      "forecast_ageing_rate": 0.04795791,
+      "comments": null
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD)(GM)",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "forecast_ageing_rate": 0.04795791,
+      "comments": null
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": "From Normal Expected Life for Transformer - Pre 1980 subcomponent and subdivision"
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": "From Normal Expected Life for Transformer - Pre 1980 subcomponent and subdivision"
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": "From Normal Expected Life for ACSR - greased subdivision"
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "forecast_ageing_rate": 0.02997369,
+      "comments": "From Normal Expected Life for Steelwork subcomponent"
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "forecast_ageing_rate": 0.05994738,
+      "comments": null
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "forecast_ageing_rate": 0.02397895,
+      "comments": null
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "forecast_ageing_rate": 0.03197194,
+      "comments": "From Normal Expected Life for Aluminium Sheath - Copper Conductor subdivision"
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "forecast_ageing_rate": 0.03425565,
+      "comments": "From Normal Expected Life for Aluminium Sheath - Copper Conductor subdivision"
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "forecast_ageing_rate": 0.04795791,
+      "comments": null
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": null
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "forecast_ageing_rate": 0.0435981,
+      "comments": null
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "forecast_ageing_rate": 0.03996492,
+      "comments": "From Normal Expected Life for Transformer - Pre 1980 subcomponent and subdivision"
+    }
+  ],
+  "row_count": 61
+}

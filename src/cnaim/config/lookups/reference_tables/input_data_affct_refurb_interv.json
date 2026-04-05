@@ -1,0 +1,397 @@
+{
+  "table_id": "input_data_affct_refurb_interv",
+  "table_number": "217",
+  "table_name": "Input Data Affected by Refurbishment Interventions",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Refurbishment Intervention Activity",
+      "key": "refurbishment_intervention_activity"
+    },
+    {
+      "original": "Health Index Asset Category",
+      "key": "health_index_asset_category"
+    },
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Input Data Affected By Intervention",
+      "key": "input_data_affected_by_intervention"
+    }
+  ],
+  "rows": [
+    {
+      "refurbishment_intervention_activity": "Complete replacement of the operating mechanism (ACB)",
+      "health_index_asset_category": "LV Switchgear",
+      "asset_register_category": "LV Circuit Breaker",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of complete feederway",
+      "health_index_asset_category": "LV Switchgear",
+      "asset_register_category": "LV Pillar (ID), LV Pillar (OD at Substation) & LV Pillars (OD not at Substation)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete factory refurbishment",
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV CB (GM) Secondary, 6.6/11kV RMU, 6.6/11kV Switch (GM), 6.6/11kV X-type RMU, 20kV CB (GM) Secondary, 20kV RMU & 20kV Switch (GM)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete Refurbishment (factory or onsite) e.g. strip down & rebuild, replacing all worn parts",
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV CB (GM) Secondary, 6.6/11kV RMU, 6.6/11kV Switch (GM), 6.6/11kV X-type RMU, 20kV CB (GM) Secondary, 20kV RMU & 20kV Switch (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete replacement of the operating mechanism",
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV CB (GM) Secondary, 6.6/11kV RMU, 6.6/11kV Switch (GM), 6.6/11kV X-type RMU, 20kV CB (GM) Secondary, 20kV RMU & 20kV Switch (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable boxes",
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV CB (GM) Secondary, 6.6/11kV RMU, 6.6/11kV Switch (GM), 6.6/11kV X-type RMU, 20kV CB (GM) Secondary, 20kV RMU & 20kV Switch (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of the moving portion (truck) in withdrawable equipment",
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV CB (GM) Secondary & 20kV CB (GM) Secondary ",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier; and ii) Increase the Expected Life by 20 years "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete factory refurbishment",
+      "health_index_asset_category": "HV Switchgear (GM) - Primary",
+      "asset_register_category": "6.6/11kV CB (GM) Primary & 20kV CB (GM) Primary ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete Refurbishment (factory or onsite) e.g. strip down & rebuild, replacing all worn parts ",
+      "health_index_asset_category": "HV Switchgear (GM) - Primary",
+      "asset_register_category": "6.6/11kV CB (GM) Primary & 20kV CB (GM) Primary ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete replacement of the operating mechanism",
+      "health_index_asset_category": "HV Switchgear (GM) - Primary",
+      "asset_register_category": "6.6/11kV CB (GM) Primary & 20kV CB (GM) Primary ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable boxes",
+      "health_index_asset_category": "HV Switchgear (GM) - Primary",
+      "asset_register_category": "6.6/11kV CB (GM) Primary & 20kV CB (GM) Primary",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of the moving portion (truck) in withdrawable equipment",
+      "health_index_asset_category": "HV Switchgear (GM) - Primary",
+      "asset_register_category": "6.6/11kV CB (GM) Primary & 20kV CB (GM) Primary",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier; and ii) Increase the Expected Life by 20 years "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete Refurbishment (factory or onsite) e.g. strip down & rebuild, replacing all worn parts",
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM), 33kV CB (Air Insulated Busbars)(OD) (GM), 33kV CB (Gas Insulated Busbars)(ID) (GM), 33kV CB (Gas Insulated Busbars)(OD) (GM), 33kV RMU, 33kV Switch (GM), 66kV CB (Air Insulated Busbars)(ID) (GM), 66kV CB (Air Insulated Busbars)(OD) (GM), 66kV CB (Gas Insulated Busbars)(ID) (GM) & 66kV CB (Gas Insulated Busbars)(OD) (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete replacement of the operating mechanism",
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM), 33kV CB (Air Insulated Busbars)(OD) (GM), 33kV CB (Gas Insulated Busbars)(ID) (GM), 33kV CB (Gas Insulated Busbars)(OD) (GM), 33kV RMU, 33kV Switch (GM), 66kV CB (Air Insulated Busbars)(ID) (GM), 66kV CB (Air Insulated Busbars)(OD) (GM), 66kV CB (Gas Insulated Busbars)(ID) (GM) & 66kV CB (Gas Insulated Busbars)(OD) (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable boxes",
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM), 33kV CB (Air Insulated Busbars)(OD) (GM), 33kV CB (Gas Insulated Busbars)(ID) (GM), 33kV CB (Gas Insulated Busbars)(OD) (GM), 33kV RMU, 33kV Switch (GM), 66kV CB (Air Insulated Busbars)(ID) (GM), 66kV CB (Air Insulated Busbars)(OD) (GM), 66kV CB (Gas Insulated Busbars)(ID) (GM) & 66kV CB (Gas Insulated Busbars)(OD) (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of the moving portion (truck) in withdrawable equipment",
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM), 33kV CB (Air Insulated Busbars)(OD) (GM) & 33kV CB (Gas Insulated Busbars)(ID) (GM) ",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier; and ii) Increase the Expected Life by 20 years "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete Refurbishment (factory or onsite) e.g. strip down & rebuild, replacing all worn parts ",
+      "health_index_asset_category": "132kV CBs",
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM), 132kV CB (Air Insulated Busbars)(OD) (GM), 132kV CB (Gas Insulated Busbars)(ID) (GM) & 132kV CB (Gas Insulated Busbars)(OD) (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete replacement of the operating mechanism",
+      "health_index_asset_category": "132kV CBs",
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM), 132kV CB (Air Insulated Busbars)(OD) (GM), 132kV CB (Gas Insulated Busbars)(ID) (GM) & 132kV CB (Gas Insulated Busbars)(OD) (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable boxes",
+      "health_index_asset_category": "132kV CBs",
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM), 132kV CB (Air Insulated Busbars)(OD) (GM), 132kV CB (Gas Insulated Busbars)(ID) (GM) & 132kV CB (Gas Insulated Busbars)(OD) (GM) ",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete factory refurbishment",
+      "health_index_asset_category": "HV Transformer (GM)",
+      "asset_register_category": "6.6/11kV Transformer (GM) & 20kV Transformer (GM)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Installation of replacement windings",
+      "health_index_asset_category": "HV Transformer (GM)",
+      "asset_register_category": "6.6/11kV Transformer (GM) & 20kV Transformer (GM)",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier; and ii) Revise age to reflect time elapsed since Refurbishment undertaken "
+    },
+    {
+      "refurbishment_intervention_activity": "On site processing to recondition oil to remove moisture and acidity from windings ",
+      "health_index_asset_category": "HV Transformer (GM)",
+      "asset_register_category": "6.6/11kV Transformer (GM) & 20kV Transformer (GM)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cooling radiators",
+      "health_index_asset_category": "HV Transformer (GM)",
+      "asset_register_category": "6.6/11kV Transformer (GM) & 20kV Transformer (GM)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs and Measured Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete factory refurbishment",
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM) & 66kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Installation of replacement windings",
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM) & 66kV Transformer",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs, Oil Test Modifier, DGA Test Modifier, FFA Test Modifier and Reliability Modifier; and ii) Revise age to reflect time elapsed since Refurbishment undertaken "
+    },
+    {
+      "refurbishment_intervention_activity": "On site processing to recondition oil to remove moisture and acidity from windings",
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM) & 66kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing Oil Test Modifier"
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of bushings",
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM) & 66kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cooling radiators",
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM) & 66kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of gaskets & seals",
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM) & 66kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of Tapchangers or full replacement of Tapchanger mechanism",
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM) & 66kV Transformer",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier for Tapchanger subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier; and ii) Where Tapchanger is replaced: revise age of Tapchanger subcomponent, used in the calculation of Initial Health Score, to the age of the new Tapchanger "
+    },
+    {
+      "refurbishment_intervention_activity": "Complete factory refurbishment",
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Installation of replacement windings",
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs, Oil Test Modifier, DGA Test Modifier, FFA Test Modifier and Reliability Modifier; and ii) Revise age to reflect time elapsed since Refurbishment undertaken "
+    },
+    {
+      "refurbishment_intervention_activity": "On site processing to recondition oil to remove moisture and acidity from windings",
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing Oil Test Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of bushings",
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cooling radiators",
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of gaskets & seals",
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for Main Transformer subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of Tapchangers or full replacement of Tapchanger mechanism",
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier for Tapchanger subcomponent by reassessing relevant Observed Condition Inputs, Measured Condition Inputs and Reliability Modifier; and ii) Where Tapchanger is replaced: revise age of Tapchanger subcomponent, used in the calculation of Initial Health Score, to the age of the new Tapchanger "
+    },
+    {
+      "refurbishment_intervention_activity": "Pole Strengthening (e.g. clamping a steelwork supporting bracket to an existing pole)",
+      "health_index_asset_category": "LV Poles",
+      "asset_register_category": "LV Poles",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs and Measured Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Small footprint steel masts: Replacement of individual steelwork members",
+      "health_index_asset_category": "LV Poles",
+      "asset_register_category": "LV Poles",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs and Measured Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Pole Strengthening (e.g. clamping a steelwork supporting bracket to an existing pole)",
+      "health_index_asset_category": "HV Poles",
+      "asset_register_category": "6.6/11kV Poles & 20kV Poles",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing Pole Decay/Deterioration Measured Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Small footprint steel masts: Replacement of individual steelwork members",
+      "health_index_asset_category": "HV Poles",
+      "asset_register_category": "6.6/11kV Poles & 20kV Poles",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs and Measured Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Pole Strengthening (e.g. clamping a steelwork supporting bracket to an existing pole)",
+      "health_index_asset_category": "EHV Pole",
+      "asset_register_category": "33kV Pole & 66kV Pole",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing Pole Decay/Deterioration Measured Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Small footprint steel masts: Replacement of individual steelwork members",
+      "health_index_asset_category": "EHV Pole",
+      "asset_register_category": "33kV Pole & 66kV Pole",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Observed Condition Inputs and Measured Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Painting of Tower",
+      "health_index_asset_category": "EHV Tower",
+      "asset_register_category": "33kV Tower & 66kV Tower",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier for Tower Paintwork subcomponent by reassessing Paintwork Condition Input; and ii) revise age of Tower Paintwork subcomponent, used in the calculation of Initial Health Score, to the time elapsed since the Tower was most recently painted "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of individual steelwork members",
+      "health_index_asset_category": "EHV Tower",
+      "asset_register_category": "33kV Tower & 66kV Tower",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for the Tower Steelwork subcomponent by reassessing relevant Observed Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of Tower foundations",
+      "health_index_asset_category": "EHV Tower",
+      "asset_register_category": "33kV Tower & 66kV Tower",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for the Tower Foundation subcomponent by reassessing relevant Observed Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Painting of Tower",
+      "health_index_asset_category": "132kV Tower",
+      "asset_register_category": "132kV Tower",
+      "input_data_affected_by_intervention": "i) Reassess Health Score Modifier for Tower Paintwork subcomponent by reassessing Paintwork Condition Input ii) revise age of Tower Paintwork subcomponent, used in the calculation of Initial Health Score, to the time elapsed since the Tower was most recently painted "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of individual steelwork members",
+      "health_index_asset_category": "132kV Tower",
+      "asset_register_category": "132kV Tower",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for the Tower Steelwork subcomponent by reassessing relevant Observed Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of Tower foundations",
+      "health_index_asset_category": "132kV Tower",
+      "asset_register_category": "132kV Tower",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier for the Tower Foundation subcomponent by reassessing relevant Observed Condition Inputs "
+    },
+    {
+      "refurbishment_intervention_activity": "Re-engineering (replacement/refurbishment/relocation) of pressurising system equipment with the objective of reducing the normal operating fluid pressure in the cable system ",
+      "health_index_asset_category": "EHV Cable (Gas)",
+      "asset_register_category": "33kV UG Cable (Gas) & 66kV UG Cable (Gas)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Remaking existing joints and terminations in situ",
+      "health_index_asset_category": "EHV Cable (Gas)",
+      "asset_register_category": "33kV UG Cable (Gas) & 66kV UG Cable (Gas)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable joints and terminations (including sealing ends)",
+      "health_index_asset_category": "EHV Cable (Gas)",
+      "asset_register_category": "33kV UG Cable (Gas) & 66kV UG Cable (Gas)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Re-engineering (replacement/refurbishment/relocation) of pressurising system equipment with the objective of reducing the normal operating fluid pressure in the cable system ",
+      "health_index_asset_category": "EHV Cable (Oil)",
+      "asset_register_category": "33kV UG Cable (Oil) & 66kV UG Cable (Oil)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Remaking existing joints and terminations in situ",
+      "health_index_asset_category": "EHV Cable (Oil)",
+      "asset_register_category": "33kV UG Cable (Oil) & 66kV UG Cable (Oil)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable joints and terminations (including sealing ends)",
+      "health_index_asset_category": "EHV Cable (Oil)",
+      "asset_register_category": "33kV UG Cable (Oil) & 66kV UG Cable (Oil)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Re-engineering (replacement/refurbishment/relocation) of pressurising system equipment with the objective of reducing the normal operating fluid pressure in the cable system ",
+      "health_index_asset_category": "132kV Cable (Gas)",
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Remaking existing joints and terminations in situ",
+      "health_index_asset_category": "132kV Cable (Gas)",
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable joints and terminations (including sealing ends)",
+      "health_index_asset_category": "132kV Cable (Gas)",
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Re-engineering (replacement/refurbishment/relocation) of pressurising system equipment with the objective of reducing the normal operating fluid pressure in the cable system ",
+      "health_index_asset_category": "132kV Cable (Oil)",
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Remaking existing joints and terminations in situ",
+      "health_index_asset_category": "132kV Cable (Oil)",
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing relevant Measured Condition Inputs (incl. Leakage Rate Condition Input) "
+    },
+    {
+      "refurbishment_intervention_activity": "Replacement of cable joints and terminations (including sealing ends)",
+      "health_index_asset_category": "132kV Cable (Oil)",
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "input_data_affected_by_intervention": "Reassess Health Score Modifier by reassessing \"relevant Measured Condition Inputs (incl. Leakage Rate\" Condition Input) "
+    }
+  ],
+  "row_count": 61
+}

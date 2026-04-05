@@ -1,0 +1,70 @@
+{
+  "table_id": "oci_132kv_swg_swg_ext_cond",
+  "table_number": "73",
+  "table_name": "Observed Condition Input - 132kV Switchgear (GM): Switchgear External Condition",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "No Deterioration:",
+      "description": "Visual assessment gives a positive indication of asset condition. There are no obvious signs of any deterioration such as corrosion, stains or markings.",
+      "condition_input_factor": 0.9,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Superficial / minor\ndeterioration",
+      "description": "There is little deterioration. The asset (or a sub component) may exhibit signs of ageing, surface level scratches, moss or lichen that can be brushed off. This has no material impact on the probability of failure for the asset.",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "There is evidence of some degradation such as surface corrosion or minor compound leaks. The level of degradation may affect the operation of the asset if left untended (e.g. large patches of rust on the metalwork, doorhinges heavily rusted).",
+      "condition_input_factor": 1.2,
+      "condition_input_cap": 10,
+      "condition_input_collar": 3.0
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "The switchgear is corroded to the point that it can no longer hold its oil / SF6 insulation, one or more metalwork supports are rusted through, or the switchgear housing is damaged beyond economical repair.",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

@@ -1,0 +1,124 @@
+{
+  "table_id": "location_environ_al_factor",
+  "table_number": "231",
+  "table_name": "Location Environmental Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Proximity Factor: Not Close to Water Course (>120m) or No Oil ",
+      "key": "proximity_factor_not_close_to_water_course_120m_or_no_oil"
+    },
+    {
+      "original": "Proximity Factor: Moderately Close to Water Course (between 80m and 120m) ",
+      "key": "proximity_factor_moderately_close_to_water_course_between_80m_and_120m"
+    },
+    {
+      "original": "Proximity Factor: Close to Water Course (between 40m and 80m) ",
+      "key": "proximity_factor_close_to_water_course_between_40m_and_80m"
+    },
+    {
+      "original": "Proximity Factor: Very Close to Water Course (<40m) ",
+      "key": "proximity_factor_very_close_to_water_course_40m"
+    },
+    {
+      "original": "Bunding Factor: Bunded",
+      "key": "bunding_factor_bunded"
+    },
+    {
+      "original": "Bunding Factor: Not bunded ",
+      "key": "bunding_factor_not_bunded"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "EHV UG Cable (Oil)",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "HV Switchgear (GM) - Primary",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "HV Switchgear (GM) - Distribution",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "EHV Switchgear (GM)",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "132kV CBs",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "HV Transformer (GM)",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "EHV Transformer",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    },
+    {
+      "asset_register_category": "132kV Transformer",
+      "proximity_factor_not_close_to_water_course_120m_or_no_oil": 0.8,
+      "proximity_factor_moderately_close_to_water_course_between_80m_and_120m": 1,
+      "proximity_factor_close_to_water_course_between_40m_and_80m": 1.5,
+      "proximity_factor_very_close_to_water_course_40m": 2.5,
+      "bunding_factor_bunded": 0.5,
+      "bunding_factor_not_bunded": 1
+    }
+  ],
+  "row_count": 9
+}

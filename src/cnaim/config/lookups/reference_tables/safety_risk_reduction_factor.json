@@ -1,0 +1,35 @@
+{
+  "table_id": "safety_risk_reduction_factor",
+  "table_number": "227",
+  "table_name": "Safety Risk Reduction Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "SAFETY RISK REDUCTION FACTOR",
+      "key": "safety_risk_reduction_factor"
+    },
+    {
+      "original": "Unnamed: 1",
+      "key": "unnamed_1"
+    }
+  ],
+  "rows": [
+    {
+      "safety_risk_reduction_factor": "LV UGB with Safety Blanket",
+      "unnamed_1": 0.5
+    },
+    {
+      "safety_risk_reduction_factor": "All other assets \u2013 including LV UGB without Safety Blanket, Switchgear, Transformers, Cables & Overhead Lines",
+      "unnamed_1": 1.0
+    },
+    {
+      "safety_risk_reduction_factor": "Default (no data available)",
+      "unnamed_1": 1.0
+    }
+  ],
+  "row_count": 3
+}

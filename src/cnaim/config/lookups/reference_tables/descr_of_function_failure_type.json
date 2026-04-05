@@ -1,0 +1,35 @@
+{
+  "table_id": "descr_of_function_failure_type",
+  "table_number": "4",
+  "table_name": "Description of Functional Failure Types",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Functional Failure Type",
+      "key": "functional_failure_type"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    }
+  ],
+  "rows": [
+    {
+      "functional_failure_type": "Catastrophic",
+      "description": "A sudden and total failure from which recovery of the asset (and or sub component) is not feasible."
+    },
+    {
+      "functional_failure_type": "Degraded",
+      "description": "A significant failure associated with advanced degradation."
+    },
+    {
+      "functional_failure_type": "Incipient",
+      "description": "A minor failure associated with early stage degradation"
+    }
+  ],
+  "row_count": 3
+}

@@ -1,0 +1,61 @@
+{
+  "table_id": "duty_factor_lut_distrib_tf",
+  "table_number": "33",
+  "table_name": "Duty Factor Lookup Table - Distribution Transformers",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Duty Factor",
+      "key": "duty_factor"
+    }
+  ],
+  "rows": [
+    {
+      "lower": "-Infinity",
+      "upper": 50,
+      "bound_description": "Max % Utilisation under  normal operating conditions",
+      "duty_factor": 0.9
+    },
+    {
+      "lower": 50,
+      "upper": 70,
+      "bound_description": "Max % Utilisation under  normal operating conditions",
+      "duty_factor": 0.95
+    },
+    {
+      "lower": 70,
+      "upper": 100,
+      "bound_description": "Max % Utilisation under  normal operating conditions",
+      "duty_factor": 1.0
+    },
+    {
+      "lower": 100,
+      "upper": "Infinity",
+      "bound_description": "Max % Utilisation under  normal operating conditions",
+      "duty_factor": 1.4
+    },
+    {
+      "lower": "Default",
+      "upper": "Default",
+      "bound_description": "Max % Utilisation under  normal operating conditions",
+      "duty_factor": 1.0
+    }
+  ],
+  "row_count": 5
+}

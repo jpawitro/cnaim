@@ -1,0 +1,70 @@
+{
+  "table_id": "duty_factor_lut_cables_df2",
+  "table_number": "31B",
+  "table_name": "Duty Factor Lookup Tables - Cables (DF2)",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Duty Factor 2",
+      "key": "duty_factor_2"
+    },
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Duty Factor",
+      "key": "duty_factor"
+    }
+  ],
+  "rows": [
+    {
+      "duty_factor_2": "DF2",
+      "lower": "-Infinity",
+      "upper": 40,
+      "bound_description": "Operating Voltage / Design Voltage (%)",
+      "duty_factor": 0.7
+    },
+    {
+      "duty_factor_2": "DF2",
+      "lower": 40,
+      "upper": 55,
+      "bound_description": "Operating Voltage / Design Voltage (%)",
+      "duty_factor": 0.8
+    },
+    {
+      "duty_factor_2": "DF2",
+      "lower": 55,
+      "upper": 70,
+      "bound_description": "Operating Voltage / Design Voltage (%)",
+      "duty_factor": 0.9
+    },
+    {
+      "duty_factor_2": "DF2",
+      "lower": 70,
+      "upper": "Infinity",
+      "bound_description": "Operating Voltage / Design Voltage (%)",
+      "duty_factor": 1.0
+    },
+    {
+      "duty_factor_2": "DF2",
+      "lower": "Default",
+      "upper": "Default",
+      "bound_description": "Operating Voltage / Design Voltage (%)",
+      "duty_factor": 1.0
+    }
+  ],
+  "row_count": 5
+}

@@ -1,0 +1,56 @@
+{
+  "table_id": "oci_ehv_pole_pole_top_rot",
+  "table_number": "117",
+  "table_name": "Observed Condition Input - EHV Pole: Pole Top Rot",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Pole Top Rot Present?",
+      "key": "condition_criteria_pole_top_rot_present"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_pole_top_rot_present": "No",
+      "description": "No pole top rot observed",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_pole_top_rot_present": "Yes",
+      "description": "Pole top rot is observed",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_pole_top_rot_present": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 3
+}

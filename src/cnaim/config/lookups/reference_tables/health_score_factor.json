@@ -1,0 +1,42 @@
+{
+  "table_id": "health_score_factor",
+  "table_number": "9",
+  "table_name": "Health Score Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "a = Maximum of (Observed Condition Factor, Measured Condition Factor) ",
+      "key": "a_maximum_of_observed_condition_factor_measured_condition_factor"
+    },
+    {
+      "original": "b = Minimum of (Observed Condition Factor, Measured Condition Factor) ",
+      "key": "b_minimum_of_observed_condition_factor_measured_condition_factor"
+    },
+    {
+      "original": "Health Score Factor",
+      "key": "health_score_factor"
+    }
+  ],
+  "rows": [
+    {
+      "a_maximum_of_observed_condition_factor_measured_condition_factor": ">1 ",
+      "b_minimum_of_observed_condition_factor_measured_condition_factor": ">1 ",
+      "health_score_factor": "= a + ((b-1)/1.5)"
+    },
+    {
+      "a_maximum_of_observed_condition_factor_measured_condition_factor": ">1 ",
+      "b_minimum_of_observed_condition_factor_measured_condition_factor": "\u22641 ",
+      "health_score_factor": "= a"
+    },
+    {
+      "a_maximum_of_observed_condition_factor_measured_condition_factor": "\u22641 ",
+      "b_minimum_of_observed_condition_factor_measured_condition_factor": "\u22641 ",
+      "health_score_factor": "= b + ((a-1)/1.5)"
+    }
+  ],
+  "row_count": 3
+}

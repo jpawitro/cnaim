@@ -1,0 +1,49 @@
+{
+  "table_id": "ageing_reduction_factor",
+  "table_number": "216",
+  "table_name": "Ageing Reduction Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": " Ageing Reduction Factor",
+      "key": "ageing_reduction_factor"
+    }
+  ],
+  "rows": [
+    {
+      "lower": "-Infinity",
+      "upper": 2.0,
+      "bound_description": "Current Health Score",
+      "ageing_reduction_factor": 1
+    },
+    {
+      "lower": 2.0,
+      "upper": 5.5,
+      "bound_description": "Current Health Score",
+      "ageing_reduction_factor": " ((Current Health Score - 2)/ 7) + 1"
+    },
+    {
+      "lower": 5.5,
+      "upper": "Infinity",
+      "bound_description": "Current Health Score",
+      "ageing_reduction_factor": 1.5
+    }
+  ],
+  "row_count": 3
+}

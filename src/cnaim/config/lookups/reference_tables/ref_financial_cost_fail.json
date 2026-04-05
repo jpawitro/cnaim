@@ -1,0 +1,647 @@
+{
+  "table_id": "ref_financial_cost_fail",
+  "table_number": "218",
+  "table_name": "Reference Financial Cost of Failure",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Relative Proportion Of Failure Modes (as a % of total Functional Failures) - I",
+      "key": "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i"
+    },
+    {
+      "original": "Relative Proportion Of Failure Modes (as a % of total Functional Failures) - D",
+      "key": "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d"
+    },
+    {
+      "original": "Relative Proportion Of Failure Modes (as a % of total Functional Failures) - C",
+      "key": "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c"
+    },
+    {
+      "original": "Likely Cost of Failure - I (GBP)",
+      "key": "likely_cost_of_failure_i_gbp"
+    },
+    {
+      "original": "Likely Cost of Failure - D (GBP)",
+      "key": "likely_cost_of_failure_d_gbp"
+    },
+    {
+      "original": "Likely Cost of Failure - C4 (GBP)",
+      "key": "likely_cost_of_failure_c4_gbp"
+    },
+    {
+      "original": "Reference Financial Cose of Failure (GBP)",
+      "key": "reference_financial_cose_of_failure_gbp"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 20,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 70.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 10.0,
+      "likely_cost_of_failure_i_gbp": 163,
+      "likely_cost_of_failure_d_gbp": 1631,
+      "likely_cost_of_failure_c4_gbp": 1631,
+      "reference_financial_cose_of_failure_gbp": 1337
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 20,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 70.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 10.0,
+      "likely_cost_of_failure_i_gbp": 233,
+      "likely_cost_of_failure_d_gbp": 2333,
+      "likely_cost_of_failure_c4_gbp": 2333,
+      "reference_financial_cose_of_failure_gbp": 1913
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 20,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 70.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 10.0,
+      "likely_cost_of_failure_i_gbp": 280,
+      "likely_cost_of_failure_d_gbp": 2799,
+      "likely_cost_of_failure_c4_gbp": 2799,
+      "reference_financial_cose_of_failure_gbp": 2295
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 20,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 70.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 10.0,
+      "likely_cost_of_failure_i_gbp": 300,
+      "likely_cost_of_failure_d_gbp": 3007,
+      "likely_cost_of_failure_c4_gbp": 3007,
+      "reference_financial_cose_of_failure_gbp": 2466
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 20,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 70.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 10.0,
+      "likely_cost_of_failure_i_gbp": 453,
+      "likely_cost_of_failure_d_gbp": 4534,
+      "likely_cost_of_failure_c4_gbp": 4534,
+      "reference_financial_cose_of_failure_gbp": 3718
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 80,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 19.95,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.05,
+      "likely_cost_of_failure_i_gbp": 5177,
+      "likely_cost_of_failure_d_gbp": 12942,
+      "likely_cost_of_failure_c4_gbp": 51771,
+      "reference_financial_cose_of_failure_gbp": 6749
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 80,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 19.95,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.05,
+      "likely_cost_of_failure_i_gbp": 9700,
+      "likely_cost_of_failure_d_gbp": 24251,
+      "likely_cost_of_failure_c4_gbp": 97000,
+      "reference_financial_cose_of_failure_gbp": 12647
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 80,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 19.95,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.05,
+      "likely_cost_of_failure_i_gbp": 11216,
+      "likely_cost_of_failure_d_gbp": 28041,
+      "likely_cost_of_failure_c4_gbp": 112163,
+      "reference_financial_cose_of_failure_gbp": 14623
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 80,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 15.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 136,
+      "likely_cost_of_failure_d_gbp": 339,
+      "likely_cost_of_failure_c4_gbp": 1353,
+      "reference_financial_cose_of_failure_gbp": 227
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 80,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 15.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 174,
+      "likely_cost_of_failure_d_gbp": 436,
+      "likely_cost_of_failure_c4_gbp": 1742,
+      "reference_financial_cose_of_failure_gbp": 292
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 80,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 15.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 290,
+      "likely_cost_of_failure_d_gbp": 724,
+      "likely_cost_of_failure_c4_gbp": 2896,
+      "reference_financial_cose_of_failure_gbp": 485
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 85.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 15.0,
+      "likely_cost_of_failure_i_gbp": 0,
+      "likely_cost_of_failure_d_gbp": 15472,
+      "likely_cost_of_failure_c4_gbp": 30945,
+      "reference_financial_cose_of_failure_gbp": 17793
+    },
+    {
+      "asset_register_category": "66kV OHL Conductor",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 85.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 15.0,
+      "likely_cost_of_failure_i_gbp": 0,
+      "likely_cost_of_failure_d_gbp": 20522,
+      "likely_cost_of_failure_c4_gbp": 41043,
+      "reference_financial_cose_of_failure_gbp": 23600
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 85.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 15.0,
+      "likely_cost_of_failure_i_gbp": 0,
+      "likely_cost_of_failure_d_gbp": 17746,
+      "likely_cost_of_failure_c4_gbp": 35493,
+      "reference_financial_cose_of_failure_gbp": 20408
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 100.0,
+      "likely_cost_of_failure_i_gbp": 3640,
+      "likely_cost_of_failure_d_gbp": 9100,
+      "likely_cost_of_failure_c4_gbp": 81996,
+      "reference_financial_cose_of_failure_gbp": 181996
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 100.0,
+      "likely_cost_of_failure_i_gbp": 3164,
+      "likely_cost_of_failure_d_gbp": 7911,
+      "likely_cost_of_failure_c4_gbp": 31644,
+      "reference_financial_cose_of_failure_gbp": 31644
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 99,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.09,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.01,
+      "likely_cost_of_failure_i_gbp": 120,
+      "likely_cost_of_failure_d_gbp": 7911,
+      "likely_cost_of_failure_c4_gbp": 31644,
+      "reference_financial_cose_of_failure_gbp": 129
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 99,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.5,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.5,
+      "likely_cost_of_failure_i_gbp": 120,
+      "likely_cost_of_failure_d_gbp": 7911,
+      "likely_cost_of_failure_c4_gbp": 31644,
+      "reference_financial_cose_of_failure_gbp": 317
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 100.0,
+      "likely_cost_of_failure_i_gbp": 6402,
+      "likely_cost_of_failure_d_gbp": 16006,
+      "likely_cost_of_failure_c4_gbp": 64021,
+      "reference_financial_cose_of_failure_gbp": 64021
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 99,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.09,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.01,
+      "likely_cost_of_failure_i_gbp": 120,
+      "likely_cost_of_failure_d_gbp": 16006,
+      "likely_cost_of_failure_c4_gbp": 64021,
+      "reference_financial_cose_of_failure_gbp": 140
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 99,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.5,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.5,
+      "likely_cost_of_failure_i_gbp": 120,
+      "likely_cost_of_failure_d_gbp": 16006,
+      "likely_cost_of_failure_c4_gbp": 64021,
+      "reference_financial_cose_of_failure_gbp": 519
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 100.0,
+      "likely_cost_of_failure_i_gbp": 10924,
+      "likely_cost_of_failure_d_gbp": 27310,
+      "likely_cost_of_failure_c4_gbp": 109244,
+      "reference_financial_cose_of_failure_gbp": 109244
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 99,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.09,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.01,
+      "likely_cost_of_failure_i_gbp": 120,
+      "likely_cost_of_failure_d_gbp": 27310,
+      "likely_cost_of_failure_c4_gbp": 109244,
+      "reference_financial_cose_of_failure_gbp": 154
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 99,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.5,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 0.5,
+      "likely_cost_of_failure_i_gbp": 120,
+      "likely_cost_of_failure_d_gbp": 27310,
+      "likely_cost_of_failure_c4_gbp": 109244,
+      "reference_financial_cose_of_failure_gbp": 802
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 100.0,
+      "likely_cost_of_failure_i_gbp": 5706,
+      "likely_cost_of_failure_d_gbp": 14266,
+      "likely_cost_of_failure_c4_gbp": 285322,
+      "reference_financial_cose_of_failure_gbp": 285322
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 0.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 100.0,
+      "likely_cost_of_failure_i_gbp": 9611,
+      "likely_cost_of_failure_d_gbp": 24027,
+      "likely_cost_of_failure_c4_gbp": 480542,
+      "reference_financial_cose_of_failure_gbp": 480542
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 601,
+      "likely_cost_of_failure_d_gbp": 1502,
+      "likely_cost_of_failure_c4_gbp": 6007,
+      "reference_financial_cose_of_failure_gbp": 4070
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 837,
+      "likely_cost_of_failure_d_gbp": 2092,
+      "likely_cost_of_failure_c4_gbp": 8367,
+      "reference_financial_cose_of_failure_gbp": 5669
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 911,
+      "likely_cost_of_failure_d_gbp": 2277,
+      "likely_cost_of_failure_c4_gbp": 9107,
+      "reference_financial_cose_of_failure_gbp": 6170
+    },
+    {
+      "asset_register_category": "LV UGB & LV Pillars (OD not at Substation)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 506,
+      "likely_cost_of_failure_d_gbp": 1265,
+      "likely_cost_of_failure_c4_gbp": 5061,
+      "reference_financial_cose_of_failure_gbp": 3429
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1156,
+      "likely_cost_of_failure_d_gbp": 2890,
+      "likely_cost_of_failure_c4_gbp": 11562,
+      "reference_financial_cose_of_failure_gbp": 7833
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1365,
+      "likely_cost_of_failure_d_gbp": 3411,
+      "likely_cost_of_failure_c4_gbp": 13644,
+      "reference_financial_cose_of_failure_gbp": 9244
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 3348,
+      "likely_cost_of_failure_d_gbp": 8621,
+      "likely_cost_of_failure_c4_gbp": 34485,
+      "reference_financial_cose_of_failure_gbp": 7586
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1027,
+      "likely_cost_of_failure_d_gbp": 2567,
+      "likely_cost_of_failure_c4_gbp": 10272,
+      "reference_financial_cose_of_failure_gbp": 6959
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 777,
+      "likely_cost_of_failure_d_gbp": 1944,
+      "likely_cost_of_failure_c4_gbp": 7774,
+      "reference_financial_cose_of_failure_gbp": 5267
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1452,
+      "likely_cost_of_failure_d_gbp": 3630,
+      "likely_cost_of_failure_c4_gbp": 14523,
+      "reference_financial_cose_of_failure_gbp": 9839
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1965,
+      "likely_cost_of_failure_d_gbp": 4914,
+      "likely_cost_of_failure_c4_gbp": 19652,
+      "reference_financial_cose_of_failure_gbp": 13314
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 4320,
+      "likely_cost_of_failure_d_gbp": 10800,
+      "likely_cost_of_failure_c4_gbp": 43202,
+      "reference_financial_cose_of_failure_gbp": 13314
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1064,
+      "likely_cost_of_failure_d_gbp": 2662,
+      "likely_cost_of_failure_c4_gbp": 10648,
+      "reference_financial_cose_of_failure_gbp": 7214
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 901,
+      "likely_cost_of_failure_d_gbp": 2253,
+      "likely_cost_of_failure_c4_gbp": 9010,
+      "reference_financial_cose_of_failure_gbp": 6104
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1479,
+      "likely_cost_of_failure_d_gbp": 3699,
+      "likely_cost_of_failure_c4_gbp": 14795,
+      "reference_financial_cose_of_failure_gbp": 10024
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 6597,
+      "likely_cost_of_failure_d_gbp": 16492,
+      "likely_cost_of_failure_c4_gbp": 65971,
+      "reference_financial_cose_of_failure_gbp": 14513
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 8122,
+      "likely_cost_of_failure_d_gbp": 20307,
+      "likely_cost_of_failure_c4_gbp": 81224,
+      "reference_financial_cose_of_failure_gbp": 17870
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 9993,
+      "likely_cost_of_failure_d_gbp": 24981,
+      "likely_cost_of_failure_c4_gbp": 99924,
+      "reference_financial_cose_of_failure_gbp": 21984
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 9993,
+      "likely_cost_of_failure_d_gbp": 24981,
+      "likely_cost_of_failure_c4_gbp": 99924,
+      "reference_financial_cose_of_failure_gbp": 21984
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 4662,
+      "likely_cost_of_failure_d_gbp": 11656,
+      "likely_cost_of_failure_c4_gbp": 46621,
+      "reference_financial_cose_of_failure_gbp": 10257
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 11521,
+      "likely_cost_of_failure_d_gbp": 28804,
+      "likely_cost_of_failure_c4_gbp": 115214,
+      "reference_financial_cose_of_failure_gbp": 25347
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 13150,
+      "likely_cost_of_failure_d_gbp": 32875,
+      "likely_cost_of_failure_c4_gbp": 131499,
+      "reference_financial_cose_of_failure_gbp": 28930
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 21024,
+      "likely_cost_of_failure_d_gbp": 52559,
+      "likely_cost_of_failure_c4_gbp": 210237,
+      "reference_financial_cose_of_failure_gbp": 46252
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 23716,
+      "likely_cost_of_failure_d_gbp": 59291,
+      "likely_cost_of_failure_c4_gbp": 237163,
+      "reference_financial_cose_of_failure_gbp": 52176
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 23716,
+      "likely_cost_of_failure_d_gbp": 59291,
+      "likely_cost_of_failure_c4_gbp": 237163,
+      "reference_financial_cose_of_failure_gbp": 52176
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 36860,
+      "likely_cost_of_failure_d_gbp": 92150,
+      "likely_cost_of_failure_c4_gbp": 368601,
+      "reference_financial_cose_of_failure_gbp": 81092
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 17355,
+      "likely_cost_of_failure_d_gbp": 43387,
+      "likely_cost_of_failure_c4_gbp": 173549,
+      "reference_financial_cose_of_failure_gbp": 38181
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 76769,
+      "likely_cost_of_failure_d_gbp": 191923,
+      "likely_cost_of_failure_c4_gbp": 767691,
+      "reference_financial_cose_of_failure_gbp": 168892
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 76769,
+      "likely_cost_of_failure_d_gbp": 191923,
+      "likely_cost_of_failure_c4_gbp": 767691,
+      "reference_financial_cose_of_failure_gbp": 168892
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1372,
+      "likely_cost_of_failure_d_gbp": 3431,
+      "likely_cost_of_failure_c4_gbp": 13722,
+      "reference_financial_cose_of_failure_gbp": 9297
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 15,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 25.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 60.0,
+      "likely_cost_of_failure_i_gbp": 1563,
+      "likely_cost_of_failure_d_gbp": 3906,
+      "likely_cost_of_failure_c4_gbp": 15624,
+      "reference_financial_cose_of_failure_gbp": 10585
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 39863,
+      "likely_cost_of_failure_d_gbp": 99657,
+      "likely_cost_of_failure_c4_gbp": 398629,
+      "reference_financial_cose_of_failure_gbp": 87698
+    },
+    {
+      "asset_register_category": "66kV Transformer",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 61270,
+      "likely_cost_of_failure_d_gbp": 153178,
+      "likely_cost_of_failure_c4_gbp": 612709,
+      "reference_financial_cose_of_failure_gbp": 134796
+    },
+    {
+      "asset_register_category": "132kV Transformer",
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_i": 45,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_d": 50.0,
+      "relative_proportion_of_failure_modes_as_a_pct_of_total_functional_failures_c": 5.0,
+      "likely_cost_of_failure_i_gbp": 119552,
+      "likely_cost_of_failure_d_gbp": 298880,
+      "likely_cost_of_failure_c4_gbp": 1195522,
+      "reference_financial_cose_of_failure_gbp": 263015
+    }
+  ],
+  "row_count": 60
+}

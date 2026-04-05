@@ -1,0 +1,70 @@
+{
+  "table_id": "oci_132kv_swg_support_structur",
+  "table_number": "78",
+  "table_name": "Observed Condition Input - 132kV Switchgear (GM): Support Structures",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "No Deterioration:",
+      "description": "Visual assessment gives a positive indication of asset condition. There are no obvious signs of any deterioration such as corrosion or cracks.",
+      "condition_input_factor": 0.9,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Superficial / minor\ndeterioration",
+      "description": "Concrete Structures: Surface Deterioration Metal Structures: Minor localised surface corrosion",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "Concrete Structures: Evidence of previous concrete repairs, repairs have begun to fail in places. This may include minor cracks and loss of section. Metal structures: some surface level corrosion.",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "The support structure is corroded or damaged to the point that it can no longer fulfil its mechanical load carrying capacity. This may include: Concrete structures: extensive cracking, areas of concrete spalled exposing reinforcement causing corrosion. Metal structures: evidence of widespread or significant corrosion (e.g. perforation, holes in steelwork) or major physical damage",
+      "condition_input_factor": 1.5,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

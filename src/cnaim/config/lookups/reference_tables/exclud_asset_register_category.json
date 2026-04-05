@@ -1,0 +1,191 @@
+{
+  "table_id": "exclud_asset_register_category",
+  "table_number": "3",
+  "table_name": "Excluded Asset Register Categories",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Voltage",
+      "key": "voltage"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Main (OHL) Conductor",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "LV Service (OHL)",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "LV Main (UG Consac)",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "LV Main (UG Plastic)",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "LV Main (UG Paper)",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "Rising & Lateral Mains",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "LV Service (UG)",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "LV Service associated with RLM",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "Cut Out (Metered)",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "LV Transformers/Regulators",
+      "voltage": "LV"
+    },
+    {
+      "asset_register_category": "6.6/11kV OHL (Conventional Conductor)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "6.6/11kV OHL (BLX or similar Conductor)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "20kV OHL (Conventional Conductor)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "20kV OHL (BLX or similar Conductor)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "6.6/11kV UG Cable",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "20kV UG Cable",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "6.6/11kV Switchgear - Other (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "20kV CB (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "20kV Switch (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "20kV Switchgear - Other (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "20kV Transformer (PM)",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "Batteries at GM HV Substations",
+      "voltage": "HV"
+    },
+    {
+      "asset_register_category": "33kV OHL (Pole Line) Conductor",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "66kV OHL (Pole Line) Conductor",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "33kV Switchgear - Other",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "33kV Switch (PM)",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "66kV Switchgear - Other",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "33kV Transformer (PM)",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "Batteries at 33kV Substations",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "Batteries at 66kV Substations",
+      "voltage": "EHV"
+    },
+    {
+      "asset_register_category": "132kV OHL (Pole Line) Conductor",
+      "voltage": "132kV"
+    },
+    {
+      "asset_register_category": "132kV Pole",
+      "voltage": "132kV"
+    },
+    {
+      "asset_register_category": "132kV Switchgear - Other",
+      "voltage": "132kV"
+    },
+    {
+      "asset_register_category": "Batteries at 132kV Substations",
+      "voltage": "132kV"
+    },
+    {
+      "asset_register_category": "Pilot Wire Overhead",
+      "voltage": "Other"
+    },
+    {
+      "asset_register_category": "Pilot Wire Underground",
+      "voltage": "Other"
+    },
+    {
+      "asset_register_category": "Cable Tunnel (DNO owned)",
+      "voltage": "Other"
+    },
+    {
+      "asset_register_category": "Cable Bridge (DNO owned)",
+      "voltage": "Other"
+    },
+    {
+      "asset_register_category": "Electrical Energy Storage",
+      "voltage": "Other"
+    }
+  ],
+  "row_count": 42
+}

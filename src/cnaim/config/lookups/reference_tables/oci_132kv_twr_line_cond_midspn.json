@@ -1,0 +1,70 @@
+{
+  "table_id": "oci_132kv_twr_line_cond_midspn",
+  "table_number": "143",
+  "table_name": "Observed Condition Input - 132kV Tower Line Conductor: Midspan Joints",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: No. of Midspan Joints ",
+      "key": "condition_criteria_no_of_midspan_joints"
+    },
+    {
+      "original": "Description ",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor ",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap ",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar ",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_no_of_midspan_joints": 0,
+      "description": "No joints in the span. A span includes all conductors in that span ",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_no_of_midspan_joints": 1,
+      "description": "1 joint in the span ",
+      "condition_input_factor": 1.05,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_no_of_midspan_joints": 2,
+      "description": "2 joints in the span ",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_no_of_midspan_joints": ">2 ",
+      "description": "More than two joints in the span ",
+      "condition_input_factor": 1.2,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_no_of_midspan_joints": "Default ",
+      "description": "No data available ",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

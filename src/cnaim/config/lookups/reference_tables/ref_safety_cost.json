@@ -1,0 +1,35 @@
+{
+  "table_id": "ref_safety_cost",
+  "table_number": "222",
+  "table_name": "Reference Safety Cost",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Reference safety cost",
+      "key": "reference_safety_cost"
+    },
+    {
+      "original": "Value (GBP)",
+      "key": "value_gbp"
+    }
+  ],
+  "rows": [
+    {
+      "reference_safety_cost": "Lost Time Accident",
+      "value_gbp": 9130
+    },
+    {
+      "reference_safety_cost": "Death or Serious Injury to public",
+      "value_gbp": 1810495
+    },
+    {
+      "reference_safety_cost": "Death or Serious Injury to staff",
+      "value_gbp": 1810495
+    }
+  ],
+  "row_count": 3
+}

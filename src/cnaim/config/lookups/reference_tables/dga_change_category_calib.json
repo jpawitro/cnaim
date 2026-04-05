@@ -1,0 +1,61 @@
+{
+  "table_id": "dga_change_category_calib",
+  "table_number": "213",
+  "table_name": "DGA Change Category Calibration",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Change Category",
+      "key": "change_category"
+    }
+  ],
+  "rows": [
+    {
+      "lower": -1000,
+      "upper": -5,
+      "bound_description": " % Change",
+      "change_category": "Negative"
+    },
+    {
+      "lower": -5,
+      "upper": 5,
+      "bound_description": " % Change",
+      "change_category": "Neutral"
+    },
+    {
+      "lower": 5,
+      "upper": 25,
+      "bound_description": " % Change",
+      "change_category": "Small"
+    },
+    {
+      "lower": 25,
+      "upper": 100,
+      "bound_description": " % Change",
+      "change_category": "Significant"
+    },
+    {
+      "lower": 100,
+      "upper": 1000,
+      "bound_description": " % Change",
+      "change_category": "Large"
+    }
+  ],
+  "row_count": 5
+}

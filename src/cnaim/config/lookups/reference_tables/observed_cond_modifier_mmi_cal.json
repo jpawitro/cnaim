@@ -1,0 +1,266 @@
+{
+  "table_id": "observed_cond_modifier_mmi_cal",
+  "table_number": "13",
+  "table_name": "Observed Condition Modifier - MMI Calculation Parameters",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Subcomponent",
+      "key": "subcomponent"
+    },
+    {
+      "original": "Parameters for Combination Using MMI Technique - Factor Divider 1",
+      "key": "parameters_for_combination_using_mmi_technique_factor_divider_1"
+    },
+    {
+      "original": "Parameters for Combination Using MMI Technique - Factor Divider 2",
+      "key": "parameters_for_combination_using_mmi_technique_factor_divider_2"
+    },
+    {
+      "original": "Parameters for Combination Using MMI Technique - Max. No. of Combined Factors",
+      "key": "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "LV UGB",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "LV Circuit Breaker",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "LV Board (WM)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "LV Pillars",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Primary",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Distribution",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "EHV Switchgear (GM)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "132kV Switchgear (GM)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 2.0
+    },
+    {
+      "asset_category": "EHV Transformer (GM)",
+      "subcomponent": "Main Transformer",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "EHV Transformer (GM)",
+      "subcomponent": "Tapchanger",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "132kV Transformer (GM)",
+      "subcomponent": "Main Transformer",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "132kV Transformer (GM)",
+      "subcomponent": "Tapchanger",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "Submarine Cable",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "LV Poles",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 2.0
+    },
+    {
+      "asset_category": "HV Poles",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 2.0
+    },
+    {
+      "asset_category": "EHV Poles",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 2.0
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Tower Steelwork",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Tower Paintwork",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Foundations",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Tower Steelwork",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Tower Paintwork",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Foundations",
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "EHV Fittings",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "132kV Fittings",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 3.0
+    },
+    {
+      "asset_category": "EHV Tower Line Conductor",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "132kV Tower Line Conductor",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "EHV Cable (Non Pressurised)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": null,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": null
+    },
+    {
+      "asset_category": "EHV Cable (Oil)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "EHV Cable (Gas)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "132kV Cable (Non Pressurised)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": null,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": null
+    },
+    {
+      "asset_category": "132kV Cable (Oil)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    },
+    {
+      "asset_category": "132kV Cable (Gas)",
+      "subcomponent": null,
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_combined_factors": 1.0
+    }
+  ],
+  "row_count": 33
+}

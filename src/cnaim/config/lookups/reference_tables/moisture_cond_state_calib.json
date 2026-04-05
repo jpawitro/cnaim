@@ -1,0 +1,140 @@
+{
+  "table_id": "moisture_cond_state_calib",
+  "table_number": "203",
+  "table_name": "Moisture Condition State Calibration - HV, EHV and 132kv Transformer (GM)",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Moisture Score",
+      "key": "moisture_score"
+    },
+    {
+      "original": "Type",
+      "key": "type"
+    }
+  ],
+  "rows": [
+    {
+      "lower": -0.01,
+      "upper": 15,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 0,
+      "type": " HV Transformer (GM)"
+    },
+    {
+      "lower": 15.0,
+      "upper": 30,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 2,
+      "type": " HV Transformer (GM)"
+    },
+    {
+      "lower": 30.0,
+      "upper": 40,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 4,
+      "type": " HV Transformer (GM)"
+    },
+    {
+      "lower": 40.0,
+      "upper": 50,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 8,
+      "type": " HV Transformer (GM)"
+    },
+    {
+      "lower": 50.0,
+      "upper": 10000,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 10,
+      "type": " HV Transformer (GM)"
+    },
+    {
+      "lower": -0.01,
+      "upper": 15,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 0,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 15.0,
+      "upper": 30,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 2,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 30.0,
+      "upper": 40,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 4,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 40.0,
+      "upper": 50,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 8,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 50.0,
+      "upper": 10000,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 10,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": -0.01,
+      "upper": 15,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 0,
+      "type": " 132kV Transformer (GM)"
+    },
+    {
+      "lower": 15.0,
+      "upper": 20,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 2,
+      "type": " 132kV Transformer (GM)"
+    },
+    {
+      "lower": 20.0,
+      "upper": 30,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 4,
+      "type": " 132kV Transformer (GM)"
+    },
+    {
+      "lower": 30.0,
+      "upper": 40,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 8,
+      "type": " 132kV Transformer (GM)"
+    },
+    {
+      "lower": 40.0,
+      "upper": 10000,
+      "bound_description": "Moisture (ppm)\n",
+      "moisture_score": 10,
+      "type": " 132kV Transformer (GM)"
+    }
+  ],
+  "row_count": 15
+}

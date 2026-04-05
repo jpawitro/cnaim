@@ -1,0 +1,52 @@
+{
+  "table_id": "submarin_cable_topog_factor",
+  "table_number": "27",
+  "table_name": "Submarine Cable Topography Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Topography",
+      "key": "topography"
+    },
+    {
+      "original": "Score (Sea)",
+      "key": "score_sea"
+    },
+    {
+      "original": "Score (Land locked)",
+      "key": "score_land_locked"
+    }
+  ],
+  "rows": [
+    {
+      "topography": "Low Detrimental Topography",
+      "score_sea": 1.25,
+      "score_land_locked": 0.5
+    },
+    {
+      "topography": "Medium Detrimental Topography",
+      "score_sea": 1.5,
+      "score_land_locked": 0.6
+    },
+    {
+      "topography": "High Detrimental Topography",
+      "score_sea": 2.25,
+      "score_land_locked": 0.9
+    },
+    {
+      "topography": "Very High Detrimental Topography",
+      "score_sea": 3.0,
+      "score_land_locked": 1.2
+    },
+    {
+      "topography": "Default",
+      "score_sea": 1.25,
+      "score_land_locked": 0.5
+    }
+  ],
+  "row_count": 5
+}

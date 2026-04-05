@@ -1,0 +1,88 @@
+{
+  "table_id": "mci_submarine_cable_fault_hist",
+  "table_number": "191",
+  "table_name": "Measured Condition Input - Submarine Cable: Fault History",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "lower": "No historic faults recorded",
+      "upper": "No historic faults recorded",
+      "bound_description": "Condition Criteria: Fault Rate ( faults per annum) per km",
+      "description": "No recorded faults or failures in the period",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 5.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "lower": "-Infinity",
+      "upper": 0.01,
+      "bound_description": "Condition Criteria: Fault Rate ( faults per annum) per km",
+      "description": "The calculated fault rate for the asset in the period",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    },
+    {
+      "lower": 0.01,
+      "upper": 0.1,
+      "bound_description": "Condition Criteria: Fault Rate ( faults per annum) per km",
+      "description": "The calculated fault rate for the asset in the period",
+      "condition_input_factor": 1.6,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 5.5
+    },
+    {
+      "lower": 0.1,
+      "upper": "Infinity",
+      "bound_description": "Condition Criteria: Fault Rate ( faults per annum) per km",
+      "description": "The calculated fault rate for the asset in the period",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 8.0
+    },
+    {
+      "lower": "Default",
+      "upper": "Default",
+      "bound_description": "Condition Criteria: Fault Rate ( faults per annum)",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

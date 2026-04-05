@@ -1,0 +1,61 @@
+{
+  "table_id": "ethylene_cond_state_calib",
+  "table_number": "210",
+  "table_name": "Ethylene Condition State Calibration",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Ethylene Condition State",
+      "key": "ethylene_condition_state"
+    }
+  ],
+  "rows": [
+    {
+      "lower": -0.01,
+      "upper": 10,
+      "bound_description": "Ethylene (ppm)",
+      "ethylene_condition_state": 0
+    },
+    {
+      "lower": 10.0,
+      "upper": 20,
+      "bound_description": "Ethylene (ppm)",
+      "ethylene_condition_state": 2
+    },
+    {
+      "lower": 20.0,
+      "upper": 50,
+      "bound_description": "Ethylene (ppm)",
+      "ethylene_condition_state": 4
+    },
+    {
+      "lower": 50.0,
+      "upper": 150,
+      "bound_description": "Ethylene (ppm)",
+      "ethylene_condition_state": 10
+    },
+    {
+      "lower": 150.0,
+      "upper": 10000,
+      "bound_description": "Ethylene (ppm)",
+      "ethylene_condition_state": 16
+    }
+  ],
+  "row_count": 5
+}

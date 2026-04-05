@@ -1,0 +1,56 @@
+{
+  "table_id": "safety_conseq_factor_sg_tf_oh",
+  "table_number": "225",
+  "table_name": "Safety Consequence Factor \u2013 Switchgear, Transformers & Overhead Lines",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Safety Consequence Factor - Switchgear, Transformers & Overhead Lines",
+      "key": "safety_consequence_factor_switchgear_transformers_overhead_lines"
+    },
+    {
+      "original": "Safety Consequence Factor - Switchgear, Transformers & Overhead Lines.1",
+      "key": "safety_consequence_factor_switchgear_transformers_overhead_lines_1"
+    },
+    {
+      "original": "TYPE RISK RATING: Low",
+      "key": "type_risk_rating_low"
+    },
+    {
+      "original": "TYPE RISK RATING: Medium (Default)",
+      "key": "type_risk_rating_medium_default"
+    },
+    {
+      "original": "TYPE RISK RATING: High",
+      "key": "type_risk_rating_high"
+    }
+  ],
+  "rows": [
+    {
+      "safety_consequence_factor_switchgear_transformers_overhead_lines": "LOCATION RISK RATING",
+      "safety_consequence_factor_switchgear_transformers_overhead_lines_1": "Low",
+      "type_risk_rating_low": 0.7,
+      "type_risk_rating_medium_default": 0.9,
+      "type_risk_rating_high": 1.2
+    },
+    {
+      "safety_consequence_factor_switchgear_transformers_overhead_lines": "LOCATION RISK RATING",
+      "safety_consequence_factor_switchgear_transformers_overhead_lines_1": "Medium (Default)",
+      "type_risk_rating_low": 0.9,
+      "type_risk_rating_medium_default": 1.0,
+      "type_risk_rating_high": 1.4
+    },
+    {
+      "safety_consequence_factor_switchgear_transformers_overhead_lines": "LOCATION RISK RATING",
+      "safety_consequence_factor_switchgear_transformers_overhead_lines_1": "High",
+      "type_risk_rating_low": 1.2,
+      "type_risk_rating_medium_default": 1.4,
+      "type_risk_rating_high": 1.6
+    }
+  ],
+  "row_count": 3
+}

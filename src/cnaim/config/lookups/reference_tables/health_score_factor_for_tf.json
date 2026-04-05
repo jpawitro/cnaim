@@ -1,0 +1,32 @@
+{
+  "table_id": "health_score_factor_for_tf",
+  "table_number": "10",
+  "table_name": "Health Score Factor For Transformers",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Parameters for Combination Using MMI Technique - Factor Divider 1 ",
+      "key": "parameters_for_combination_using_mmi_technique_factor_divider_1"
+    },
+    {
+      "original": "Parameters for Combination Using MMI Technique - Factor Divider 2 ",
+      "key": "parameters_for_combination_using_mmi_technique_factor_divider_2"
+    },
+    {
+      "original": "Parameters for Combination Using MMI Technique - Max. No. of Condition Factors ",
+      "key": "parameters_for_combination_using_mmi_technique_max_no_of_condition_factors"
+    }
+  ],
+  "rows": [
+    {
+      "parameters_for_combination_using_mmi_technique_factor_divider_1": 1.5,
+      "parameters_for_combination_using_mmi_technique_factor_divider_2": 1.5,
+      "parameters_for_combination_using_mmi_technique_max_no_of_condition_factors": 4
+    }
+  ],
+  "row_count": 1
+}

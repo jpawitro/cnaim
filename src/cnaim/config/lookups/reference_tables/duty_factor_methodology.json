@@ -1,0 +1,92 @@
+{
+  "table_id": "duty_factor_methodology",
+  "table_number": "8",
+  "table_name": "Duty Factor Methodology",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Duty Factor 1 (DF1)",
+      "key": "duty_factor_1_df1"
+    },
+    {
+      "original": "Duty Factor 2 (DF2)",
+      "key": "duty_factor_2_df2"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "Cables",
+      "duty_factor_1_df1": "% Utilisation",
+      "duty_factor_2_df2": "Operating Voltage \u00f7 Design Voltage"
+    },
+    {
+      "asset_category": "Poles",
+      "duty_factor_1_df1": "No asset-specific Duty Factor 1 (i.e. DF1 = 1)",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "LV UGB",
+      "duty_factor_1_df1": "No asset-specific Duty Factor 1 (i.e. DF1 = 1)",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Switchgear - LV",
+      "duty_factor_1_df1": "No asset-specific Duty Factor 1 (i.e. DF1 = 1)",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Switchgear - HV Distribution",
+      "duty_factor_1_df1": "No asset-specific Duty Factor 1 (i.e. DF1 = 1)",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Switchgear - HV Primary",
+      "duty_factor_1_df1": "Number of Operations",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Switchgear - EHV & 132kV",
+      "duty_factor_1_df1": "Number of Operations",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Steel Tower",
+      "duty_factor_1_df1": "No asset-specific Duty Factor 1 (i.e. DF1 = 1)",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Conductor",
+      "duty_factor_1_df1": "No asset-specific Duty Factor 1 (i.e. DF1 = 1)",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Fittings",
+      "duty_factor_1_df1": "No asset-specific Duty Factor 1 (i.e. DF1 = 1)",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "duty_factor_1_df1": "% Utilisation",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "duty_factor_1_df1": "Transformer: % Utilisation",
+      "duty_factor_2_df2": null
+    },
+    {
+      "asset_category": "Transformers - EHV & 132kV",
+      "duty_factor_1_df1": "Tapchanger: Average Number of Daily Tapping Operations",
+      "duty_factor_2_df2": null
+    }
+  ],
+  "row_count": 13
+}

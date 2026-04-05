@@ -1,0 +1,79 @@
+{
+  "table_id": "access_factor_swg_tf_asset",
+  "table_number": "221",
+  "table_name": "Access Factor: Switchgear & Transformer Assets",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Access Factor: Type A Criteria - Normal Access ( & Default Value)",
+      "key": "access_factor_type_a_criteria_normal_access_default_value"
+    },
+    {
+      "original": "Access Factor: Type B Criteria - Constrained Access or Confined Working Space",
+      "key": "access_factor_type_b_criteria_constrained_access_or_confined_working_space"
+    },
+    {
+      "original": "Access Factor: Type C Criteria - Underground substation",
+      "key": "access_factor_type_c_criteria_underground_substation"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "LV Switchgear",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.25,
+      "access_factor_type_c_criteria_underground_substation": 1.7
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.25,
+      "access_factor_type_c_criteria_underground_substation": 2.0
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Distribution",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.25,
+      "access_factor_type_c_criteria_underground_substation": 1.7
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Primary",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.15,
+      "access_factor_type_c_criteria_underground_substation": 1.3
+    },
+    {
+      "asset_category": "EHV Switchgear (GM)",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.1,
+      "access_factor_type_c_criteria_underground_substation": 1.25
+    },
+    {
+      "asset_category": "132kV CBs",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.1,
+      "access_factor_type_c_criteria_underground_substation": 1.2
+    },
+    {
+      "asset_category": "EHV Transformer",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.1,
+      "access_factor_type_c_criteria_underground_substation": 1.35
+    },
+    {
+      "asset_category": "132kV Transformer",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_constrained_access_or_confined_working_space": 1.1,
+      "access_factor_type_c_criteria_underground_substation": 1.25
+    }
+  ],
+  "row_count": 8
+}

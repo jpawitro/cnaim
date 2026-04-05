@@ -1,0 +1,124 @@
+{
+  "table_id": "altitude_factor_lut",
+  "table_number": "23",
+  "table_name": "Altitude Factor Lookup Table",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Switchgear",
+      "key": "switchgear"
+    },
+    {
+      "original": "Transformers",
+      "key": "transformers"
+    },
+    {
+      "original": "Poles (Wood)",
+      "key": "poles_wood"
+    },
+    {
+      "original": "Poles (Steel)",
+      "key": "poles_steel"
+    },
+    {
+      "original": "Poles (Concrete)",
+      "key": "poles_concrete"
+    },
+    {
+      "original": "Towers (Structure)",
+      "key": "towers_structure"
+    },
+    {
+      "original": "Towers (Fittings)",
+      "key": "towers_fittings"
+    },
+    {
+      "original": "Towers (Conductor)",
+      "key": "towers_conductor"
+    }
+  ],
+  "rows": [
+    {
+      "lower": "-Infinity",
+      "upper": 100,
+      "bound_description": "Altitude From Sea Level Banding (m)",
+      "switchgear": 0.9,
+      "transformers": 0.9,
+      "poles_wood": 1,
+      "poles_steel": 1,
+      "poles_concrete": 1,
+      "towers_structure": 0.9,
+      "towers_fittings": 0.95,
+      "towers_conductor": 0.95
+    },
+    {
+      "lower": 100,
+      "upper": 200,
+      "bound_description": "Altitude From Sea Level Banding (m)",
+      "switchgear": 1.0,
+      "transformers": 1.0,
+      "poles_wood": 1,
+      "poles_steel": 1,
+      "poles_concrete": 1,
+      "towers_structure": 1.0,
+      "towers_fittings": 1.0,
+      "towers_conductor": 1.0
+    },
+    {
+      "lower": 200,
+      "upper": 300,
+      "bound_description": "Altitude From Sea Level Banding (m)",
+      "switchgear": 1.05,
+      "transformers": 1.05,
+      "poles_wood": 1,
+      "poles_steel": 1,
+      "poles_concrete": 1,
+      "towers_structure": 1.15,
+      "towers_fittings": 1.05,
+      "towers_conductor": 1.05
+    },
+    {
+      "lower": 300,
+      "upper": "Infinity",
+      "bound_description": "Altitude From Sea Level Banding (m)",
+      "switchgear": 1.1,
+      "transformers": 1.1,
+      "poles_wood": 1,
+      "poles_steel": 1,
+      "poles_concrete": 1,
+      "towers_structure": 1.3,
+      "towers_fittings": 1.15,
+      "towers_conductor": 1.15
+    },
+    {
+      "lower": "Default",
+      "upper": "Default",
+      "bound_description": "Altitude From Sea Level Banding (m)",
+      "switchgear": 1.0,
+      "transformers": 1.0,
+      "poles_wood": 1,
+      "poles_steel": 1,
+      "poles_concrete": 1,
+      "towers_structure": 1.0,
+      "towers_fittings": 1.0,
+      "towers_conductor": 1.0
+    }
+  ],
+  "row_count": 5
+}

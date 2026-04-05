@@ -1,0 +1,67 @@
+{
+  "table_id": "customer_no_adjust_lv_hv_asset",
+  "table_number": "18",
+  "table_name": "Customer Number Adjustment for LV & HV Assets with High Demand Customers",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "No. of Customers to be used in the derivation of Customer Factor",
+      "key": "no_of_customers_to_be_used_in_the_derivation_of_customer_factor"
+    }
+  ],
+  "rows": [
+    {
+      "lower": "-Infinity",
+      "upper": 50.0,
+      "bound_description": "Maximum Demand on Asset / Total Number of Customers fed by the Asset (kVA per Customer)",
+      "no_of_customers_to_be_used_in_the_derivation_of_customer_factor": "1 x actual number of customers fed by the asset"
+    },
+    {
+      "lower": 50,
+      "upper": 100.0,
+      "bound_description": "Maximum Demand on Asset / Total Number of Customers fed by the Asset (kVA per Customer)",
+      "no_of_customers_to_be_used_in_the_derivation_of_customer_factor": "25 x actual number of customers fed by the asset"
+    },
+    {
+      "lower": 100,
+      "upper": 500.0,
+      "bound_description": "Maximum Demand on Asset / Total Number of Customers fed by the Asset (kVA per Customer)",
+      "no_of_customers_to_be_used_in_the_derivation_of_customer_factor": "100 x actual number of customers fed by the asset"
+    },
+    {
+      "lower": 500,
+      "upper": 1000.0,
+      "bound_description": "Maximum Demand on Asset / Total Number of Customers fed by the Asset (kVA per Customer)",
+      "no_of_customers_to_be_used_in_the_derivation_of_customer_factor": "250 x actual number of customers fed by the asset"
+    },
+    {
+      "lower": 1000,
+      "upper": 2000.0,
+      "bound_description": "Maximum Demand on Asset / Total Number of Customers fed by the Asset (kVA per Customer)",
+      "no_of_customers_to_be_used_in_the_derivation_of_customer_factor": "500 x actual number of customers fed by the asset"
+    },
+    {
+      "lower": 2000,
+      "upper": "Infinity",
+      "bound_description": "Maximum Demand on Asset / Total Number of Customers fed by the Asset (kVA per Customer)",
+      "no_of_customers_to_be_used_in_the_derivation_of_customer_factor": "1000 x actual number of customers fed by the asset"
+    }
+  ],
+  "row_count": 6
+}

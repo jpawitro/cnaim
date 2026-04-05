@@ -1,0 +1,527 @@
+{
+  "table_id": "typ_pof_weight_risk_matrices",
+  "table_number": "237",
+  "table_name": "Typical Pof Weightings for Health Indices Bands for use in the calculation of In-Year Risk from Matrices",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "H1: Typical In-Year POF Weightings for Each Health Index Band",
+      "key": "h1_typical_in_year_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "H2: Typical In-Year POF Weightings for Each Health Index Band",
+      "key": "h2_typical_in_year_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "H3: Typical In-Year POF Weightings for Each Health Index Band",
+      "key": "h3_typical_in_year_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "H4: Typical In-Year POF Weightings for Each Health Index Band",
+      "key": "h4_typical_in_year_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "H5: Typical In-Year POF Weightings for Each Health Index Band",
+      "key": "h5_typical_in_year_pof_weightings_for_each_health_index_band"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.008123,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.009326,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.021383,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.03463,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.061186
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001169,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.001342,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.003076,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.004982,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.008802
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001311,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.001505,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.003451,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.005589,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.009876
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001311,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.001505,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.003451,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.005589,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.009876
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001311,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.001505,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.003451,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.005589,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.009876
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001967,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002258,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005177,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008384,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014813
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.002195,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.00252,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005777,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.009356,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.016531
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001967,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002258,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005177,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008384,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014813
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.008123,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.009326,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.021383,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.03463,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.061186
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.008123,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.009326,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.021383,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.03463,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.061186
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.005757,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.00661,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.015156,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.024545,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.043367
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001482,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.001702,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.003901,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.006318,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.011164
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00191,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002192,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005027,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008141,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014384
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00191,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002192,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005027,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008141,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014384
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00191,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002192,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005027,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008141,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014384
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00191,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002192,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005027,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008141,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014384
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.001482,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.001702,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.003901,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.006318,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.011164
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00191,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002192,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005027,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008141,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014384
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00191,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002192,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005027,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008141,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014384
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00191,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002192,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005027,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.008141,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.014384
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.002223,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002552,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005852,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.009478,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.016746
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.002223,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002552,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.005852,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.009478,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.016746
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.008123,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.009326,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.021383,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.03463,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.061186
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.008123,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.009326,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.021383,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.03463,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.061186
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00228,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002618,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.006002,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.009721,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.017175
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.015533,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.017834,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.04089,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.066222,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.117004
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.002736,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.003141,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.007203,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.011665,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.02061
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00228,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002618,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.006002,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.009721,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.017175
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.015533,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.017834,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.04089,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.066222,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.117004
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.002736,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.003141,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.007203,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.011665,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.02061
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.018753,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.021532,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.049368,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.079952,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.141264
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.596913,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.685357,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 1.571374,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 2.544859,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 4.496404
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 1.283546,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 1.473727,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 3.378934,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 5.472225,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 9.668642
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.018753,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.021532,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.049368,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.079952,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.141264
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.596913,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.685357,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 1.571374,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 2.544859,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 4.496404
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 1.283546,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 1.473727,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 3.378934,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 5.472225,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 9.668642
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.005757,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.00661,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.015156,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.024545,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.043367
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.006356,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.007297,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.016731,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.027096,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.047875
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.006356,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.007297,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.016731,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.027096,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.047875
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.006356,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.007297,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.016731,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.027096,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.047875
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.006356,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.007297,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.016731,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.027096,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.047875
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.006356,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.007297,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.016731,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.027096,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.047875
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.006356,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.007297,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.016731,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.027096,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.047875
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.014592,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.016754,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.038414,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.062212,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.10992
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.014592,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.016754,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.038414,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.062212,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.10992
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.014592,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.016754,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.038414,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.062212,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.10992
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.014592,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.016754,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.038414,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.062212,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.10992
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.012939,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.014856,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.034062,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.055165,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.097468
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.012939,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.014856,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.034062,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.055165,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.097468
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.00228,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.002618,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.006002,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.009721,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.017175
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.015533,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.017834,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.04089,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.066222,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.117004
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.002736,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.003141,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.007203,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.011665,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.02061
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.018753,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.021532,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.049368,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.079952,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.141264
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.596913,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.685357,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 1.571374,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 2.544859,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 4.496404
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 1.283546,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 1.473727,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 3.378934,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 5.472225,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 9.668642
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.005757,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.00661,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.015156,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.024545,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.043367
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.012284,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.014104,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.032337,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.05237,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.09253
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.012284,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.014104,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.032337,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.05237,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.09253
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.012284,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.014104,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.032337,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.05237,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.09253
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.012284,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.014104,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.032337,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.05237,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.09253
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "h1_typical_in_year_pof_weightings_for_each_health_index_band": 0.012939,
+      "h2_typical_in_year_pof_weightings_for_each_health_index_band": 0.014856,
+      "h3_typical_in_year_pof_weightings_for_each_health_index_band": 0.034062,
+      "h4_typical_in_year_pof_weightings_for_each_health_index_band": 0.055165,
+      "h5_typical_in_year_pof_weightings_for_each_health_index_band": 0.097468
+    }
+  ],
+  "row_count": 61
+}

@@ -1,0 +1,31 @@
+{
+  "table_id": "safety_conseq_factor_cable",
+  "table_number": "226",
+  "table_name": "Safety Consequence Factor - Cables",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "CABLES",
+      "key": "cables"
+    },
+    {
+      "original": "SAFETY CONSEQUENCE FACTOR",
+      "key": "safety_consequence_factor"
+    }
+  ],
+  "rows": [
+    {
+      "cables": "Buried",
+      "safety_consequence_factor": 1
+    },
+    {
+      "cables": "Exposed (e.g. cable structure)",
+      "safety_consequence_factor": 2
+    }
+  ],
+  "row_count": 2
+}

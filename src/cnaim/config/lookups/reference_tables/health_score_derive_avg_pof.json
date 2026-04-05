@@ -1,0 +1,55 @@
+{
+  "table_id": "health_score_derive_avg_pof",
+  "table_number": "6",
+  "table_name": "Health Score used to derive Average PoF",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Criticality Index Band",
+      "key": "criticality_index_band"
+    },
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    }
+  ],
+  "rows": [
+    {
+      "criticality_index_band": "C1",
+      "lower": "-Infinity",
+      "upper": 75.0,
+      "bound_description": "Overall CoF (as % of Average Overall CoF for the Asset Category)"
+    },
+    {
+      "criticality_index_band": "C2",
+      "lower": 75,
+      "upper": 125.0,
+      "bound_description": "Overall CoF (as % of Average Overall CoF for the Asset Category)"
+    },
+    {
+      "criticality_index_band": "C3",
+      "lower": 125,
+      "upper": 200.0,
+      "bound_description": "Overall CoF (as % of Average Overall CoF for the Asset Category)"
+    },
+    {
+      "criticality_index_band": "C4",
+      "lower": 200,
+      "upper": "Infinity",
+      "bound_description": "Overall CoF (as % of Average Overall CoF for the Asset Category)"
+    }
+  ],
+  "row_count": 4
+}

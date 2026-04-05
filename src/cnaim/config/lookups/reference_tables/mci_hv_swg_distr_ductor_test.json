@@ -1,0 +1,79 @@
+{
+  "table_id": "mci_hv_swg_distr_ductor_test",
+  "table_number": "149",
+  "table_name": "Measured Condition Input - HV Switchgear (GM) - Distribution: Ductor Test",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "lower": "As New",
+      "upper": "As New",
+      "bound_description": "Condition Criteria: Ductor Test Results in %",
+      "description": "The joint test result meets the manufacturers recommended value",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "lower": "-Infinity",
+      "upper": 10,
+      "bound_description": "Condition Criteria: Ductor Test Results, Deterioration from new in %",
+      "description": "Up to 10% deterioration from the \u2018As New\u2019 condition",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "lower": 10,
+      "upper": "Infinity",
+      "bound_description": "Condition Criteria: Ductor Test Results, Deterioration from new in %",
+      "description": "Over 10% deterioration from the \u2018As New\u2019 condition",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "lower": "Default",
+      "upper": "Default",
+      "bound_description": "Condition Criteria: Ductor Test Results",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

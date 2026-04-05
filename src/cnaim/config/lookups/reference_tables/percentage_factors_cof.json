@@ -1,0 +1,39 @@
+{
+  "table_id": "percentage_factors_cof",
+  "table_number": "8A",
+  "table_name": "Percentage Factors used to derive Typical Consequences of Failure",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Criticality Index Band",
+      "key": "criticality_index_band"
+    },
+    {
+      "original": "Percentage Factor to Be Applied to The Reference Costs of Failure",
+      "key": "percentage_factor_to_be_applied_to_the_reference_costs_of_failure"
+    }
+  ],
+  "rows": [
+    {
+      "criticality_index_band": "C1",
+      "percentage_factor_to_be_applied_to_the_reference_costs_of_failure": 0.7
+    },
+    {
+      "criticality_index_band": "C2",
+      "percentage_factor_to_be_applied_to_the_reference_costs_of_failure": 1.0
+    },
+    {
+      "criticality_index_band": "C3",
+      "percentage_factor_to_be_applied_to_the_reference_costs_of_failure": 1.5
+    },
+    {
+      "criticality_index_band": "C4",
+      "percentage_factor_to_be_applied_to_the_reference_costs_of_failure": 2.5
+    }
+  ],
+  "row_count": 4
+}

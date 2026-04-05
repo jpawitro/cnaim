@@ -1,0 +1,10 @@
+{
+  "default_utilisation_pct": 85.0,
+  "default_duty_factor": 1.0,
+  "bands": [
+    {"lower": 0.0, "upper": 50.0, "factor": 0.9},
+    {"lower": 50.0, "upper": 70.0, "factor": 0.95},
+    {"lower": 70.0, "upper": 100.0, "factor": 1.0},
+    {"lower": 100.0, "upper": 1000000000.0, "factor": 1.4}
+  ]
+}

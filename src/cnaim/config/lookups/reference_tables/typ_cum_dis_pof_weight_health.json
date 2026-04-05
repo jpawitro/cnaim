@@ -1,0 +1,527 @@
+{
+  "table_id": "typ_cum_dis_pof_weight_health",
+  "table_number": "240",
+  "table_name": "Typical Cumulative Discounted PoF Weightings for Health Indices Bands for use in the Calculation of Long Term Risk Matrices",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "HI1: Typical Cumulative Discounted POF Weightings for Each\nHealth Index Band",
+      "key": "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "HI2: Typical Cumulative Discounted POF Weightings for Each\nHealth Index Band",
+      "key": "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "HI3: Typical Cumulative Discounted POF Weightings for Each\nHealth Index Band",
+      "key": "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "HI4: Typical Cumulative Discounted POF Weightings for Each\nHealth Index Band",
+      "key": "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band"
+    },
+    {
+      "original": "HI5: Typical Cumulative Discounted POF Weightings for Each\nHealth Index Band",
+      "key": "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1595,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6526,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3389,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1126,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.0838
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0227,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.082,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1708,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2801,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4269
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0254,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0919,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1916,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3143,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.479
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0254,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0919,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1916,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3143,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.479
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0254,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0919,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1916,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3143,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.479
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0382,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1379,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2875,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4715,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7184
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0431,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1763,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3617,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.5708,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8332
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0382,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1379,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2875,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4715,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7184
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1595,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6526,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3389,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1126,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.0838
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1595,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6526,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3389,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1126,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.0838
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1117,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4038,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8416,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3802,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1032
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0291,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1191,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2443,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3855,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.5627
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0375,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1534,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3148,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4966,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.725
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0375,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1534,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3148,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4966,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.725
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0375,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1534,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3148,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4966,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.725
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0375,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1534,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3148,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4966,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.725
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0291,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1191,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2443,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3855,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.5627
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0375,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1534,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3148,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4966,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.725
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0375,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1534,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3148,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4966,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.725
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0375,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1534,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3148,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4966,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.725
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0431,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1559,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.325,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.533,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8121
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0431,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1559,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.325,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.533,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8121
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1595,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6526,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3389,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1126,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.0838
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1595,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6526,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3389,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1126,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.0838
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0448,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1832,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3758,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.593,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8656
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3012,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7709,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.6673,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.7647,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.8615
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0694,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4162,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6737,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8979,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.1667
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0448,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1832,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3758,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.593,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8656
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3012,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7709,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.6673,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.7647,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.8615
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0694,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4162,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6737,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8979,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.1667
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3637,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7714,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.6978,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.8015,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 5.0373
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 11.5754,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 31.6439,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 67.9831,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 112.9162,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 194.2315
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 24.8906,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 73.5116,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 156.6694,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 260.7076,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 433.9966
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3637,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7714,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.6978,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.8015,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 5.0373
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 11.5754,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 31.6439,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 67.9831,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 112.9162,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 194.2315
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 24.8906,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 73.5116,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 156.6694,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 260.7076,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 433.9966
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1117,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4038,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8416,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3802,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1032
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1234,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4457,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.9291,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.5237,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.3219
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1291,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6052,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.2054,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.7886,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.5091
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1234,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4457,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.9291,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.5237,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.3219
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1291,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6052,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.2054,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.7886,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.5091
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1248,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.5106,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.0476,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.653,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.4129
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1248,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.5106,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.0476,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.653,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.4129
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2963,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3896,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.7676,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.1066,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 5.7609
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2865,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.1723,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.4053,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.7953,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 5.54
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2865,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.1723,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.4053,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.7953,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 5.54
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2963,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3896,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.7676,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.1066,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 5.7609
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2511,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.9075,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.8915,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.1021,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.7271
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2511,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.9075,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.8915,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.1021,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.7271
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0448,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1832,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3758,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.593,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8656
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3012,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7709,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.6673,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.7647,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.8615
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.0694,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4162,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.6737,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8979,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.1667
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.3637,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.7714,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.6978,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.8015,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 5.0373
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 11.5754,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 31.6439,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 67.9831,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 112.9162,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 194.2315
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 24.8906,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 73.5116,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 156.6694,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 260.7076,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 433.9966
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.1117,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.4038,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8416,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.3802,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.1032
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2384,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8615,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.7957,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.945,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.4876
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2495,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.1697,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.3297,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.4569,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.8495
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2384,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.8615,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.7957,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.945,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.4876
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2412,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.9869,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 2.0248,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.1948,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.6636
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "hi1_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.2511,
+      "hi2_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 0.9075,
+      "hi3_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 1.8915,
+      "hi4_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 3.1021,
+      "hi5_typical_cumulative_discounted_pof_weightings_for_each_health_index_band": 4.7271
+    }
+  ],
+  "row_count": 61
+}

@@ -1,0 +1,63 @@
+{
+  "table_id": "mci_ehv_tf_temp_readings",
+  "table_number": "174",
+  "table_name": "Measured Condition Input - EHV Transformer (GM): Temperature Readings",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Temperature Reading",
+      "key": "condition_criteria_temperature_reading"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_temperature_reading": "Normal",
+      "description": "Normally expected temperature for transformer loading",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_temperature_reading": "Moderately High",
+      "description": "Slightly above normally expected temperature for transformer loading",
+      "condition_input_factor": 1.2,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_temperature_reading": "Very High",
+      "description": "Significantly above normally expected temperature for transformer loading",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_temperature_reading": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

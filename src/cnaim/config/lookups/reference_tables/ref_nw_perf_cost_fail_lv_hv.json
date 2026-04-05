@@ -1,0 +1,147 @@
+{
+  "table_id": "ref_nw_perf_cost_fail_lv_hv",
+  "table_number": "233",
+  "table_name": "Reference Network Performance Cost of Failure for LV & HV Assets",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Reference Number of Connected Customers ",
+      "key": "reference_number_of_connected_customers"
+    },
+    {
+      "original": "Proportion of connected customers restored through immediate (< 3min) switching  (%)",
+      "key": "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct"
+    },
+    {
+      "original": "Proportion of customers restored After manual switching (%)",
+      "key": "proportion_of_customers_restored_after_manual_switching_pct"
+    },
+    {
+      "original": "Manual switching time (hours) ",
+      "key": "manual_switching_time_hours"
+    },
+    {
+      "original": "Typical repair time (hours) ",
+      "key": "typical_repair_time_hours"
+    },
+    {
+      "original": "Proportion of failures that result in interruption to supply (%)",
+      "key": "proportion_of_failures_that_result_in_interruption_to_supply_pct"
+    },
+    {
+      "original": "Reference Network Performance Cost (GBP) ",
+      "key": "reference_network_performance_cost_gbp"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "LV OHL Support",
+      "reference_number_of_connected_customers": 80,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 0,
+      "proportion_of_customers_restored_after_manual_switching_pct": 0,
+      "manual_switching_time_hours": 1.0,
+      "typical_repair_time_hours": 5,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 10,
+      "reference_network_performance_cost_gbp": 542
+    },
+    {
+      "asset_category": "HV OHL Support - Poles",
+      "reference_number_of_connected_customers": 800,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 60,
+      "proportion_of_customers_restored_after_manual_switching_pct": 94,
+      "manual_switching_time_hours": 0.5,
+      "typical_repair_time_hours": 4,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 10,
+      "reference_network_performance_cost_gbp": 1930
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "reference_number_of_connected_customers": 200,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 0,
+      "proportion_of_customers_restored_after_manual_switching_pct": 85,
+      "manual_switching_time_hours": 0.5,
+      "typical_repair_time_hours": 4,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 60,
+      "reference_network_performance_cost_gbp": 4343
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Distribution",
+      "reference_number_of_connected_customers": 800,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 60,
+      "proportion_of_customers_restored_after_manual_switching_pct": 94,
+      "manual_switching_time_hours": 0.5,
+      "typical_repair_time_hours": 4,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 60,
+      "reference_network_performance_cost_gbp": 11580
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Primary",
+      "reference_number_of_connected_customers": 1000,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 60,
+      "proportion_of_customers_restored_after_manual_switching_pct": 94,
+      "manual_switching_time_hours": 0.5,
+      "typical_repair_time_hours": 4,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 60,
+      "reference_network_performance_cost_gbp": 40530
+    },
+    {
+      "asset_category": "LV Circuit Breaker",
+      "reference_number_of_connected_customers": 200,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 0,
+      "proportion_of_customers_restored_after_manual_switching_pct": 85,
+      "manual_switching_time_hours": 1.0,
+      "typical_repair_time_hours": 7,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 100,
+      "reference_network_performance_cost_gbp": 11085
+    },
+    {
+      "asset_category": "LV Pillar",
+      "reference_number_of_connected_customers": 200,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 25,
+      "proportion_of_customers_restored_after_manual_switching_pct": 89,
+      "manual_switching_time_hours": 1.0,
+      "typical_repair_time_hours": 7,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 100,
+      "reference_network_performance_cost_gbp": 8243
+    },
+    {
+      "asset_category": "LV UGB",
+      "reference_number_of_connected_customers": 80,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 25,
+      "proportion_of_customers_restored_after_manual_switching_pct": 89,
+      "manual_switching_time_hours": 1.0,
+      "typical_repair_time_hours": 7,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 100,
+      "reference_network_performance_cost_gbp": 2748
+    },
+    {
+      "asset_category": "LV Board (WM)",
+      "reference_number_of_connected_customers": 200,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 25,
+      "proportion_of_customers_restored_after_manual_switching_pct": 89,
+      "manual_switching_time_hours": 1.0,
+      "typical_repair_time_hours": 7,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 100,
+      "reference_network_performance_cost_gbp": 8243
+    },
+    {
+      "asset_category": "HV Sub Cable",
+      "reference_number_of_connected_customers": 800,
+      "proportion_of_connected_customers_restored_through_immediate_3min_switching_pct": 40,
+      "proportion_of_customers_restored_after_manual_switching_pct": 60,
+      "manual_switching_time_hours": 2.0,
+      "typical_repair_time_hours": 18,
+      "proportion_of_failures_that_result_in_interruption_to_supply_pct": 100,
+      "reference_network_performance_cost_gbp": 190344
+    }
+  ],
+  "row_count": 10
+}

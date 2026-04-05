@@ -1,0 +1,119 @@
+{
+  "table_id": "bd_strength_cond_state_calib",
+  "table_number": "205",
+  "table_name": "Breakdown Strength Condition State Calibration - HV, EHV and 132kv Transformer (GM)",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "BD Strength Score",
+      "key": "bd_strength_score"
+    },
+    {
+      "original": "Type",
+      "key": "type"
+    }
+  ],
+  "rows": [
+    {
+      "lower": -0.01,
+      "upper": 30,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 10,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": 30.0,
+      "upper": 40,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 4,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": 40.0,
+      "upper": 50,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 2,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": 50.0,
+      "upper": 10000,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 0,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": -0.01,
+      "upper": 30,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 10,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 30.0,
+      "upper": 40,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 4,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 40.0,
+      "upper": 50,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 2,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 50.0,
+      "upper": 10000,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 0,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": -0.01,
+      "upper": 40,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 10,
+      "type": "132kV Transformer (GM)"
+    },
+    {
+      "lower": 40.0,
+      "upper": 50,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 4,
+      "type": "132kV Transformer (GM)"
+    },
+    {
+      "lower": 50.0,
+      "upper": 60,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 2,
+      "type": "132kV Transformer (GM)"
+    },
+    {
+      "lower": 60.0,
+      "upper": 10000,
+      "bound_description": "BD Strength (kV)  ",
+      "bd_strength_score": 0,
+      "type": "132kV Transformer (GM)"
+    }
+  ],
+  "row_count": 12
+}

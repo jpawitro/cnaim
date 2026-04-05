@@ -1,0 +1,31 @@
+{
+  "table_id": "cost_used_derivation_nw_perf",
+  "table_number": "232",
+  "table_name": "Costs Used in Derivation of Network Performance Reference Cost of Failure",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Parameter",
+      "key": "parameter"
+    },
+    {
+      "original": "GBP (at 2020/21 prices)",
+      "key": "gbp_at_2020_21_prices"
+    }
+  ],
+  "rows": [
+    {
+      "parameter": "Cost of CML",
+      "gbp_at_2020_21_prices": 0.45
+    },
+    {
+      "parameter": "Cost of CI",
+      "gbp_at_2020_21_prices": 18.55
+    }
+  ],
+  "row_count": 2
+}

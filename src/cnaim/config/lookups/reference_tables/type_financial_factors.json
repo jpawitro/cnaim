@@ -1,0 +1,535 @@
+{
+  "table_id": "type_financial_factors",
+  "table_number": "219",
+  "table_name": "Type Financial Factors",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Type Financial Factor Criteria",
+      "key": "type_financial_factor_criteria"
+    },
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Type Financial Factor",
+      "key": "type_financial_factor"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "type_financial_factor_criteria": "Pole (excluding terminal poles)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "type_financial_factor_criteria": "Pole (terminal poles)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.2
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "type_financial_factor_criteria": "Steel Poles",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "type_financial_factor_criteria": "Non Asbestos clad",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "type_financial_factor_criteria": "Asbestos clad",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "type_financial_factor_criteria": "Non Asbestos clad",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "type_financial_factor_criteria": "Asbestos clad",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "type_financial_factor_criteria": "Pole (supporting conductor only)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "type_financial_factor_criteria": "Pole (supporting plant or equipment)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.7
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "type_financial_factor_criteria": "Small footprint steel masts",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "type_financial_factor_criteria": "Pole (supporting conductor only)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "type_financial_factor_criteria": "Pole (supporting plant or equipment)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.7
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "type_financial_factor_criteria": "Small footprint steel masts",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "type_financial_factor_criteria": "Pole (supporting conductor only)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "type_financial_factor_criteria": "Pole (supporting plant or equipment)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.7
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "type_financial_factor_criteria": "Small footprint steel masts",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "type_financial_factor_criteria": "Pole (supporting conductor only)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "type_financial_factor_criteria": "Pole (supporting plant or equipment)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.7
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "type_financial_factor_criteria": "Small footprint steel masts",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "type_financial_factor_criteria": "Suspension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "type_financial_factor_criteria": "Tension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.05
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "type_financial_factor_criteria": "Terminal",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "type_financial_factor_criteria": "Suspension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "type_financial_factor_criteria": "Tension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.05
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "type_financial_factor_criteria": "Terminal",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "type_financial_factor_criteria": "Suspension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "type_financial_factor_criteria": "Tension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "type_financial_factor_criteria": "Suspension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "type_financial_factor_criteria": "Tension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "type_financial_factor_criteria": "Suspension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "type_financial_factor_criteria": "Tension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 2.0
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "type_financial_factor_criteria": "Suspension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "type_financial_factor_criteria": "Tension",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.05
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "type_financial_factor_criteria": "Terminal",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "type_financial_factor_criteria": null,
+      "lower": "-Infinity",
+      "upper": 500.0,
+      "bound_description": "kVA",
+      "type_financial_factor": 0.85
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "type_financial_factor_criteria": null,
+      "lower": 500.0,
+      "upper": 750.0,
+      "bound_description": "kVA",
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "type_financial_factor_criteria": null,
+      "lower": 750.0,
+      "upper": "Infinity",
+      "bound_description": "kVA",
+      "type_financial_factor": 1.15
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "type_financial_factor_criteria": null,
+      "lower": "-Infinity",
+      "upper": 500.0,
+      "bound_description": "kVA",
+      "type_financial_factor": 0.85
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "type_financial_factor_criteria": null,
+      "lower": 500.0,
+      "upper": 750.0,
+      "bound_description": "kVA",
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "type_financial_factor_criteria": null,
+      "lower": 750.0,
+      "upper": "Infinity",
+      "bound_description": "kVA",
+      "type_financial_factor": 1.15
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "type_financial_factor_criteria": "33/20kV, CMR equivalent",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "type_financial_factor_criteria": "33/20kV, CMR equivalent",
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "type_financial_factor_criteria": "33/20kV, CMR equivalent",
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.25
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "type_financial_factor_criteria": "33/11 or 6.6kV, CMR equivalent",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 0.9
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "type_financial_factor_criteria": "33/11 or 6.6kV, CMR equivalent",
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "type_financial_factor_criteria": "33/11 or 6.6kV, CMR equivalent",
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/20kV, CMR equivalent",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/20kV, CMR equivalent",
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/20kV, CMR equivalent",
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.25
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/11 or 6.6kV, CMR equivalent",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 0.9
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/11 or 6.6kV, CMR equivalent",
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/11 or 6.6kV, CMR equivalent",
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent",
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/66kV",
+      "lower": "-Infinity",
+      "upper": 60.0,
+      "bound_description": "MVA",
+      "type_financial_factor": 1.05
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/66kV",
+      "lower": 60.0,
+      "upper": "Infinity",
+      "bound_description": "MVA",
+      "type_financial_factor": 1.15
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/33kV",
+      "lower": "-Infinity",
+      "upper": 60.0,
+      "bound_description": "MVA",
+      "type_financial_factor": 0.9
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/33kV",
+      "lower": 60.0,
+      "upper": "Infinity",
+      "bound_description": "MVA",
+      "type_financial_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/33kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "type_financial_factor_criteria": "66/11/11kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/11/11kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.1
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/11kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 0.85
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/20kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 0.95
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "type_financial_factor_criteria": "132/20/20kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "type_financial_factor": 1.1
+    }
+  ],
+  "row_count": 62
+}

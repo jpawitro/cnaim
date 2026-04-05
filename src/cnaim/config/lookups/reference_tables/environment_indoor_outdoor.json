@@ -1,0 +1,267 @@
+{
+  "table_id": "environment_indoor_outdoor",
+  "table_number": "26",
+  "table_name": "Default Environment (Indoor/Outdoor)",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Default 'environment' to be assumed when deriving Location Factor",
+      "key": "default_environment_to_be_assumed_when_deriving_location_factor"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "default_environment_to_be_assumed_when_deriving_location_factor": null
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Indoor"
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "default_environment_to_be_assumed_when_deriving_location_factor": "Outdoor"
+    }
+  ],
+  "row_count": 61
+}

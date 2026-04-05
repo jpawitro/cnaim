@@ -1,0 +1,70 @@
+{
+  "table_id": "oci_132kv_tf_cable_boxes_cond",
+  "table_number": "97",
+  "table_name": "Observed Condition Input - 132kV Transformer (GM): Cable Boxes Condition",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "No Deterioration*",
+      "description": "There are no signs of any deterioration such as corrosion, stains, markings, compound leaks, discharge etc.",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Superficial / minor\ndeterioration*",
+      "description": "The cable box may exhibit minor exterior stains or marks (e.g. surface level scratches, moss or lichen that can be brushed off), but no damage or corrosion should be evident. No evidence of compound leaks, discharge, signs of heating, or deterioration of insulation",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "Minor corrosion (e.g. surface corrosion spots) or deterioration (e.g. minor breakthrough of paintwork but no loss of galvanising).",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "Evidence of significant corrosion and perforation (e.g. holes). Severe breakthrough of paintwork with some loss of galvanising. Major compound leaks. Evidence of discharge, signs of heating, deterioration/ damage of insulation",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

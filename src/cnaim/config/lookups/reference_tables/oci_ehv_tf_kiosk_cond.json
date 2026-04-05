@@ -1,0 +1,63 @@
+{
+  "table_id": "oci_ehv_tf_kiosk_cond",
+  "table_number": "86",
+  "table_name": "Observed Condition Input - EHV Transformer (GM): Kiosk Condition",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "Superficial/minor deterioration",
+      "description": "The asset component exhibits some deterioration but is fit for continued service. There is no or little obvious signs of corrosion",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "The component asset shows a level of deterioration such as surface corrosion spots. The level of degradation may affect the operation of the asset if left untended (e.g. large patches of rust on the metalwork).",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "There is evidence of major corrosion or damage affecting the structural integrity",
+      "condition_input_factor": 1.2,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

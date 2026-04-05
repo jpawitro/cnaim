@@ -1,0 +1,192 @@
+{
+  "table_id": "measured_condition_inputs",
+  "table_number": "14",
+  "table_name": "Measured Condition Inputs",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Subcomponent",
+      "key": "subcomponent"
+    },
+    {
+      "original": "Measured Condition Input",
+      "key": "measured_condition_input"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "LV UGB",
+      "subcomponent": null,
+      "measured_condition_input": "1. Operational Adequacy"
+    },
+    {
+      "asset_category": "LV Circuit Breaker",
+      "subcomponent": null,
+      "measured_condition_input": "1. Operational Adequacy"
+    },
+    {
+      "asset_category": "LV Board (WM)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Operational Adequacy, 2. Security"
+    },
+    {
+      "asset_category": "LV Pillars",
+      "subcomponent": null,
+      "measured_condition_input": "1. Operational Adequacy"
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Primary",
+      "subcomponent": null,
+      "measured_condition_input": "1. Partial Discharge, 2. Ductor Test, 3. IR Test, 4. Oil Tests, 5. Temperature Readings, 6. Trip Test"
+    },
+    {
+      "asset_category": "HV Switchgear (GM) - Distribution",
+      "subcomponent": null,
+      "measured_condition_input": "1. Partial Discharge, 2. Ductor Test, 3. Oil Tests, 4. Temperature Readings, 5. Trip Test"
+    },
+    {
+      "asset_category": "EHV Switchgear (GM)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Partial Discharge, 2. Ductor Test, 3. IR Test, 4. Oil Tests/ Gas Tests, 5. Temperature Readings, 6. Trip Test"
+    },
+    {
+      "asset_category": "132kV Switchgear (GM)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Partial Discharge, 2. Ductor Test, 3. IR Test, 4. Oil Tests/ Gas Tests, 5. Temperature Readings, 6. Trip Test"
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Partial Discharge, 2. Temperature Readings"
+    },
+    {
+      "asset_category": "EHV Transformer (GM)",
+      "subcomponent": "Main Transformer",
+      "measured_condition_input": "1. Partial Discharge, 2. Temperature Readings"
+    },
+    {
+      "asset_category": "EHV Transformer (GM)",
+      "subcomponent": "Tapchanger",
+      "measured_condition_input": "1. Tapchanger Partial Discharge"
+    },
+    {
+      "asset_category": "132kV Transformer",
+      "subcomponent": "Main Transformer",
+      "measured_condition_input": "1. Partial Discharge 2. Temperature Readings"
+    },
+    {
+      "asset_category": "132kV Transformer",
+      "subcomponent": "Tapchanger",
+      "measured_condition_input": "1. Tapchanger Partial Discharge"
+    },
+    {
+      "asset_category": "EHV Cable (Non Pressurised)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Sheath Test, 2. Partial Discharge, 3. Fault history"
+    },
+    {
+      "asset_category": "EHV Cable (Oil)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Leakage"
+    },
+    {
+      "asset_category": "EHV Cable (Gas)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Leakage"
+    },
+    {
+      "asset_category": "132kV Cable (Non Pressurised)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Sheath Test, 2. Partial Discharge, 3. Fault history"
+    },
+    {
+      "asset_category": "132kV Cable (Oil)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Leakage"
+    },
+    {
+      "asset_category": "132kV Cable (Gas)",
+      "subcomponent": null,
+      "measured_condition_input": "1. Leakage"
+    },
+    {
+      "asset_category": "Submarine Cable",
+      "subcomponent": null,
+      "measured_condition_input": "1. Sheath Test, 2. Partial Discharge, 3. Fault history"
+    },
+    {
+      "asset_category": "LV Poles",
+      "subcomponent": null,
+      "measured_condition_input": "1. Pole decay / deterioration"
+    },
+    {
+      "asset_category": "HV Poles",
+      "subcomponent": null,
+      "measured_condition_input": "1. Pole decay / deterioration"
+    },
+    {
+      "asset_category": "EHV Poles",
+      "subcomponent": null,
+      "measured_condition_input": "1. Pole decay / deterioration"
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Tower Steelwork",
+      "measured_condition_input": null
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Tower Paintwork",
+      "measured_condition_input": null
+    },
+    {
+      "asset_category": "EHV Towers",
+      "subcomponent": "Foundations",
+      "measured_condition_input": null
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Tower Steelwork",
+      "measured_condition_input": null
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Tower Paintwork",
+      "measured_condition_input": null
+    },
+    {
+      "asset_category": "132kV Towers",
+      "subcomponent": "Foundations",
+      "measured_condition_input": null
+    },
+    {
+      "asset_category": "EHV Fittings",
+      "subcomponent": null,
+      "measured_condition_input": "1. Thermal Imaging, 2. Ductor Tests"
+    },
+    {
+      "asset_category": "132kV Fittings",
+      "subcomponent": null,
+      "measured_condition_input": "1. Thermal Imaging, 2. Ductor Tests"
+    },
+    {
+      "asset_category": "EHV Tower Line Conductor",
+      "subcomponent": null,
+      "measured_condition_input": "1. Conductor Sampling, 2. Corrosion Monitoring Survey"
+    },
+    {
+      "asset_category": "132kV Tower Line Conductor",
+      "subcomponent": null,
+      "measured_condition_input": "1. Conductor Sampling, 2. Corrosion Monitoring Survey"
+    }
+  ],
+  "row_count": 33
+}

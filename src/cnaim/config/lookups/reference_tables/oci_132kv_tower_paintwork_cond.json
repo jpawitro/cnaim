@@ -1,0 +1,70 @@
+{
+  "table_id": "oci_132kv_tower_paintwork_cond",
+  "table_number": "130",
+  "table_name": "Observed Condition Input - 132kV Tower: Paintwork Condition",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "No deterioration",
+      "description": null,
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 6.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Superficial/minor deterioration",
+      "description": "Slight rust breakthrough - up to 5% of surface area affected.",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 6.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "Moderate rust breakthrough - between 5% and 20% of surface area affected, and/or pitted rust",
+      "condition_input_factor": 1.6,
+      "condition_input_cap": 6.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "Severe rust breakthrough - more than 20% of surface area affected, AND/OR damaged or bent steelwork, AND/OR any blistered paintwork with evidence of severe rust underneath, painting/attention required urgently.",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 6.4,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 6.4,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

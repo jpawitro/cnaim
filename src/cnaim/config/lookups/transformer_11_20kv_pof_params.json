@@ -1,0 +1,12 @@
+{
+  "6.6/11kV Transformer (GM)": {
+    "normal_expected_life_years": 60.0,
+    "k_value_percent": 0.0078,
+    "c_value": 1.087
+  },
+  "20kV Transformer (GM)": {
+    "normal_expected_life_years": 60.0,
+    "k_value_percent": 0.0078,
+    "c_value": 1.087
+  }
+}

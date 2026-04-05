@@ -1,0 +1,63 @@
+{
+  "table_id": "type_enviromental_factor",
+  "table_number": "229",
+  "table_name": "Type Enviromental Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Type environment factor",
+      "key": "type_environment_factor"
+    },
+    {
+      "original": "Oil",
+      "key": "oil"
+    },
+    {
+      "original": "SF6",
+      "key": "sf6"
+    },
+    {
+      "original": "Neither",
+      "key": "neither"
+    },
+    {
+      "original": "Default",
+      "key": "default"
+    }
+  ],
+  "rows": [
+    {
+      "type_environment_factor": "HV Switchgear (GM) - Primary",
+      "oil": 0.97,
+      "sf6": 0.05,
+      "neither": 0.02,
+      "default": 0.97
+    },
+    {
+      "type_environment_factor": "HV Switchgear (GM) - Distribution",
+      "oil": 0.98,
+      "sf6": 0.04,
+      "neither": 0.02,
+      "default": 0.98
+    },
+    {
+      "type_environment_factor": "EHV Switchgear (GM)",
+      "oil": 0.93,
+      "sf6": 0.1,
+      "neither": 0.03,
+      "default": 0.93
+    },
+    {
+      "type_environment_factor": "132kV CBs",
+      "oil": 0.79,
+      "sf6": 0.24,
+      "neither": 0.03,
+      "default": 0.79
+    }
+  ],
+  "row_count": 4
+}

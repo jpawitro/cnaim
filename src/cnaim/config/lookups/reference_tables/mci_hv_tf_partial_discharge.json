@@ -1,0 +1,70 @@
+{
+  "table_id": "mci_hv_tf_partial_discharge",
+  "table_number": "171",
+  "table_name": "Measured Condition Input - HV Transformer (GM): Partial Discharge",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Partial Discharge Test Result",
+      "key": "condition_criteria_partial_discharge_test_result"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_partial_discharge_test_result": "Low",
+      "description": "Low or negligible levels of partial discharge indicating no issues identified (e.g. a green condition using a TEV or <10% of manufacturers recommendation ",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_partial_discharge_test_result": "Medium",
+      "description": "Some moderate levels of partial discharge recorded (e.g. \u2018Amber\u2019 result from TEV measuring device or between 10% and 30% of the manufacturers recommendation) ",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_partial_discharge_test_result": "High (Not Confirmed)",
+      "description": "High levels of partial discharge indicating possible defect with plant / equipment, requiring further investigation (e.g. \u2018Red\u2019 result from TEV measuring device or above manufacturers recommendation) ",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_partial_discharge_test_result": "High (Confirmed)",
+      "description": "High partial discharge. Source of partial discharge confirmed as potential source of failure ",
+      "condition_input_factor": 1.5,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_partial_discharge_test_result": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

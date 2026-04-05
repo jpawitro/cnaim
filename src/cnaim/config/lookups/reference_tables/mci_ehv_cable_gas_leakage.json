@@ -1,0 +1,70 @@
+{
+  "table_id": "mci_ehv_cable_gas_leakage",
+  "table_number": "183",
+  "table_name": "Measured Condition Input - EHV Cable (Gas): Leakage",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Leakage Rate",
+      "key": "condition_criteria_leakage_rate"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_leakage_rate": "No (or very low) historic leakage recorded",
+      "description": "No or negligible levels of leakage",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_leakage_rate": "Low/ moderate",
+      "description": "Requires occasional intervention to maintain pressure",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_leakage_rate": "High",
+      "description": "Requires regular intervention to maintain pressure",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_leakage_rate": "Very High",
+      "description": "Requires intervention at the point of gas loss",
+      "condition_input_factor": 2.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_leakage_rate": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

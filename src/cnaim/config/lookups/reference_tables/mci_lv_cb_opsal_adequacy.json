@@ -1,0 +1,56 @@
+{
+  "table_id": "mci_lv_cb_opsal_adequacy",
+  "table_number": "145",
+  "table_name": "Measured Condition Input - LV Circuit Breaker: Operational Adequacy",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Operational Adequacy",
+      "key": "condition_criteria_operational_adequacy"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_operational_adequacy": "Acceptable",
+      "description": "The device can be operated safely",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_operational_adequacy": "Unacceptable",
+      "description": "The device cannot be operated safely",
+      "condition_input_factor": 1.6,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_operational_adequacy": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 3
+}

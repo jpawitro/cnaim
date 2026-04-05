@@ -1,0 +1,196 @@
+{
+  "table_id": "functional_failure_definitions",
+  "table_number": "19",
+  "table_name": "Functional Failure Definitions",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Function",
+      "key": "function"
+    },
+    {
+      "original": "Failure modes",
+      "key": "failure_modes"
+    },
+    {
+      "original": "Catastrophic Failure",
+      "key": "catastrophic_failure"
+    },
+    {
+      "original": "Degraded Failures",
+      "key": "degraded_failures"
+    },
+    {
+      "original": "Incipient Failures",
+      "key": "incipient_failures"
+    },
+    {
+      "original": "Functional failures excluded",
+      "key": "functional_failures_excluded"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "LV Circuit Breaker",
+      "function": "Measure and break unsafe levels of current (over current), make load current, and provide a point of electrical isolation.",
+      "failure_modes": "Failing to open on a fault. Failing to close reliably. Failing to open during manual operation. Failure to supply load current (i.e. failure during normal operating conditions). Opens Spuriously under normal conditions. Opens Intermittently (Faulty).",
+      "catastrophic_failure": "Failure of Housing. Disruptive Failure Resulting from Insulation Breakdown.",
+      "degraded_failures": "Nuisance tripping or failure to operate when required due to: 1. damage to contacts 2. loose internal connections 3. Damage to mechanism and drive rods.",
+      "incipient_failures": "Nuisance tripping or failure to operate when required due to: - Maladjusted linkage.",
+      "functional_failures_excluded": "Failure of protection module., Failure of SCADA."
+    },
+    {
+      "asset_category": "LV Pillar (ID)",
+      "function": "Provide a number of points of access to LV Cable Systems for electrical connection, isolation and flexibility with network reconfiguration. Depending on the complexity of pillar they may also offer monitoring and protection (fuse or circuit breaker) capabilities.",
+      "failure_modes": "Failing to close reliably. Failing to open during manual operation. Failure to supply load current (i.e. failure during normal operating conditions).",
+      "catastrophic_failure": "Failure of Housing. Disruptive Failure Resulting from Insulation Breakdown requiring the replacement of one or all ways.",
+      "degraded_failures": "Failure of Housing requiring repair. Nuisance tripping or Failure of an LV Pillar's Fuse, MCB or RCBO to operate when required due to: 1. deteriorated fuse carriers 2. breaker stuck closed.",
+      "incipient_failures": "Nuisance tripping or Failure of an LV Pillar's Fuse, MCB or RCBO to operate when required due to: 1. incorrect fuse/breaker rating 2. breaker not latching closed.",
+      "functional_failures_excluded": "Contact damage due to incorrect operation of board."
+    },
+    {
+      "asset_category": "LV Pillar (OD at Substation / LV Pillar (OD not at a Substation)",
+      "function": "Provide a number of points of access to LV Cable Systems for electrical connection, isolation and flexibility with network reconfiguration. Depending on the complexity of pillar they may also offer monitoring and protection (fuse or circuit breaker) capabilities.",
+      "failure_modes": "Failing to close reliably. Failing to open during manual operation. Failure to supply load current (i.e. failure during normal operating conditions).",
+      "catastrophic_failure": "Failure of Housing. Disruptive Failure Resulting from Insulation Breakdown requiring the replacement of one or all ways.",
+      "degraded_failures": "Failure of Housing requiring repair. Nuisance tripping or Failure of an LV Pillar's Fuse, MCB or RCBO to operate when required due to: 1. deteriorated fuse carriers 2. breaker stuck closed.",
+      "incipient_failures": "Nuisance tripping or Failure of an LV Pillar's Fuse, MCB or RCBO to operate when required due to: 1. incorrect fuse/breaker rating 2. breaker not latching closed.",
+      "functional_failures_excluded": "Contact damage due to incorrect operation of board."
+    },
+    {
+      "asset_category": "LV Board (WM)",
+      "function": "Provide a number of points of access to LV Cable Systems for electrical connection, isolation and flexibility with network reconfiguration. Depending on the complexity of LV Board, they may also offer monitoring and protection (fuse or circuit breaker) capabilities.",
+      "failure_modes": "Failing to open on a fault. Failing to close reliably. Failing to open during manual operation. Failure to supply load current (i.e. failure during normal operating conditions). Opens Spuriously under normal conditions. Opens Intermittently (Faulty).",
+      "catastrophic_failure": "Disruptive Failure Resulting from Insulation Breakdown.",
+      "degraded_failures": "Nuisance tripping or failure to operate when required due to: 1. damage to contacts, 2. moisture ingress, 3. deteriorated fuse carriers.",
+      "incipient_failures": "Nuisance tripping or failure to operate when required due to: 1. damage to contacts, 2. loose internal connections, 3. failure of protection module.",
+      "functional_failures_excluded": "Failure of housing. Contact Damage due to Incorrect operation of Board."
+    },
+    {
+      "asset_category": "LV UGB",
+      "function": "Provide a number of points of access to LV Cable Systems for electrical connection, isolation and flexibility with network reconfiguration. Depending on the complexity of the LV Box, they may also offer monitoring and protection (fuse or circuit breaker) capabilities.",
+      "failure_modes": "Failing to open on a fault (if used in this mode. Failing to close reliably. Failing to open during manual operation. Failure to supply load current (i.e. failure during normal operating conditions). Opens Spuriously under normal conditions. Opens Intermittently (Faulty).",
+      "catastrophic_failure": "Disruptive Failure Resulting from Insulation Breakdown.",
+      "degraded_failures": "Failure to be operable when required due to: 1. damage to contacts, 2. moisture ingress, 3. deteriorated links.",
+      "incipient_failures": "Failure to be operable when required due to: 1. damage to contacts, 2. loose internal connections.",
+      "functional_failures_excluded": "Failure of housing. Contact Damage due to Incorrect operation of Box."
+    },
+    {
+      "asset_category": "HV Switchgear (GM) \u2013 Primary / HV Switchgear (GM) - Distribution",
+      "function": "Carry, make or break continuous load or fault current. Maintain or interrupt voltage on all three phases. Isolation & Earthing of Cables & Plant. Measurement of current and voltage.",
+      "failure_modes": "Does not open or close on command (Where this is associated with the Breaker and not the control system). , Mechanical Failure. , Electrical Failure (Auxiliary & Control). , Electrical Failure (Main Circuit).",
+      "catastrophic_failure": "Disruptive Failure Resulting from Insulation Breakdown.",
+      "degraded_failures": "SOP preventing operation. Failure to operate when required due to: 1. Failure of Mechanism, 2. Protection module, 3. CT Failure, 4. VT Failure, 5.Stuck Breaker.",
+      "incipient_failures": "Failure to operate when required due to: - Low Gas Lockout or Vacuum bottle condition.",
+      "functional_failures_excluded": "Unable to withstand impulse voltage. Unable to contain the insulating medium. Does not allow switch tank to breath. Unable to support its own weight. Does not provide a connection to the substation earth mat."
+    },
+    {
+      "asset_category": "EHV Switchgear (GM)",
+      "function": "Carry, make or break continuous load or fault current. Maintain or interrupt voltage on all three phases. Isolation & Earthing of Cables & Plant. Measurement of current and voltage.",
+      "failure_modes": "Does not open or close on command (Where this is associated with the Breaker and not the control system). Mechanical Failure. Electrical Failure (Auxiliary & Control). Electrical Failure (Main Circuit).",
+      "catastrophic_failure": "Disruptive Failure Resulting from Insulation Breakdown.",
+      "degraded_failures": "SOP preventing operation. Failure to operate when required due to: 1. Failure of Mechanism, 2. Protection module, 3. CT Failure, 4. VT Failure, 5. Stuck Breaker.",
+      "incipient_failures": "Failure to operate when required due to: - Low Gas Lockout or Vacuum bottle condition.",
+      "functional_failures_excluded": "Unable to withstand impulse voltage. Unable to contain the insulating medium. Does not allow switch tank to breath. Unable to support its own weight. Does not provide a connection to the substation earth mat. Failure of civil structures or associated disconnectors. Any asset classed by RIG definition as EHV Swgr Other."
+    },
+    {
+      "asset_category": "132kV CBs",
+      "function": "Carry, make or break continuous load or fault current. Maintain or interrupt voltage on all three phases. Isolation & Earthing of Cables & Plant. Measurement of current and voltage.",
+      "failure_modes": "Does not open or close on command (Where this is associated with the Breaker and not the control system). Mechanical Failure. Electrical Failure (Auxiliary & Control). Electrical Failure (Main Circuit).",
+      "catastrophic_failure": "Disruptive Failure Resulting from Insulation Breakdown.",
+      "degraded_failures": "SOP preventing operation. Failure to operate when required due to: 1. Failure of Mechanism, 2. Protection module, 3. CT Failure, 4. VT Failure, 5. Stuck Breaker.",
+      "incipient_failures": "Failure to operate when required due to: - Low Gas Lockout or Vacuum bottle condition.",
+      "functional_failures_excluded": "Unable to withstand impulse voltage. Unable to contain the insulating medium. Does not allow switch tank to breath. Unable to support its own weight. Does not provide a connection to the substation earth mat. Failure of civil structures or associated disconnectors. Any asset classed by RIG definition as EHV Swgr Other."
+    },
+    {
+      "asset_category": "HV Transformer (GM)",
+      "function": "Step up or step down and provide a secondary output voltage which is within statutory limits. Carry full load current when required. Carry through fault current when required.",
+      "failure_modes": "Tapchanger, bushing, windings, core, tank or insulation failure.",
+      "catastrophic_failure": "Failure of the main internal components - windings, core or insulation.",
+      "degraded_failures": "Failure of the bushing, cable termination, including box and conservator tank.",
+      "incipient_failures": "Failure of the Tapchanger.",
+      "functional_failures_excluded": "Oil condition corrected by an oil change and not re-conditioning, levels and leaks. Cable connection to controlling switchgear. Civil structure related failures"
+    },
+    {
+      "asset_category": "EHV Transformer / 132kV Transformer",
+      "function": "Step up or step down and provide a secondary output voltage which is within statutory limits. Carry full load current when required. Carry through fault current when required.",
+      "failure_modes": "Tapchanger, bushing, windings, core, tank, insulation or control/monitoring failure.",
+      "catastrophic_failure": "Failure of the tank or main internal components - windings, core or insulation.",
+      "degraded_failures": "Failure of the bushing, cable termination conservator tank and associated radiator.",
+      "incipient_failures": "Failure of the Tapchanger.",
+      "functional_failures_excluded": "Oil condition corrected by an oil change and not re-conditioning, levels and leaks. CT's, VT's and on tank unit auxiliary transformers associated with the unit NER's and NEX's Neutral displacement VT's. Cable and busbar connection to controlling switchgear. Civil structure related failures. Buchholz."
+    },
+    {
+      "asset_category": "Poles",
+      "function": "Support electrical equipment in compliance with the ESQCR and Construction Regulations.",
+      "failure_modes": "Decayed Pole. Decayed Struts. Snapped Stays.",
+      "catastrophic_failure": "Any structure whose components have either failed (broken) or whose residual strength has decreased to a level where immediate replacement of all or part of the structure is required.",
+      "degraded_failures": "Any structure whose components have a residual strength such that replacement is required within the timescale defined by the Company.",
+      "incipient_failures": "Vermin Damage resulting in Factor of Safety reduction requiring an intervention.",
+      "functional_failures_excluded": "Broken Conductor. Broken or damaged fittings. Damaged or non-functioning plant. Broken or damaged insulation. Missing or degraded safety signs and anti climbing fixtures. Leaning poles where statutory clearances are not impacted. Cable boxes and platforms, including sealing ends."
+    },
+    {
+      "asset_category": "Towers",
+      "function": "Support electrical equipment in compliance with the ESQCR.",
+      "failure_modes": "Corrosion or distortion of the structure, i.e. bent member, failing foundations.",
+      "catastrophic_failure": "Any structure whose components have either failed (broken) or whose residual strength has decreased to a level where immediate replacement of all or part of the structure is required.",
+      "degraded_failures": "Any component of the structure who's condition is such that it prevents normal operation of the Tower, or degrades the residual strength of the Tower, requiring an intervention with in a defined period.",
+      "incipient_failures": "Corrosion to minor Tower components and land movements degrading the potential of the Towers stability.",
+      "functional_failures_excluded": "Broken Conductor. Broken or damaged fittings. Broken or damaged insulation. Missing or degraded safety signs and anti-climbing fixtures. Cable boxes and platforms, including sealing ends."
+    },
+    {
+      "asset_category": "Fittings / OHL Conductor",
+      "function": "Carry load and fault current without annealing or sagging below the ESQCR limit. Maintain continuity under normal and fault conditions. Provide phase-phase and phase-earth insulation.",
+      "failure_modes": "Flashover. Insulation failure. Corroded Conductor. Corroded Jumper. Corroded Fitting.",
+      "catastrophic_failure": "Loss of structural integrity of any component associated with an overhead line supported on Steel Tower, excluding any associated Tower mounted plant, such that the residual strength of the component required immediate intervention.",
+      "degraded_failures": "Loss of structural integrity of any component associated with an overhead line supported on the Tower, excluding any associated Tower mounted plant, such that the residual strength of the component required intervention within a prescribed timescale.",
+      "incipient_failures": "Cracked insulator",
+      "functional_failures_excluded": "Loss of protection. Loss of plant. Earthing. Any issues relating to the support, safety notices and anti-climbing guards. Conductor icing which does not result in permanent damage to the conductor. Cable boxes and platforms (including sealing ends)."
+    },
+    {
+      "asset_category": "Pressurised Cable",
+      "function": "Carry load and fault current safely and reliably, without overheating or causing damage to the environment.",
+      "failure_modes": "Oil or Gas leak / Top up. Cable Fault. Joint Failure.",
+      "catastrophic_failure": "Cable Fault. Joint Fault.",
+      "degraded_failures": "Accessory or joint failure causing loss of fluid.",
+      "incipient_failures": "Pressure gauges. Sheath deterioration.",
+      "functional_failures_excluded": "Sheath damage and or repair. Third party damages."
+    },
+    {
+      "asset_category": "Submarine Cables",
+      "function": "Carry load and fault current safely and reliably, without overheating or causing damage to the environment.",
+      "failure_modes": "Cable Fault. Joint Failure.",
+      "catastrophic_failure": "Cable Fault. Joint Fault.",
+      "degraded_failures": null,
+      "incipient_failures": null,
+      "functional_failures_excluded": "Sheath damage and or repair. Third party damages"
+    },
+    {
+      "asset_category": "Non Pressurised Cable",
+      "function": "Carry load and fault current safely and reliably, without overheating or causing damage to the environment.",
+      "failure_modes": "Cable fault. Joint failure.",
+      "catastrophic_failure": "Cable Fault. Joint Fault.",
+      "degraded_failures": null,
+      "incipient_failures": null,
+      "functional_failures_excluded": "Sheath damage and or repair. Third party damages."
+    },
+    {
+      "asset_category": "Concrete Structures",
+      "function": "Carries a piece of switchgear and is an integral part of the plant. This excludes plinths for plant which is designed with legs or other types of support for the operable parts of the plant and all power transformers.",
+      "failure_modes": "Loss of residual strength or loss of stability.",
+      "catastrophic_failure": "Failure of the structure resulting in the plant item becoming unstable, the plant tilts or in any other way cannot be operated as a result of the condition of the concrete.",
+      "degraded_failures": "Loss of section. Cracking and spilling of the concrete such that the residual strength is between 80 and 100% of current condition.",
+      "incipient_failures": "Loss of chemical structure and hence reduction in strength.",
+      "functional_failures_excluded": "Plinths. Auxiliary structures not made of concrete. Busbar supports."
+    }
+  ],
+  "row_count": 17
+}

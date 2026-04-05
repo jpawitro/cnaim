@@ -1,0 +1,732 @@
+{
+  "table_id": "normal_expected_life",
+  "table_number": "20",
+  "table_name": "Normal Expected Life",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register  Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Sub-division",
+      "key": "sub_division"
+    },
+    {
+      "original": "Normal  Expected Life",
+      "key": "normal_expected_life"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "sub_division": "Concrete",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "sub_division": "Steel",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "sub_division": "Wood (water soluble copper salt treated; excluding CCA)",
+      "normal_expected_life": 25
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "sub_division": "Wood",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "sub_division": "Other (e.g. fibreglass)",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "sub_division": "Concrete",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "sub_division": "Steel",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "sub_division": "Wood (water soluble copper salt treated; excluding CCA)",
+      "normal_expected_life": 25
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "sub_division": "Wood",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "sub_division": "Other (e.g. fibreglass)",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "sub_division": "Concrete",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "sub_division": "Steel",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "sub_division": "Wood (water soluble copper salt treated; excluding CCA)",
+      "normal_expected_life": 25
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "sub_division": "Wood",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "sub_division": "Other (e.g. fibreglass)",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "sub_division": "Concrete",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "sub_division": "Steel",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "sub_division": "Wood (water soluble copper salt treated; excluding CCA)",
+      "normal_expected_life": 25
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "sub_division": "Wood",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "sub_division": "Other (e.g. fibreglass)",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "sub_division": "Concrete",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "sub_division": "Steel",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "sub_division": "Wood (water soluble copper salt treated; excluding CCA)",
+      "normal_expected_life": 25
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "sub_division": "Wood",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "sub_division": "Other (e.g. fibreglass)",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "sub_division": "ACSR - greased",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "sub_division": "ACSR - non-greased",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "sub_division": "AAAC",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "sub_division": "Cad Cu",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "sub_division": "Cu",
+      "normal_expected_life": 70
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "sub_division": "Other",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "sub_division": "Steelwork",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "sub_division": "Foundation - Fully Encased Concrete",
+      "normal_expected_life": 95
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "sub_division": "Foundation - Earth Grillage",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "sub_division": "Paint System - Galvanising",
+      "normal_expected_life": 30
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "sub_division": "Paint System - Paint",
+      "normal_expected_life": 20
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "sub_division": null,
+      "normal_expected_life": 40
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "sub_division": "ACSR - greased",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "sub_division": "ACSR - non-greased",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "sub_division": "AAAC",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "sub_division": "Cad Cu",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "sub_division": "Cu",
+      "normal_expected_life": 70
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "sub_division": "Other",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "sub_division": "Steelwork",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "sub_division": "Foundation - Fully Encased Concrete",
+      "normal_expected_life": 95
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "sub_division": "Foundation - Earth Grillage",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "sub_division": "Paint System - Galvanising",
+      "normal_expected_life": 30
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "sub_division": "Paint System - Paint",
+      "normal_expected_life": 20
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "sub_division": null,
+      "normal_expected_life": 40
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 65
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 70
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 65
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 70
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "sub_division": null,
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "sub_division": null,
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "sub_division": "Transformer - Pre 1980",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "sub_division": "Transformer - Post 1980",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "sub_division": "Tapchanger",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "sub_division": "Transformer - Pre 1980",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "sub_division": "Transformer - Post 1980",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "sub_division": "Tapchanger",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "sub_division": "ACSR - greased",
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "sub_division": "ACSR - non-greased",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "sub_division": "AAAC",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "sub_division": "Cad Cu",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "sub_division": "Cu",
+      "normal_expected_life": 70
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "sub_division": "Other",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "sub_division": "Steelwork",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "sub_division": "Foundation - Fully Encased Concrete",
+      "normal_expected_life": 95
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "sub_division": "Foundation - Earth Grillage",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "sub_division": "Paint System - Galvanising",
+      "normal_expected_life": 30
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "sub_division": "Paint System - Paint",
+      "normal_expected_life": 20
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "sub_division": null,
+      "normal_expected_life": 40
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 100
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 80
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "sub_division": "Aluminium sheath - Aluminium conductor",
+      "normal_expected_life": 65
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "sub_division": "Aluminium sheath - Copper conductor",
+      "normal_expected_life": 70
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "sub_division": "Lead sheath - Aluminium conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "sub_division": "Lead sheath - Copper conductor",
+      "normal_expected_life": 75
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "sub_division": null,
+      "normal_expected_life": 55
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "sub_division": "Transformer - Pre 1980",
+      "normal_expected_life": 60
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "sub_division": "Transformer - Post 1980",
+      "normal_expected_life": 50
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "sub_division": "Tapchanger",
+      "normal_expected_life": 60
+    }
+  ],
+  "row_count": 141
+}

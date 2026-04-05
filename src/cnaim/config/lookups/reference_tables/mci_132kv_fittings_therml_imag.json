@@ -1,0 +1,63 @@
+{
+  "table_id": "mci_132kv_fittings_therml_imag",
+  "table_number": "197",
+  "table_name": "Measured Condition Input - 132kV Fittings: Thermal Imaging",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Thermal Imaging Result",
+      "key": "condition_criteria_thermal_imaging_result"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_thermal_imaging_result": "Low",
+      "description": "Ambient plus or minus 100C",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 5.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_thermal_imaging_result": "Medium",
+      "description": "Ambient plus 10 - 250C",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_thermal_imaging_result": "High",
+      "description": "Ambient plus more than 250C",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_thermal_imaging_result": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

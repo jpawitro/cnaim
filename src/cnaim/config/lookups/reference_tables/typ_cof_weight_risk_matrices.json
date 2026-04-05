@@ -1,0 +1,462 @@
+{
+  "table_id": "typ_cof_weight_risk_matrices",
+  "table_number": "236",
+  "table_name": "Typical CoF Weightings for Criticality Index Bands for use with Risk Matrices",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category ",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "C1: Typical COF Weightings for Each Criticality Index Band (\u00a3 at 20/21 prices)",
+      "key": "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices"
+    },
+    {
+      "original": "C2: Typical COF Weightings for Each Criticality Index Band (\u00a3 at 20/21 prices)",
+      "key": "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices"
+    },
+    {
+      "original": "C3: Typical COF Weightings for Each Criticality Index Band (\u00a3 at 20/21 prices)",
+      "key": "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices"
+    },
+    {
+      "original": "C4: Typical COF Weightings for Each Criticality Index Band (\u00a3 at 20/21 prices)",
+      "key": "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1798.78,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2569.68,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 3854.53,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 6424.21
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 16999.67,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 24285.24,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 36427.86,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 60713.1
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 16129.41,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 23042.02,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 34563.02,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 57605.04
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 16480.36,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 23543.37,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 35315.05,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 58858.42
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 14921.01,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 21315.73,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 31973.6,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 53289.33
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 17644.46,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 25206.37,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 37809.55,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 63015.92
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 11118.48,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 15883.55,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 23825.32,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 39708.86
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 18632.02,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 26617.17,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 39925.75,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 66542.92
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2893.28,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 4133.25,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 6199.88,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 10333.13
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 3160.82,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 4515.45,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 6773.18,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 11288.63
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 263159.22,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 375941.74,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 563912.61,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 939854.35
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 51215.17,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 73164.53,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 109746.8,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 182911.33
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 17393.48,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 24847.83,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 37271.74,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 62119.57
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 16209.05,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 23155.78,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 34733.67,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 57889.45
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 19409.55,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 27727.93,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 41591.89,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 69319.82
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 21842.3,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 31203.28,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 46804.92,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 78008.2
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 52557.6,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 75082.28,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 112623.43,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 187705.71
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 17571.91,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 25102.73,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 37654.09,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 62756.82
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 16795.26,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 23993.23,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 35989.84,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 59983.07
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 19538.7,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 27912.43,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 41868.64,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 69781.07
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 15589.91,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 22271.3,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 33406.95,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 55678.25
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 16491.93,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 23559.9,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 35339.85,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 58899.75
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1993.15,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2847.36,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 4271.04,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 7118.4
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2933.75,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 4191.07,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 6286.61,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 10477.68
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 14511.55,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 20730.79,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 31096.18,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 51826.97
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 5525.07,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 7892.96,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 11839.43,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 19732.39
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1468.88,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2098.4,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 3147.6,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 5246.0
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 19509.99,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 27871.41,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 41807.12,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 69678.54
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 10410.78,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 14872.54,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 22308.81,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 37181.36
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1700.64,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2429.48,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 3644.22,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 6073.71
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 25130.98,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 35901.4,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 53852.1,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 89753.51
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 4213.41,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 6019.15,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 9028.73,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 15047.89
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 285.12,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 407.31,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 610.97,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1018.28
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 50265.64,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 71808.06,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 107712.09,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 179520.15
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 4223.24,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 6033.21,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 9049.81,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 15083.02
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 451.48,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 644.97,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 967.45,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1612.42
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 204717.38,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 292453.4,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 438680.09,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 731133.49
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 50043.29,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 71490.41,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 107235.62,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 178726.04
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 42326.71,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 60466.73,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 90700.1,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 151166.84
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 55272.53,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 78960.76,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 118441.15,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 197401.91
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 45206.48,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 64580.68,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 96871.03,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 161451.71
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 36997.86,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 52854.08,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 79281.13,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 132135.21
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 47561.0,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 67944.28,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 101916.43,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 169860.71
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 60135.01,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 85907.16,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 128860.75,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 214767.91
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 62194.5,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 88849.28,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 133273.93,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 222123.21
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 76407.14,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 109153.06,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 163729.6,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 272882.66
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 66341.09,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 94772.98,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 142159.48,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 236932.46
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 110031.29,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 157187.56,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 235781.34,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 392968.9
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 142999.65,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 204285.21,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 306427.82,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 510713.03
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 20075.71,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 28679.59,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 43019.39,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 71698.98
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 13540.32,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 19343.32,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 29014.98,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 48358.3
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2396.27,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 3423.24,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 5134.86,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 8558.1
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 89586.02,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 127980.03,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 191970.04,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 319950.07
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 5308.32,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 7583.32,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 11374.98,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 18958.29
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 742.22,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1060.31,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1590.47,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 2650.78
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 351254.41,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 501792.02,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 752688.03,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1254480.05
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 205020.01,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 292885.73,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 439328.6,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 732214.33
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 94453.62,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 134933.74,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 202400.61,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 337334.36
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 266480.05,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 380685.78,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 571028.67,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 951714.46
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 185951.6,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 265645.14,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 398467.71,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 664112.86
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "c1_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 395305.03,
+      "c2_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 564721.47,
+      "c3_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 847082.21,
+      "c4_typical_cof_weightings_for_each_criticality_index_band_gbp_at_20_21_prices": 1411803.68
+    }
+  ],
+  "row_count": 61
+}

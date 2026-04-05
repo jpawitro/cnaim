@@ -1,0 +1,85 @@
+{
+  "families": {
+    "Cable": {
+      "asset_types": [
+        "132kV Sub Cable",
+        "132kV UG Cable (Gas)",
+        "132kV UG Cable (Non Pressurised)",
+        "132kV UG Cable (Oil)",
+        "33kV UG Cable (Gas)",
+        "33kV UG Cable (Non Pressurised)",
+        "33kV UG Cable (Oil)",
+        "66kV UG Cable (Gas)",
+        "66kV UG Cable (Non Pressurised)",
+        "66kV UG Cable (Oil)",
+        "EHV Sub Cable",
+        "HV Sub Cable"
+      ]
+    },
+    "LowVoltage": {
+      "asset_types": [
+        "LV Board (WM)",
+        "LV Board (X-type Network) (WM)",
+        "LV Pillar (ID)",
+        "LV Pillar (OD at Substation)",
+        "LV Pillar (OD not at a Substation)",
+        "LV UGB"
+      ]
+    },
+    "OverheadLine": {
+      "asset_types": [
+        "132kV Fittings",
+        "132kV OHL (Tower Line) Conductor",
+        "132kV Tower",
+        "20kV Poles",
+        "33kV Fittings",
+        "33kV OHL (Tower Line) Conductor",
+        "33kV Pole",
+        "33kV Tower",
+        "6.6/11kV Poles",
+        "66kV Fittings",
+        "66kV OHL (Tower Line) Conductor",
+        "66kV Pole",
+        "66kV Tower",
+        "LV Poles"
+      ]
+    },
+    "Switchgear": {
+      "asset_types": [
+        "132kV CB (Air Insulated Busbars)(ID) (GM)",
+        "132kV CB (Air Insulated Busbars)(OD) (GM)",
+        "132kV CB (Gas Insulated Busbars)(ID) (GM)",
+        "132kV CB (Gas Insulated Busbars)(OD) (GM)",
+        "20kV CB (GM) Primary",
+        "20kV CB (GM) Secondary",
+        "20kV RMU",
+        "20kV Switch (GM)",
+        "33kV CB (Air Insulated Busbars)(ID) (GM)",
+        "33kV CB (Air Insulated Busbars)(OD) (GM)",
+        "33kV CB (Gas Insulated Busbars)(ID) (GM)",
+        "33kV CB (Gas Insulated Busbars)(OD) (GM)",
+        "33kV RMU",
+        "33kV Switch (GM)",
+        "6.6/11kV CB (GM) Primary",
+        "6.6/11kV CB (GM) Secondary",
+        "6.6/11kV RMU",
+        "6.6/11kV Switch (GM)",
+        "6.6/11kV X-type RMU",
+        "66kV CB (Air Insulated Busbars)(ID) (GM)",
+        "66kV CB (Air Insulated Busbars)(OD) (GM)",
+        "66kV CB (Gas Insulated Busbars)(ID) (GM)",
+        "66kV CB (Gas Insulated Busbars)(OD) (GM)",
+        "LV Circuit Breaker"
+      ]
+    },
+    "Transformer": {
+      "asset_types": [
+        "132kV Transformer (GM)",
+        "20kV Transformer (GM)",
+        "33kV Transformer (GM)",
+        "6.6/11kV Transformer (GM)",
+        "66kV Transformer (GM)"
+      ]
+    }
+  }
+}

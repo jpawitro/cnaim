@@ -1,0 +1,455 @@
+{
+  "table_id": "ref_safety_probabilities_cof",
+  "table_number": "224",
+  "table_name": "Reference Safety Probabilities and Cost of Failure",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "PROBABILITY OF EVENT PER ASSET FAILURE: Lost Time Accident",
+      "key": "probability_of_event_per_asset_failure_lost_time_accident"
+    },
+    {
+      "original": "PROBABILITY OF EVENT PER ASSET FAILURE: Death or Serious Injury to public",
+      "key": "probability_of_event_per_asset_failure_death_or_serious_injury_to_public"
+    },
+    {
+      "original": "PROBABILITY OF EVENT PER ASSET FAILURE: Death or Serious Injury to staff",
+      "key": "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff"
+    },
+    {
+      "original": "Reference Safety Cost of Failure*",
+      "key": "reference_safety_cost_of_failure"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000816,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 3.264e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 1.632e-05,
+      "reference_safety_cost_of_failure": 601
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000272,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 1.088e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 5.44e-06,
+      "reference_safety_cost_of_failure": 200
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000272,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 1.088e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 5.44e-06,
+      "reference_safety_cost_of_failure": 200
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000272,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 1.088e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 5.44e-06,
+      "reference_safety_cost_of_failure": 200
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000272,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 1.088e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 5.44e-06,
+      "reference_safety_cost_of_failure": 200
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000136,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.44e-06,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 2.72e-05,
+      "reference_safety_cost_of_failure": 377
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000136,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.44e-06,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 2.72e-05,
+      "reference_safety_cost_of_failure": 377
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000136,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.44e-06,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 2.72e-05,
+      "reference_safety_cost_of_failure": 377
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000544,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 2.176e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.0001088,
+      "reference_safety_cost_of_failure": 1508
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000544,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 2.176e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.0001088,
+      "reference_safety_cost_of_failure": 1508
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000544,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 2.176e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.0001088,
+      "reference_safety_cost_of_failure": 1508
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000544,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 2.176e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.0001088,
+      "reference_safety_cost_of_failure": 1508
+    },
+    {
+      "asset_register_category": "66kV OHL Conductor",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000544,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 2.176e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.0001088,
+      "reference_safety_cost_of_failure": 1508
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000544,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 2.176e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.0001088,
+      "reference_safety_cost_of_failure": 1508
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "probability_of_event_per_asset_failure_lost_time_accident": 7.5e-07,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 7.5e-08,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 7.5e-08,
+      "reference_safety_cost_of_failure": 2
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "probability_of_event_per_asset_failure_lost_time_accident": 4.916e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000434412,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000370311,
+      "reference_safety_cost_of_failure": 9109
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 4.916e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000434412,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000370311,
+      "reference_safety_cost_of_failure": 9109
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 4.916e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000434412,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000370311,
+      "reference_safety_cost_of_failure": 9109
+    },
+    {
+      "asset_register_category": "LV UGB & LV Pillars (OD not at Substation)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 5.193e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000458912,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000391196,
+      "reference_safety_cost_of_failure": 9622
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 4.916e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000434412,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000370311,
+      "reference_safety_cost_of_failure": 9109
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 4.916e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000434412,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000370311,
+      "reference_safety_cost_of_failure": 9109
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000416438,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.75e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.003136986,
+      "reference_safety_cost_of_failure": 36171
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000416438,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.75e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.003136986,
+      "reference_safety_cost_of_failure": 36171
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000416438,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.75e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.003136986,
+      "reference_safety_cost_of_failure": 36171
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000416438,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.75e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.003136986,
+      "reference_safety_cost_of_failure": 36171
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 2.60274e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.00023,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.000196062,
+      "reference_safety_cost_of_failure": 4823
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "66kV Transformer",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000260274,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 0.000115,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.001960616,
+      "reference_safety_cost_of_failure": 23502
+    },
+    {
+      "asset_register_category": "132kV Transformer",
+      "probability_of_event_per_asset_failure_lost_time_accident": 0.000416438,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_public": 5.75e-05,
+      "probability_of_event_per_asset_failure_death_or_serious_injury_to_staff": 0.003136986,
+      "reference_safety_cost_of_failure": 36171
+    }
+  ],
+  "row_count": 60
+}

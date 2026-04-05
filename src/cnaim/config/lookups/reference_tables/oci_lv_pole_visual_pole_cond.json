@@ -1,0 +1,63 @@
+{
+  "table_id": "oci_lv_pole_visual_pole_cond",
+  "table_number": "108",
+  "table_name": "Observed Condition Input - LV Pole: Visual Pole Condition",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "Acceptable",
+      "description": "No significant defects observed. Pole may be new with no/few marks. May include poles with slight damage including (but not limited to) splits and general wear where no material impact on residual strength of pole.",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "Minor wear on pole or physical damage that will lead to loss of strength, but the short term integrity of the pole is not compromised.",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 4.0
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "Severe damage to pole. Parts may be chipped off, rotten or disfigured. e.g. visible splits, cracks, major physical damage affecting strength.",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

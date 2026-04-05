@@ -1,0 +1,63 @@
+{
+  "table_id": "oci_submrn_cable_ext_cond_armr",
+  "table_number": "107",
+  "table_name": "Observed Condition Input - Submarine Cable: External Condition Armour",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria",
+      "key": "condition_criteria"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria": "Good",
+      "description": "The asset component exhibits deterioration but is fit for continued service",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria": "Poor",
+      "description": "e.g. visible damage to armour",
+      "condition_input_factor": 1.6,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria": "Critical",
+      "description": "e.g. mechanical damage to cable armour, loss of armour",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

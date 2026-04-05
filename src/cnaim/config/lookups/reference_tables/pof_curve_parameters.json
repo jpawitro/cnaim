@@ -1,0 +1,151 @@
+{
+  "table_id": "pof_curve_parameters",
+  "table_number": "21",
+  "table_name": "POF Curve Parameters",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Functional Failure Category",
+      "key": "functional_failure_category"
+    },
+    {
+      "original": "K-Value (%)",
+      "key": "k_value_pct"
+    },
+    {
+      "original": "C-Value",
+      "key": "c_value"
+    },
+    {
+      "original": "Health Score Limit",
+      "key": "health_score_limit"
+    }
+  ],
+  "rows": [
+    {
+      "functional_failure_category": "LV UGB",
+      "k_value_pct": 0.0077,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "LV Circuit Breaker",
+      "k_value_pct": 0.0041,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "LV Pillar (ID)",
+      "k_value_pct": 0.0046,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "LV Pillar (OD at Substation) / LV Pillar (OD not at a Substation)",
+      "k_value_pct": 0.0046,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "LV Board (WM)",
+      "k_value_pct": 0.0069,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "HV Switchgear (GM) - Primary",
+      "k_value_pct": 0.0052,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "HV Switchgear (GM) - Distribution (GM)",
+      "k_value_pct": 0.0067,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "EHV Switchgear (GM) (33kV & 22kV assets only)",
+      "k_value_pct": 0.0223,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "EHV Switchgear (GM) (66kV assets only)",
+      "k_value_pct": 0.0512,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "132kV CBs",
+      "k_value_pct": 0.0431,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "HV Transformer (GM)",
+      "k_value_pct": 0.0078,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "EHV Transformer/ 132kV Transformer",
+      "k_value_pct": 0.0454,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "Poles",
+      "k_value_pct": 0.0285,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "Towers",
+      "k_value_pct": 0.0545,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "Fittings",
+      "k_value_pct": 0.0096,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "OHL Conductor",
+      "k_value_pct": 0.008,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "Pressurised Cable (EHV UG Cable (Oil) and 132kV UG Cable (Oil))",
+      "k_value_pct": 2.0944,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "Pressurised Cable (EHV UG Cable (Gas) and 132kV UG Cable (Gas))",
+      "k_value_pct": 4.5036,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "Submarine Cables",
+      "k_value_pct": 0.0202,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    },
+    {
+      "functional_failure_category": "Non Pressurised Cable",
+      "k_value_pct": 0.0658,
+      "c_value": 1.087,
+      "health_score_limit": 4
+    }
+  ],
+  "row_count": 20
+}

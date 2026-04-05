@@ -1,0 +1,63 @@
+{
+  "table_id": "mci_132kv_fittings_ductor_test",
+  "table_number": "198",
+  "table_name": "Measured Condition Input - 132kV Fittings: Ductor Test",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Ductor Test Result",
+      "key": "condition_criteria_ductor_test_result"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_ductor_test_result": "Low",
+      "description": "As commissioned or up to 2.5% variance",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 5.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_ductor_test_result": "Medium",
+      "description": "As commissioned or up to 5% variance",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_ductor_test_result": "High",
+      "description": "As commissioned or over 5% variance",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_ductor_test_result": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

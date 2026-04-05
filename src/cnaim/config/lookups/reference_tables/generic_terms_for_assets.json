@@ -1,0 +1,152 @@
+{
+  "table_id": "generic_terms_for_assets",
+  "table_number": "2",
+  "table_name": "Generic Terms for Assets",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Generic Term",
+      "key": "generic_term"
+    },
+    {
+      "original": "Generic Term.1",
+      "key": "generic_term_1"
+    },
+    {
+      "original": "Health Index Asset Category",
+      "key": "health_index_asset_category"
+    }
+  ],
+  "rows": [
+    {
+      "generic_term": "Cable",
+      "generic_term_1": "Pressurised Cable",
+      "health_index_asset_category": "EHV UG Cable (Oil)"
+    },
+    {
+      "generic_term": "Cable",
+      "generic_term_1": "Pressurised Cable",
+      "health_index_asset_category": "EHV UG Cable (Gas)"
+    },
+    {
+      "generic_term": "Cable",
+      "generic_term_1": "Pressurised Cable",
+      "health_index_asset_category": "132kV UG Cable (Oil)"
+    },
+    {
+      "generic_term": "Cable",
+      "generic_term_1": "Pressurised Cable",
+      "health_index_asset_category": "132kV UG Cable (Gas)"
+    },
+    {
+      "generic_term": "Cable",
+      "generic_term_1": "Non Pressurised Cable",
+      "health_index_asset_category": "EHV UG Cable (Non Pressurised)"
+    },
+    {
+      "generic_term": "Cable",
+      "generic_term_1": "Non Pressurised Cable",
+      "health_index_asset_category": "132kV UG Cable (Non Pressurised)"
+    },
+    {
+      "generic_term": "Cable",
+      "generic_term_1": "Non Pressurised Cable",
+      "health_index_asset_category": "Submarine Cables"
+    },
+    {
+      "generic_term": "Switchgear",
+      "generic_term_1": null,
+      "health_index_asset_category": "LV Switchgear and Other"
+    },
+    {
+      "generic_term": "Switchgear",
+      "generic_term_1": null,
+      "health_index_asset_category": "LV UGB"
+    },
+    {
+      "generic_term": "Switchgear",
+      "generic_term_1": null,
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution"
+    },
+    {
+      "generic_term": "Switchgear",
+      "generic_term_1": null,
+      "health_index_asset_category": "HV Switchgear (GM) - Primary"
+    },
+    {
+      "generic_term": "Switchgear",
+      "generic_term_1": null,
+      "health_index_asset_category": "EHV Switchgear (GM)"
+    },
+    {
+      "generic_term": "Switchgear",
+      "generic_term_1": null,
+      "health_index_asset_category": "132kV CBs"
+    },
+    {
+      "generic_term": "Transformers",
+      "generic_term_1": "HV Transformer",
+      "health_index_asset_category": "HV Transformer (GM)"
+    },
+    {
+      "generic_term": "Transformers",
+      "generic_term_1": "Grid & Primary (or EHV & 132kV) Transformers",
+      "health_index_asset_category": "EHV Transformer"
+    },
+    {
+      "generic_term": "Transformers",
+      "generic_term_1": "Grid & Primary (or EHV & 132kV) Transformers",
+      "health_index_asset_category": "132kV Transformer"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "Poles",
+      "health_index_asset_category": "LV OHL Support"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "Poles",
+      "health_index_asset_category": "EHV OHL Support - Poles"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "Poles",
+      "health_index_asset_category": "HV OHL Support - Poles"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "Towers",
+      "health_index_asset_category": "EHV OHL Support - Towers"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "Towers",
+      "health_index_asset_category": "132kV OHL Support - Towers"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "Fittings",
+      "health_index_asset_category": "EHV OHL Fittings"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "Fittings",
+      "health_index_asset_category": "132kV OHL Fittings"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "OHL Conductor",
+      "health_index_asset_category": "EHV OHL Conductor (Tower Lines)"
+    },
+    {
+      "generic_term": "Overhead Line",
+      "generic_term_1": "OHL Conductor",
+      "health_index_asset_category": "132kV OHL Conductor (Tower Lines)"
+    }
+  ],
+  "row_count": 25
+}

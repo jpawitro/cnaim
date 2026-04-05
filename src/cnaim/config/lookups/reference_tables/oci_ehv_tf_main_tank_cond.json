@@ -1,0 +1,63 @@
+{
+  "table_id": "oci_ehv_tf_main_tank_cond",
+  "table_number": "83",
+  "table_name": "Observed Condition Input - EHV Transformer (GM): Main Tank Condition",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Observed Condition",
+      "key": "condition_criteria_observed_condition"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_observed_condition": "Superficial/minor deterioration",
+      "description": "The transformer may exhibit signs of ageing or marks (e.g. surface level scratches, moss or lichen that can be brushed off). This has no material impact on the probability of failure for the asset. There may be evidence of a small leak, but it does not present a significant impact to the overall probability of failure for the asset, for example: - There is a small active leak from a sub component (e.g. a pressure relief device) but this can be addressed through intervention of the sub component. - The leak this is limited to staining of the asset or the ground around the asset.",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_observed_condition": "Some Deterioration",
+      "description": "The asset shows a level of deterioration such as surface corrosion spots or minor oil leaks. The level of degradation may affect the operation of the asset if left untended (e.g. large patches of rust on the metalwork); and/or there is evidence of a small active oil leak (e.g. droplets or weeping).",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10,
+      "condition_input_collar": 4.0
+    },
+    {
+      "condition_criteria_observed_condition": "Substantial Deterioration",
+      "description": "There is evidence of major corrosion or a significant active and unrepairable oil leak (e.g. pools of oil collecting on the ground or plinth).",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_observed_condition": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

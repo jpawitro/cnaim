@@ -1,0 +1,63 @@
+{
+  "table_id": "mci_132kv_cbl_non_pr_shth_test",
+  "table_number": "184",
+  "table_name": "Measured Condition Input - 132kV Cable (Non Pressurised): Sheath Test",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Sheath Test Result",
+      "key": "condition_criteria_sheath_test_result"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_sheath_test_result": "Pass",
+      "description": "Satisfactory",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_sheath_test_result": "Failed Minor",
+      "description": "Failure requiring minor repair",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_sheath_test_result": "Failed Major",
+      "description": "Unacceptable sheath leakage or condition",
+      "condition_input_factor": 1.6,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_sheath_test_result": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

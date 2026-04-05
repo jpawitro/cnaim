@@ -1,0 +1,63 @@
+{
+  "table_id": "oci_132kv_cable_gas_cry_lead",
+  "table_number": "106",
+  "table_name": "Observed Condition Input - 132kV Cable (Gas): Presence of Crystalline Lead",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Lead Crystallisation Present?",
+      "key": "condition_criteria_lead_crystallisation_present"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_lead_crystallisation_present": "No",
+      "description": "Applicable to cables in the Lead sheath sub-division only: No lead crystallisation has been identified in the sheath of the cable or any other lead sheath cable within the same hydraulic section, on any occasion where the lead sheath of the cable has been exposed (e.g. during fault repair, leak location, construction works etc.).",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_lead_crystallisation_present": "Yes",
+      "description": "Applicable to cables in the Lead sheath sub-division only: Evidence of lead crystallisation has been identified in the sheath of the cable or any other lead sheath cable within the same hydraulic section, on one or more occasions where the lead sheath of the cable has been exposed (e.g. during fault repair, leak location, construction works etc.).",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_lead_crystallisation_present": "Not applicable",
+      "description": "This condition input is not applicable because the exposed cable within the hydraulic section is in the Aluminium sheath sub-division or the Lead sheath cable section has not been exposed.",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_lead_crystallisation_present": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

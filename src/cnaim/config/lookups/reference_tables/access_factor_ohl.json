@@ -1,0 +1,72 @@
+{
+  "table_id": "access_factor_ohl",
+  "table_number": "220",
+  "table_name": "Access Factor: OHL",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Category",
+      "key": "asset_category"
+    },
+    {
+      "original": "Access Factor: Type A Criteria - Normal Access ( & Default Value)",
+      "key": "access_factor_type_a_criteria_normal_access_default_value"
+    },
+    {
+      "original": "Access Factor: Type B Criteria - Major Crossing (e.g. associated span crosses railway line, major road, large waterway etc.) ",
+      "key": "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc"
+    }
+  ],
+  "rows": [
+    {
+      "asset_category": "LV OHL Support",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 3.0
+    },
+    {
+      "asset_category": "HV OHL Support - Poles",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 3.0
+    },
+    {
+      "asset_category": "EHV OHL Support - Poles",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 3.0
+    },
+    {
+      "asset_category": "EHV OHL Support - Towers",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 1.5
+    },
+    {
+      "asset_category": "EHV OHL Fittings (Tower Lines)",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 2.0
+    },
+    {
+      "asset_category": "EHV OHL Conductors (Tower Lines)",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 2.0
+    },
+    {
+      "asset_category": "132kV OHL Support - Tower",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 1.5
+    },
+    {
+      "asset_category": "132kV OHL Fittings (Tower Lines)",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 2.0
+    },
+    {
+      "asset_category": "132kV OHL Conductors (Tower Lines)",
+      "access_factor_type_a_criteria_normal_access_default_value": 1,
+      "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc": 2.0
+    }
+  ],
+  "row_count": 9
+}

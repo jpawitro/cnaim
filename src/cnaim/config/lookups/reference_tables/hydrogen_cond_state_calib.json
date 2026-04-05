@@ -1,0 +1,61 @@
+{
+  "table_id": "hydrogen_cond_state_calib",
+  "table_number": "208",
+  "table_name": "Hydrogen Condition State Calibration",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Hydrogen Condition State",
+      "key": "hydrogen_condition_state"
+    }
+  ],
+  "rows": [
+    {
+      "lower": -0.01,
+      "upper": 20,
+      "bound_description": "Hydrogen (ppm)",
+      "hydrogen_condition_state": 0
+    },
+    {
+      "lower": 20.0,
+      "upper": 40,
+      "bound_description": "Hydrogen (ppm)",
+      "hydrogen_condition_state": 2
+    },
+    {
+      "lower": 40.0,
+      "upper": 100,
+      "bound_description": "Hydrogen (ppm)",
+      "hydrogen_condition_state": 4
+    },
+    {
+      "lower": 100.0,
+      "upper": 200,
+      "bound_description": "Hydrogen (ppm)",
+      "hydrogen_condition_state": 10
+    },
+    {
+      "lower": 200.0,
+      "upper": 10000,
+      "bound_description": "Hydrogen (ppm)",
+      "hydrogen_condition_state": 16
+    }
+  ],
+  "row_count": 5
+}

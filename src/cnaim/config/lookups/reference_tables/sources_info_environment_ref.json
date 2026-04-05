@@ -1,0 +1,35 @@
+{
+  "table_id": "sources_info_environment_ref",
+  "table_number": "17",
+  "table_name": "Sources of Information for Environmental Reference Case",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Fixed value",
+      "key": "fixed_value"
+    },
+    {
+      "original": "Source",
+      "key": "source"
+    }
+  ],
+  "rows": [
+    {
+      "fixed_value": "Environmental cost per litre oil (GBP/litre)",
+      "source": "This is derived from the EU trading value for carbon emissions and is consistent with the value used in Ofgem's RIIO-ED2 Cost Benefit Analysis template (used for the RIIO-ED2 submissions) (at 2020/21 prices)"
+    },
+    {
+      "fixed_value": "Traded carbon price (GBP/t)",
+      "source": "Traded carbon price for 2028 from central scenario in Department for Business, Energy & Industrial Strategy's published 'Updated Short-Term Traded Carbon Values used for UK public policy appraisal (2018)' document (inflated to 2020/21 prices) \u2013 see https://www.gov.uk/government/publications/updated-short-term-traded-carbon-valuesused-for-uk-policy-appraisal-2018"
+    },
+    {
+      "fixed_value": "Conversion factor for cost of SF6 loss c/w cost of carbon (kg CO2e/kg)",
+      "source": "2011/12 Defra conversion factor"
+    }
+  ],
+  "row_count": 3
+}

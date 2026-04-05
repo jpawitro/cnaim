@@ -1,0 +1,140 @@
+{
+  "table_id": "oil_test_collar_calib",
+  "table_number": "207",
+  "table_name": "Oil Test Collar Calibration - HV, EHV and 132kv Transformer (GM)",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Oil Test Collar",
+      "key": "oil_test_collar"
+    },
+    {
+      "original": "Type",
+      "key": "type"
+    }
+  ],
+  "rows": [
+    {
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "oil_test_collar": 0.5,
+      "type": null
+    },
+    {
+      "lower": -0.01,
+      "upper": 250.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": 250.0,
+      "upper": 500.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": 500.0,
+      "upper": 1000.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": 1000.0,
+      "upper": 10000.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 5.5,
+      "type": "HV Transformer (GM)"
+    },
+    {
+      "lower": -0.01,
+      "upper": 50.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 50.0,
+      "upper": 200.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 200.0,
+      "upper": 500.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 500.0,
+      "upper": 1000.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": 1000.0,
+      "upper": 10000.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 5.5,
+      "type": "EHV Transformer (GM)"
+    },
+    {
+      "lower": -0.01,
+      "upper": 50.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "132kV Trabsformer (GM)"
+    },
+    {
+      "lower": 50.0,
+      "upper": 200.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "132kV Trabsformer (GM)"
+    },
+    {
+      "lower": 200.0,
+      "upper": 500.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "132kV Trabsformer (GM)"
+    },
+    {
+      "lower": 500.0,
+      "upper": 1000.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 0.5,
+      "type": "132kV Trabsformer (GM)"
+    },
+    {
+      "lower": 1000.0,
+      "upper": 10000.0,
+      "bound_description": "Oil Condition Score ",
+      "oil_test_collar": 5.5,
+      "type": "132kV Trabsformer (GM)"
+    }
+  ],
+  "row_count": 15
+}

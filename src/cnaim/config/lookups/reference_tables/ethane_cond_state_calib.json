@@ -1,0 +1,61 @@
+{
+  "table_id": "ethane_cond_state_calib",
+  "table_number": "211",
+  "table_name": "Ethane Condition State Calibration",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Ethane Condition State",
+      "key": "ethane_condition_state"
+    }
+  ],
+  "rows": [
+    {
+      "lower": -0.01,
+      "upper": 10,
+      "bound_description": "Ethane (ppm)",
+      "ethane_condition_state": 0
+    },
+    {
+      "lower": 10.0,
+      "upper": 20,
+      "bound_description": "Ethane (ppm)",
+      "ethane_condition_state": 2
+    },
+    {
+      "lower": 20.0,
+      "upper": 50,
+      "bound_description": "Ethane (ppm)",
+      "ethane_condition_state": 4
+    },
+    {
+      "lower": 50.0,
+      "upper": 150,
+      "bound_description": "Ethane (ppm)",
+      "ethane_condition_state": 10
+    },
+    {
+      "lower": 150.0,
+      "upper": 10000,
+      "bound_description": "Ethane (ppm)",
+      "ethane_condition_state": 16
+    }
+  ],
+  "row_count": 5
+}

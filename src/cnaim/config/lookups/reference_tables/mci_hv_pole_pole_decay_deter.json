@@ -1,0 +1,70 @@
+{
+  "table_id": "mci_hv_pole_pole_decay_deter",
+  "table_number": "193",
+  "table_name": "Measured Condition Input - HV Pole: Pole Decay / Deterioration",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Degree of Decay/Deterioration",
+      "key": "condition_criteria_degree_of_decay_deterioration"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_degree_of_decay_deterioration": null,
+      "description": "Zero measured loss of strength",
+      "condition_input_factor": 0.8,
+      "condition_input_cap": 5.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_degree_of_decay_deterioration": "No Significant Decay/Deterioration",
+      "description": "Minor loss of strength",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 6.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_degree_of_decay_deterioration": "High",
+      "description": "Significant loss of residual strength, still within acceptable level",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria_degree_of_decay_deterioration": "Very High",
+      "description": "Residual strength below acceptable level",
+      "condition_input_factor": 1.8,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_degree_of_decay_deterioration": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 5
+}

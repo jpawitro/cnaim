@@ -1,0 +1,63 @@
+{
+  "table_id": "mci_lv_pillar_opsal_adequacy",
+  "table_number": "147",
+  "table_name": "Measured Condition Input - LV Pillar: Operational Adequacy",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Operational Adequacy",
+      "key": "condition_criteria_operational_adequacy"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_operational_adequacy": "Operable",
+      "description": "The LV Board can be operated safely",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_operational_adequacy": "Inoperable - Secure",
+      "description": "The LV Board cannot be operated but is physically secure",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 4.0
+    },
+    {
+      "condition_criteria_operational_adequacy": "Inoperable - Hazardous",
+      "description": "The LV Board cannot be operated and presents a hazard to either operator, the public or both",
+      "condition_input_factor": 1.5,
+      "condition_input_cap": 10,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_operational_adequacy": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

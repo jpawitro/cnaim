@@ -1,0 +1,295 @@
+{
+  "table_id": "size_enviromental_factor",
+  "table_number": "230",
+  "table_name": "Size Environmental Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Size",
+      "key": "size"
+    },
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Size Environmental Factor",
+      "key": "size_environmental_factor"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "size": null,
+      "lower": "-Infinity",
+      "upper": 500.0,
+      "bound_description": "kVA, Environmental Factor Criteria",
+      "size_environmental_factor": 0.6
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "size": null,
+      "lower": 500.0,
+      "upper": 750.0,
+      "bound_description": "kVA, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "size": null,
+      "lower": 750.0,
+      "upper": "Infinity",
+      "bound_description": "kVA, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "size": null,
+      "lower": "-Infinity",
+      "upper": 500.0,
+      "bound_description": "kVA, Environmental Factor Criteria",
+      "size_environmental_factor": 0.6
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "size": null,
+      "lower": 500.0,
+      "upper": 750.0,
+      "bound_description": "kVA, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "size": null,
+      "lower": 750.0,
+      "upper": "Infinity",
+      "bound_description": "kVA, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "size": "33/20kV",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 0.7
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "size": "33/20kV",
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "size": "33/20kV",
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.6
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "size": "33/11 or 6.6kV",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 0.7
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "size": "33/11 or 6.6kV",
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "size": "33/11 or 6.6kV",
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.6
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": "66/20kV",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 0.7
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": null,
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": null,
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.6
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": "66/11 or 6.6kV",
+      "lower": "-Infinity",
+      "upper": 10.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 0.7
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": "66/11 or 6.6kV",
+      "lower": 10.0,
+      "upper": 20.0,
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": "66/11 or 6.6kV",
+      "lower": 20.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, CMR equivalent, Environmental Factor Criteria",
+      "size_environmental_factor": 1.6
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/33kV",
+      "lower": "-Infinity",
+      "upper": 60.0,
+      "bound_description": "MVA, Environmental Factor Criteria",
+      "size_environmental_factor": 0.8
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/33kV",
+      "lower": 60.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/33kV",
+      "lower": "-Infinity",
+      "upper": 60.0,
+      "bound_description": "MVA, Environmental Factor Criteria",
+      "size_environmental_factor": 0.8
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/33kV",
+      "lower": 60.0,
+      "upper": "Infinity",
+      "bound_description": "MVA, Environmental Factor Criteria",
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": "66/33kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 1.2
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "size": "66/11/11kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 1.2
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/11/11kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 0.8
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/11kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 0.7
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/20kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 0.7
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "size": "132/20/20kV",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 0.8
+    },
+    {
+      "asset_register_category": "132kV Switchgear",
+      "size": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "132kV Switchgear",
+      "size": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 1.0
+    },
+    {
+      "asset_register_category": "132kV Switchgear",
+      "size": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 2.5
+    },
+    {
+      "asset_register_category": "132kV Switchgear",
+      "size": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "lower": null,
+      "upper": "Infinity",
+      "bound_description": null,
+      "size_environmental_factor": 2.5
+    }
+  ],
+  "row_count": 32
+}

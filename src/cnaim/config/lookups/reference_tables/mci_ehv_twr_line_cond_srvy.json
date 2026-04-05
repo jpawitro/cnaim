@@ -1,0 +1,63 @@
+{
+  "table_id": "mci_ehv_twr_line_cond_srvy",
+  "table_number": "200",
+  "table_name": "Measured Condition Input - EHV Tower Line Conductor: Corrosion Monitoring Survey",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Corrosion Monitoring Survey Result",
+      "key": "condition_criteria_corrosion_monitoring_survey_result"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_corrosion_monitoring_survey_result": "Low",
+      "description": "No obvious or minor deterioration",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 5.4,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_corrosion_monitoring_survey_result": "Medium/Normal",
+      "description": "Wear is consistent with the duty and environment of the circuit",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 3.0
+    },
+    {
+      "condition_criteria_corrosion_monitoring_survey_result": "High",
+      "description": "Wear indicated that an end of life condition exists",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 8.0
+    },
+    {
+      "condition_criteria_corrosion_monitoring_survey_result": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10.0,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

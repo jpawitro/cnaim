@@ -1,0 +1,117 @@
+{
+  "table_id": "corrosion_category_factor_lut",
+  "table_number": "24",
+  "table_name": "Corrosion Category Factor Lookup Table",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Corrosion Category Index",
+      "key": "corrosion_category_index"
+    },
+    {
+      "original": "Switchgear",
+      "key": "switchgear"
+    },
+    {
+      "original": "Transformers",
+      "key": "transformers"
+    },
+    {
+      "original": "Poles (Wood)",
+      "key": "poles_wood"
+    },
+    {
+      "original": "Poles (Steel)",
+      "key": "poles_steel"
+    },
+    {
+      "original": "Poles (Concrete)",
+      "key": "poles_concrete"
+    },
+    {
+      "original": "Towers (Structure)",
+      "key": "towers_structure"
+    },
+    {
+      "original": "Towers (Fittings)",
+      "key": "towers_fittings"
+    },
+    {
+      "original": "Towers (Conductor)",
+      "key": "towers_conductor"
+    }
+  ],
+  "rows": [
+    {
+      "corrosion_category_index": 1,
+      "switchgear": 0.9,
+      "transformers": 0.9,
+      "poles_wood": 1,
+      "poles_steel": 0.9,
+      "poles_concrete": 0.9,
+      "towers_structure": 0.75,
+      "towers_fittings": 0.95,
+      "towers_conductor": 0.95
+    },
+    {
+      "corrosion_category_index": 2,
+      "switchgear": 0.95,
+      "transformers": 0.95,
+      "poles_wood": 1,
+      "poles_steel": 0.95,
+      "poles_concrete": 0.95,
+      "towers_structure": 0.9,
+      "towers_fittings": 0.95,
+      "towers_conductor": 0.95
+    },
+    {
+      "corrosion_category_index": 3,
+      "switchgear": 1.0,
+      "transformers": 1.0,
+      "poles_wood": 1,
+      "poles_steel": 1.0,
+      "poles_concrete": 1.0,
+      "towers_structure": 1.0,
+      "towers_fittings": 1.0,
+      "towers_conductor": 1.0
+    },
+    {
+      "corrosion_category_index": 4,
+      "switchgear": 1.1,
+      "transformers": 1.1,
+      "poles_wood": 1,
+      "poles_steel": 1.15,
+      "poles_concrete": 1.05,
+      "towers_structure": 1.3,
+      "towers_fittings": 1.05,
+      "towers_conductor": 1.05
+    },
+    {
+      "corrosion_category_index": 5,
+      "switchgear": 1.25,
+      "transformers": 1.25,
+      "poles_wood": 1,
+      "poles_steel": 1.35,
+      "poles_concrete": 1.1,
+      "towers_structure": 1.6,
+      "towers_fittings": 1.2,
+      "towers_conductor": 1.2
+    },
+    {
+      "corrosion_category_index": "Default",
+      "switchgear": 1.0,
+      "transformers": 1.0,
+      "poles_wood": 1,
+      "poles_steel": 1.0,
+      "poles_concrete": 1.0,
+      "towers_structure": 1.0,
+      "towers_fittings": 1.0,
+      "towers_conductor": 1.0
+    }
+  ],
+  "row_count": 6
+}

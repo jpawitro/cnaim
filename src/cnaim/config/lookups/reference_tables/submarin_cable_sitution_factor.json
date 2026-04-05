@@ -1,0 +1,39 @@
+{
+  "table_id": "submarin_cable_sitution_factor",
+  "table_number": "28",
+  "table_name": "Submarine Cable Situation Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Situation",
+      "key": "situation"
+    },
+    {
+      "original": "Score",
+      "key": "score"
+    }
+  ],
+  "rows": [
+    {
+      "situation": "Laid on bed",
+      "score": 1.0
+    },
+    {
+      "situation": "Covered",
+      "score": 0.9
+    },
+    {
+      "situation": "Buried",
+      "score": 0.8
+    },
+    {
+      "situation": "Default",
+      "score": 1.0
+    }
+  ],
+  "row_count": 4
+}

@@ -1,0 +1,2239 @@
+{
+  "table_id": "risk_matrix_weight",
+  "table_number": "238",
+  "table_name": "Risk Matrix Weightings - monetised In-Year Risk",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Criticality Index Band",
+      "key": "criticality_index_band"
+    },
+    {
+      "original": "H1: In Year Monetised Risk Weighting (\u00a3 at 2020/21 prices) For Each Health\nIndex Band",
+      "key": "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band"
+    },
+    {
+      "original": "H2: In Year Monetised Risk Weighting (\u00a3 at 2020/21 prices) For Each Health\nIndex Band",
+      "key": "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band"
+    },
+    {
+      "original": "H3: In Year Monetised Risk Weighting (\u00a3 at 2020/21 prices) For Each Health\nIndex Band",
+      "key": "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band"
+    },
+    {
+      "original": "H4: In Year Monetised Risk Weighting (\u00a3 at 2020/21 prices) For Each Health\nIndex Band",
+      "key": "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band"
+    },
+    {
+      "original": "H5: In Year Monetised Risk Weighting (\u00a3 at 2020/21 prices) For Each Health\nIndex Band",
+      "key": "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 62,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 110
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 21,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 55,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 89,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 157
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 31,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 36,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 82,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 133,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 236
+    },
+    {
+      "asset_register_category": "LV Poles",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 52,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 60,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 137,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 222,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 393
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 20,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 52,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 85,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 150
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 33,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 75,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 121,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 214
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 43,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 49,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 112,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 181,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 321
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 71,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 81,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 187,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 302,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 534
+    },
+    {
+      "asset_register_category": null,
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 21,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 56,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 90,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 159
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 30,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 80,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 129,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 228
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 45,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 52,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 119,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 193,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 341
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 76,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 87,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 199,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 322,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 569
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 22,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 25,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 57,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 92,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 163
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 31,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 81,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 132,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 233
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 46,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 53,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 122,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 197,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 349
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 77,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 89,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 203,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 329,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 581
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 20,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 22,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 51,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 83,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 147
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 32,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 74,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 119,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 211
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 42,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 48,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 110,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 179,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 316
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 70,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 80,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 184,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 298,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 526
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 91,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 148,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 261
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 50,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 57,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 130,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 211,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 373
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 74,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 85,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 196,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 317,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 560
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 124,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 142,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 326,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 528,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 933
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 64,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 104,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 184
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 92,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 149,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 263
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 52,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 60,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 138,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 223,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 394
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 87,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 100,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 229,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 372,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 656
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 42,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 96,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 156,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 276
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 52,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 60,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 138,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 223,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 394
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 79,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 90,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 207,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 335,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 591
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 131,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 150,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 344,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 558,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 986
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 62,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 100,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 177
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 34,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 39,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 88,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 143,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 253
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 50,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 58,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 133,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 215,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 379
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 84,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 96,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 221,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 358,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 632
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 26,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 29,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 68,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 109,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 193
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 42,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 97,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 156,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 276
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 55,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 63,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 145,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 235,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 414
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 92,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 105,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 241,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 391,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 691
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1515,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1739,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3988,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6459,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11412
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2164,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2485,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5698,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9227,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 16303
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3246,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3727,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8547,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13841,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24455
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5411,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6212,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14244,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23069,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40759
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 76,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 87,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 200,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 324,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 572
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 108,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 125,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 285,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 462,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 817
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 163,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 187,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 428,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 693,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1225
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 271,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 311,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 714,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1156,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2042
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 33,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 87,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 142,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 250
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 47,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 54,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 125,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 202,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 357
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 71,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 82,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 187,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 303,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 536
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 119,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 136,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 312,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 506,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 894
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 31,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 36,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 81,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 132,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 233
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 44,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 51,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 116,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 189,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 333
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 66,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 76,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 175,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 283,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 500
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 111,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 127,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 291,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 471,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 833
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 43,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 98,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 158,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 279
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 53,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 61,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 139,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 226,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 399
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 79,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 91,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 209,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 339,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 598
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 132,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 152,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 348,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 564,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 997
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 42,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 48,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 110,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 178,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 314
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 60,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 68,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 157,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 254,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 449
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 89,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 103,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 235,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 381,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 673
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 149,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 171,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 392,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 635,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1122
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 78,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 89,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 205,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 332,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 587
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 111,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 128,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 293,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 474,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 838
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 167,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 192,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 439,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 712,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1257
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 278,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 319,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 732,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1186,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2096
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 34,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 39,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 88,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 143,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 253
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 48,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 55,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 126,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 204,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 361
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 72,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 83,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 189,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 307,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 542
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 120,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 138,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 315,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 511,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 903
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 32,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 84,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 137,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 242
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 46,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 53,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 121,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 195,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 345
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 69,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 79,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 181,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 293,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 518
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 115,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 131,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 302,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 488,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 863
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 43,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 98,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 159,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 281
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 53,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 61,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 140,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 227,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 401
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 80,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 92,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 210,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 341,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 602
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 133,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 153,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 351,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 568,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1004
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 91,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 148,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 261
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 50,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 57,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 130,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 211,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 373
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 74,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 85,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 195,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 317,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 559
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 124,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 142,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 326,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 528,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 932
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 42,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 97,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 156,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 276
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 52,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 60,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 138,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 223,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 395
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 79,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 90,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 207,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 335,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 592
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 131,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 150,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 345,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 558,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 986
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 16,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 43,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 69,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 122
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 61,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 99,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 174
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 91,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 148,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 261
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 58,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 66,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 152,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 247,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 436
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 63,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 102,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 180
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 34,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 39,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 90,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 145,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 256
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 51,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 59,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 134,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 218,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 385
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 85,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 98,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 224,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 363,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 641
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 33,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 87,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 141,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 249
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 47,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 54,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 124,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 202,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 356
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 71,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 81,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 187,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 302,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 534
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 118,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 136,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 311,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 504,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 890
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 86,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 99,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 226,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 366,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 646
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 123,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 141,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 323,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 523,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 924
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 184,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 211,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 484,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 784,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1385
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 307,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 352,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 807,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1307,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2309
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 30
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 43
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 65
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 16,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 61,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 108
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 44,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 51,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 117,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 190,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 335
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 64,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 73,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 167,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 271,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 479
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 95,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 109,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 251,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 406,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 718
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 159,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 182,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 418,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 677,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1197
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 162,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 186,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 426,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 689,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1218
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 231,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 265,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 608,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 985,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1740
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 347,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 398,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 912,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1477,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2610
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 578,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 663,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1520,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2462,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4350
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 20,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 50
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 26,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 43,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 75
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 44,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 71,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 125
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 471,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 541,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1241,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2009,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3550
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 673,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 773,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1772,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2870,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5072
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1010,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1160,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2659,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4306,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7607
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1683,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1933,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4431,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7176,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12679
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2515,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2888,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6621,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10723,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18945
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3593,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4125,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9458,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15318,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27065
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5389,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6188,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14188,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 22977,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40597
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8982,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10313,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23646,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38295,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 67661
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 366,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 420,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 963,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1560,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2757
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 523,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 600,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1376,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2229,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3938
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 784,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 900,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2064,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3343,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5907
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1307,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1501,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3441,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5572,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9845
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 943,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1082,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2482,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4019,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7101
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1347,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1546,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3545,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5741,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10144
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2020,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2319,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5318,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8612,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15216
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3367,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3865,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8863,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14353,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 25360
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2521,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2894,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6636,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10748,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18989
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3601,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4135,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9480,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15354,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27128
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5402,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6202,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14221,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23030,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40692
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9003,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10337,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23701,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38384,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 67819
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 579,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 665,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1526,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2471,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4365
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 828,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 951,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2179,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3529,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6236
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1242,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1426,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3269,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5294,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9354
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2070,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2376,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5448,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8824,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15590
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1179,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1353,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3103,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5025,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8878
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1684,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1933,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4432,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7178,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12683
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2525,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2900,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6649,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10767,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19024
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4209,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4833,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11081,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17946,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 31707
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 318,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 365,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 837,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1356,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2396
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 454,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 522,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1196,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1937,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3423
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 682,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 782,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1794,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2906,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5134
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1136,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1304,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2990,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4843,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8557
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 269,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 309,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 708,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1147,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2026
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 384,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 441,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1012,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1638,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2895
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 576,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 662,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1518,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2458,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4342
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 961,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1103,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2529,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4096,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7237
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 351,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 403,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 925,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1498,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2646
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 502,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 576,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1321,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2140,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3780
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 753,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 864,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1982,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3209,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5670
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1255,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1440,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3303,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5349,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9451
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 287,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 330,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 756,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1225,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2164
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 410,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 471,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1080,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1750,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3092
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 616,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 707,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1621,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2625,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4638
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1026,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1178,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2701,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4375,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7730
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 235,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 270,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 619,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1002,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1771
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 336,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 386,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 884,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1432,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2530
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 504,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 579,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1326,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2148,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3796
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 840,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 964,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2211,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3580,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6326
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 302,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 347,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 796,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1289,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2277
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 432,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 496,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1137,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1841,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3253
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 648,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 744,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1705,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2762,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4879
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1080,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1239,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2842,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4603,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8132
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 877,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1008,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2310,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3741,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6610
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1254,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1439,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3300,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5344,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9443
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1880,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2159,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4950,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8017,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14164
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3134,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3598,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8250,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13361,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23607
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 908,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1042,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2389,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3869,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6836
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1296,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1489,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3413,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5527,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9766
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1945,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2233,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5120,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8291,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14649
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3241,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3721,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8533,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13819,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24416
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1115,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1280,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2935,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4753,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8399
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1593,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1829,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4193,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6791,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11998
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2389,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2743,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6290,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10186,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17997
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(ID)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3982,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4572,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10483,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 16977,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 29995
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 968,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1111,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2548,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4127,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7292
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1383,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1588,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3641,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5896,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10417
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2074,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2382,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5461,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8844,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15626
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated_x000D_\nBusbars)(OD)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3457,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3970,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9102,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14740,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 26044
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1424,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1635,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3748,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6070,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10725
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2034,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2335,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5354,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8671,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15321
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3051,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3503,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8031,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13007,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 22981
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5085,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5838,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13385,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 21678,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38302
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1850,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2124,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4871,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7889,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13938
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2643,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3035,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6958,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11269,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19911
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3965,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4552,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10438,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 16904,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 29867
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6608,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7587,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17396,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28173,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 49778
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line)_x000D_\nConductor",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 46,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 53,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 120,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 195,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 345
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line)_x000D_\nConductor",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 65,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 75,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 172,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 279,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 493
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line)_x000D_\nConductor",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 98,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 113,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 258,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 418,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 739
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line)_x000D_\nConductor",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 163,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 188,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 430,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 697,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1231
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 210,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 241,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 554,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 897,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1584
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 300,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 345,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 791,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1281,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2263
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 451,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 517,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1186,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1921,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3395
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 751,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 862,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1977,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3202,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5658
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 49
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 25,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 71
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 16,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 37,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 60,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 106
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 62,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 100,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 176
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1680,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1929,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4423,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7163,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12655
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2400,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2756,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6318,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10232,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18079
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3600,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4133,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9477,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15348,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27118
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6000,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6889,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15795,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 25581,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 45197
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3169,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3638,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8341,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13509,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23868
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4527,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5197,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11916,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19298,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 34098
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6790,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7796,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17874,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28948,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 51147
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11316,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12993,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 29791,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 48246,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 85244
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 953,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1094,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2508,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4062,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7176
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1361,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1563,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3583,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5802,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10252
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2041,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2344,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5374,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8703,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15378
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3402,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3907,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8957,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14506,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 25629
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2022,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2322,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5324,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8622,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15233
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2889,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3317,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7605,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12316,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 21761
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4333,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4975,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11408,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18475,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 32642
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7222,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8292,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19013,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 30791,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 54403
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2518,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2892,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6630,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10737,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18971
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3598,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4131,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9471,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 15338,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 27101
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5397,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6196,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 14207,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23008,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 40651
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8995,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10327,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 23678,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38346,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 67752
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1160,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1332,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3054,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4947,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8740
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1658,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 1903,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4363,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7066,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12485
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2486,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2855,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6545,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10600,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18728
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4144,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4758,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10908,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17666,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 31214
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3273,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3758,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8617,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13956,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24657
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4676,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5369,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12310,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19937,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 35225
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7015,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8054,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18465,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 29905,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 52837
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 11691,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13423,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 30776,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 49841,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 88062
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2284,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 2623,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 6013,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9738,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 17206
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3263,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 3747,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8590,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13912,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24580
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 4895,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5620,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12885,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 20868,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 36870
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD)(GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8158,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 9367,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 21475,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 34780,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 61450
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "criticality_index_band": "C1",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5115,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 5873,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 13465,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 21807,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 38530
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "criticality_index_band": "C2",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 7307,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 8390,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 19236,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 31153,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 55042
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "criticality_index_band": "C3",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 10960,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 12584,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 28853,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 46729,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 82563
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "criticality_index_band": "C4",
+      "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 18267,
+      "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 20974,
+      "h3_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 48089,
+      "h4_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 77882,
+      "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 137606
+    }
+  ],
+  "row_count": 244
+}

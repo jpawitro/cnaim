@@ -1,0 +1,527 @@
+{
+  "table_id": "reference_costs_of_failure",
+  "table_number": "16",
+  "table_name": "Reference Costs of Failure",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    },
+    {
+      "original": "Financial - (GBP)",
+      "key": "financial_gbp"
+    },
+    {
+      "original": "Safety - (GBP)",
+      "key": "safety_gbp"
+    },
+    {
+      "original": "Environmental - (GBP)",
+      "key": "environmental_gbp"
+    },
+    {
+      "original": "Network Performance - (GBP)",
+      "key": "network_performance_gbp"
+    },
+    {
+      "original": "Total - (GBP)",
+      "key": "total_gbp"
+    }
+  ],
+  "rows": [
+    {
+      "asset_register_category": "LV Poles",
+      "financial_gbp": 1337,
+      "safety_gbp": 601,
+      "environmental_gbp": 90,
+      "network_performance_gbp": 542,
+      "total_gbp": 2570
+    },
+    {
+      "asset_register_category": "6.6/11kV Poles",
+      "financial_gbp": 1913,
+      "safety_gbp": 200,
+      "environmental_gbp": 90,
+      "network_performance_gbp": 1930,
+      "total_gbp": 4133
+    },
+    {
+      "asset_register_category": "20kV Poles",
+      "financial_gbp": 2295,
+      "safety_gbp": 200,
+      "environmental_gbp": 90,
+      "network_performance_gbp": 1930,
+      "total_gbp": 4515
+    },
+    {
+      "asset_register_category": "33kV Pole",
+      "financial_gbp": 2466,
+      "safety_gbp": 200,
+      "environmental_gbp": 90,
+      "network_performance_gbp": 92,
+      "total_gbp": 2947
+    },
+    {
+      "asset_register_category": "66kV Pole",
+      "financial_gbp": 3718,
+      "safety_gbp": 200,
+      "environmental_gbp": 90,
+      "network_performance_gbp": 183,
+      "total_gbp": 4191
+    },
+    {
+      "asset_register_category": "33kV Tower",
+      "financial_gbp": 6749,
+      "safety_gbp": 377,
+      "environmental_gbp": 186,
+      "network_performance_gbp": 580,
+      "total_gbp": 7893
+    },
+    {
+      "asset_register_category": "66kV Tower",
+      "financial_gbp": 12647,
+      "safety_gbp": 377,
+      "environmental_gbp": 186,
+      "network_performance_gbp": 1663,
+      "total_gbp": 14873
+    },
+    {
+      "asset_register_category": "132kV Tower",
+      "financial_gbp": 14623,
+      "safety_gbp": 377,
+      "environmental_gbp": 186,
+      "network_performance_gbp": 4157,
+      "total_gbp": 19343
+    },
+    {
+      "asset_register_category": "33kV Fittings",
+      "financial_gbp": 227,
+      "safety_gbp": 1508,
+      "environmental_gbp": 96,
+      "network_performance_gbp": 267,
+      "total_gbp": 2098
+    },
+    {
+      "asset_register_category": "66kV Fittings",
+      "financial_gbp": 292,
+      "safety_gbp": 1508,
+      "environmental_gbp": 96,
+      "network_performance_gbp": 533,
+      "total_gbp": 2429
+    },
+    {
+      "asset_register_category": "132kV Fittings",
+      "financial_gbp": 485,
+      "safety_gbp": 1508,
+      "environmental_gbp": 96,
+      "network_performance_gbp": 1333,
+      "total_gbp": 3423
+    },
+    {
+      "asset_register_category": "33kV OHL (Tower Line) Conductor",
+      "financial_gbp": 17793,
+      "safety_gbp": 1508,
+      "environmental_gbp": 96,
+      "network_performance_gbp": 1333,
+      "total_gbp": 20731
+    },
+    {
+      "asset_register_category": "66kV OHL (Tower Line) Conductor",
+      "financial_gbp": 23600,
+      "safety_gbp": 1508,
+      "environmental_gbp": 96,
+      "network_performance_gbp": 2667,
+      "total_gbp": 27871
+    },
+    {
+      "asset_register_category": "132kV OHL (Tower Line) Conductor",
+      "financial_gbp": 20408,
+      "safety_gbp": 1508,
+      "environmental_gbp": 96,
+      "network_performance_gbp": 6667,
+      "total_gbp": 28680
+    },
+    {
+      "asset_register_category": "HV Sub Cable",
+      "financial_gbp": 181996,
+      "safety_gbp": 2,
+      "environmental_gbp": 3600,
+      "network_performance_gbp": 190344,
+      "total_gbp": 375942
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Non Pressurised)",
+      "financial_gbp": 31644,
+      "safety_gbp": 2,
+      "environmental_gbp": 726,
+      "network_performance_gbp": 3530,
+      "total_gbp": 35901
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Oil)",
+      "financial_gbp": 129,
+      "safety_gbp": 2,
+      "environmental_gbp": 5885,
+      "network_performance_gbp": 4,
+      "total_gbp": 6019
+    },
+    {
+      "asset_register_category": "33kV UG Cable (Gas)",
+      "financial_gbp": 317,
+      "safety_gbp": 2,
+      "environmental_gbp": 54,
+      "network_performance_gbp": 35,
+      "total_gbp": 407
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Non Pressurised)",
+      "financial_gbp": 64021,
+      "safety_gbp": 2,
+      "environmental_gbp": 726,
+      "network_performance_gbp": 7059,
+      "total_gbp": 71808
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Oil)",
+      "financial_gbp": 140,
+      "safety_gbp": 2,
+      "environmental_gbp": 5885,
+      "network_performance_gbp": 7,
+      "total_gbp": 6033
+    },
+    {
+      "asset_register_category": "66kV UG Cable (Gas)",
+      "financial_gbp": 519,
+      "safety_gbp": 2,
+      "environmental_gbp": 54,
+      "network_performance_gbp": 71,
+      "total_gbp": 645
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Non Pressurised)",
+      "financial_gbp": 109244,
+      "safety_gbp": 2,
+      "environmental_gbp": 1086,
+      "network_performance_gbp": 17684,
+      "total_gbp": 127980
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Oil)",
+      "financial_gbp": 154,
+      "safety_gbp": 2,
+      "environmental_gbp": 7410,
+      "network_performance_gbp": 18,
+      "total_gbp": 7583
+    },
+    {
+      "asset_register_category": "132kV UG Cable (Gas)",
+      "financial_gbp": 802,
+      "safety_gbp": 2,
+      "environmental_gbp": 81,
+      "network_performance_gbp": 176,
+      "total_gbp": 1060
+    },
+    {
+      "asset_register_category": "EHV Sub Cable",
+      "financial_gbp": 285322,
+      "safety_gbp": 2,
+      "environmental_gbp": 3600,
+      "network_performance_gbp": 3530,
+      "total_gbp": 292453
+    },
+    {
+      "asset_register_category": "132kV Sub Cable",
+      "financial_gbp": 480542,
+      "safety_gbp": 2,
+      "environmental_gbp": 3600,
+      "network_performance_gbp": 17648,
+      "total_gbp": 501792
+    },
+    {
+      "asset_register_category": "LV Circuit Breaker",
+      "financial_gbp": 4070,
+      "safety_gbp": 9109,
+      "environmental_gbp": 22,
+      "network_performance_gbp": 11085,
+      "total_gbp": 24285
+    },
+    {
+      "asset_register_category": "LV Pillar (ID)",
+      "financial_gbp": 5669,
+      "safety_gbp": 9109,
+      "environmental_gbp": 22,
+      "network_performance_gbp": 8243,
+      "total_gbp": 23543
+    },
+    {
+      "asset_register_category": "LV Pillar (OD at Substation)",
+      "financial_gbp": 6170,
+      "safety_gbp": 9109,
+      "environmental_gbp": 22,
+      "network_performance_gbp": 8243,
+      "total_gbp": 23543
+    },
+    {
+      "asset_register_category": "LV Pillar (OD not at a Substation)",
+      "financial_gbp": 3429,
+      "safety_gbp": 9622,
+      "environmental_gbp": 22,
+      "network_performance_gbp": 8243,
+      "total_gbp": 21316
+    },
+    {
+      "asset_register_category": "LV UGB",
+      "financial_gbp": 3429,
+      "safety_gbp": 9622,
+      "environmental_gbp": 85,
+      "network_performance_gbp": 2748,
+      "total_gbp": 15884
+    },
+    {
+      "asset_register_category": "LV Board (WM)",
+      "financial_gbp": 7833,
+      "safety_gbp": 9109,
+      "environmental_gbp": 22,
+      "network_performance_gbp": 8243,
+      "total_gbp": 25206
+    },
+    {
+      "asset_register_category": "LV Board (X-type Network) (WM)",
+      "financial_gbp": 9244,
+      "safety_gbp": 9109,
+      "environmental_gbp": 22,
+      "network_performance_gbp": 8243,
+      "total_gbp": 26617
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Primary",
+      "financial_gbp": 7586,
+      "safety_gbp": 23502,
+      "environmental_gbp": 1547,
+      "network_performance_gbp": 40530,
+      "total_gbp": 73165
+    },
+    {
+      "asset_register_category": "6.6/11kV CB (GM) Secondary",
+      "financial_gbp": 6959,
+      "safety_gbp": 4823,
+      "environmental_gbp": 1486,
+      "network_performance_gbp": 11580,
+      "total_gbp": 24848
+    },
+    {
+      "asset_register_category": "6.6/11kV Switch (GM)",
+      "financial_gbp": 5267,
+      "safety_gbp": 4823,
+      "environmental_gbp": 1486,
+      "network_performance_gbp": 11580,
+      "total_gbp": 23156
+    },
+    {
+      "asset_register_category": "6.6/11kV RMU",
+      "financial_gbp": 9839,
+      "safety_gbp": 4823,
+      "environmental_gbp": 1486,
+      "network_performance_gbp": 11580,
+      "total_gbp": 27728
+    },
+    {
+      "asset_register_category": "6.6/11kV X-type RMU",
+      "financial_gbp": 13314,
+      "safety_gbp": 4823,
+      "environmental_gbp": 1486,
+      "network_performance_gbp": 11580,
+      "total_gbp": 31203
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Primary",
+      "financial_gbp": 9504,
+      "safety_gbp": 23502,
+      "environmental_gbp": 1547,
+      "network_performance_gbp": 40530,
+      "total_gbp": 75082
+    },
+    {
+      "asset_register_category": "20kV CB (GM) Secondary",
+      "financial_gbp": 7214,
+      "safety_gbp": 4823,
+      "environmental_gbp": 1486,
+      "network_performance_gbp": 11580,
+      "total_gbp": 25103
+    },
+    {
+      "asset_register_category": "20kV Switch (GM)",
+      "financial_gbp": 6104,
+      "safety_gbp": 4823,
+      "environmental_gbp": 1486,
+      "network_performance_gbp": 11580,
+      "total_gbp": 23993
+    },
+    {
+      "asset_register_category": "20kV RMU",
+      "financial_gbp": 10024,
+      "safety_gbp": 4823,
+      "environmental_gbp": 1486,
+      "network_performance_gbp": 11580,
+      "total_gbp": 27912
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM)",
+      "financial_gbp": 14513,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 29120,
+      "total_gbp": 71490
+    },
+    {
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD) (GM)",
+      "financial_gbp": 17870,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 14740,
+      "total_gbp": 60467
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "financial_gbp": 21984,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 29120,
+      "total_gbp": 78961
+    },
+    {
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "financial_gbp": 21984,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 14740,
+      "total_gbp": 64581
+    },
+    {
+      "asset_register_category": "33kV Switch (GM)",
+      "financial_gbp": 10257,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 14740,
+      "total_gbp": 52854
+    },
+    {
+      "asset_register_category": "33kV RMU",
+      "financial_gbp": 25347,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 14740,
+      "total_gbp": 67944
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID) (GM)",
+      "financial_gbp": 28930,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 29120,
+      "total_gbp": 85907
+    },
+    {
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD) (GM)",
+      "financial_gbp": 46252,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 14740,
+      "total_gbp": 88849
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "financial_gbp": 52176,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 29120,
+      "total_gbp": 109153
+    },
+    {
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "financial_gbp": 52176,
+      "safety_gbp": 23502,
+      "environmental_gbp": 4356,
+      "network_performance_gbp": 14740,
+      "total_gbp": 94773
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM)",
+      "financial_gbp": 81092,
+      "safety_gbp": 36171,
+      "environmental_gbp": 21756,
+      "network_performance_gbp": 153867,
+      "total_gbp": 292866
+    },
+    {
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD) (GM)",
+      "financial_gbp": 38181,
+      "safety_gbp": 36171,
+      "environmental_gbp": 21756,
+      "network_performance_gbp": 38826,
+      "total_gbp": 134934
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID) (GM)",
+      "financial_gbp": 168892,
+      "safety_gbp": 36171,
+      "environmental_gbp": 21756,
+      "network_performance_gbp": 153867,
+      "total_gbp": 380686
+    },
+    {
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD) (GM)",
+      "financial_gbp": 168892,
+      "safety_gbp": 36171,
+      "environmental_gbp": 21756,
+      "network_performance_gbp": 38826,
+      "total_gbp": 265645
+    },
+    {
+      "asset_register_category": "6.6/11kV Transformer (GM)",
+      "financial_gbp": 9297,
+      "safety_gbp": 4823,
+      "environmental_gbp": 3809,
+      "network_performance_gbp": 4343,
+      "total_gbp": 22271
+    },
+    {
+      "asset_register_category": "20kV Transformer (GM)",
+      "financial_gbp": 10585,
+      "safety_gbp": 4823,
+      "environmental_gbp": 3809,
+      "network_performance_gbp": 4343,
+      "total_gbp": 23560
+    },
+    {
+      "asset_register_category": "33kV Transformer (GM)",
+      "financial_gbp": 134796,
+      "safety_gbp": 23502,
+      "environmental_gbp": 17048,
+      "network_performance_gbp": 28940,
+      "total_gbp": 157188
+    },
+    {
+      "asset_register_category": "66kV Transformer (GM)",
+      "financial_gbp": 263015,
+      "safety_gbp": 23502,
+      "environmental_gbp": 17048,
+      "network_performance_gbp": 28940,
+      "total_gbp": 204285
+    },
+    {
+      "asset_register_category": "132kV Transformer (GM)",
+      "financial_gbp": 218932,
+      "safety_gbp": 36171,
+      "environmental_gbp": 35095,
+      "network_performance_gbp": 230441,
+      "total_gbp": 564721
+    }
+  ],
+  "row_count": 61
+}

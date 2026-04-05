@@ -1,0 +1,63 @@
+{
+  "table_id": "oci_132kv_tf_cooler_radtr_cond",
+  "table_number": "94",
+  "table_name": "Observed Condition Input - 132kV Transformer (GM): Coolers / Radiator Condition",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria",
+      "key": "condition_criteria"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria": "Superficial/minor deterioration",
+      "description": "The asset (or a sub component) may exhibit signs of ageing, minor stains or marks (e.g. surface level scratches, moss or lichen that can be brushed off). This has no material impact on the probability of failure for the asset.",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria": "Some Deterioration",
+      "description": "Localised areas of surface corrosion or evidence of oil leaks not associated with the transformer fins (e.g. manifolds and associated pipework, flanges, couplings, valves)",
+      "condition_input_factor": 1.2,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria": "Substantial Deterioration",
+      "description": "Widespread corrosion, loss of crosssectional area or thinning or evidence of oil leakage from the fins.",
+      "condition_input_factor": 1.4,
+      "condition_input_cap": 10,
+      "condition_input_collar": 5.5
+    },
+    {
+      "condition_criteria": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

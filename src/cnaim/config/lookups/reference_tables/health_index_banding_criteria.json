@@ -1,0 +1,61 @@
+{
+  "table_id": "health_index_banding_criteria",
+  "table_number": "5",
+  "table_name": "Health Index Banding Criteria",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Health Index Band",
+      "key": "health_index_band"
+    },
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    }
+  ],
+  "rows": [
+    {
+      "health_index_band": "HI1",
+      "lower": 0.5,
+      "upper": 3.0,
+      "bound_description": "Limit of Health Score"
+    },
+    {
+      "health_index_band": "HI2",
+      "lower": 3.0,
+      "upper": 5.5,
+      "bound_description": "Limit of Health Score"
+    },
+    {
+      "health_index_band": "HI3",
+      "lower": 5.5,
+      "upper": 6.5,
+      "bound_description": "Limit of Health Score"
+    },
+    {
+      "health_index_band": "HI4",
+      "lower": 6.5,
+      "upper": 8.0,
+      "bound_description": "Limit of Health Score"
+    },
+    {
+      "health_index_band": "HI5",
+      "lower": 8.0,
+      "upper": 15.0,
+      "bound_description": "Limit of Health Score"
+    }
+  ],
+  "row_count": 5
+}

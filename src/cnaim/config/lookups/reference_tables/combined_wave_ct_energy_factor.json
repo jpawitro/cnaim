@@ -1,0 +1,47 @@
+{
+  "table_id": "combined_wave_ct_energy_factor",
+  "table_number": "30",
+  "table_name": "Combined Wave & Current Energy Factor",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Intensity",
+      "key": "intensity"
+    },
+    {
+      "original": "Scoring (Sea)",
+      "key": "scoring_sea"
+    },
+    {
+      "original": "Scoring (Landlocked)",
+      "key": "scoring_landlocked"
+    }
+  ],
+  "rows": [
+    {
+      "intensity": "Low",
+      "scoring_sea": 1.1,
+      "scoring_landlocked": 1.0
+    },
+    {
+      "intensity": "Moderate",
+      "scoring_sea": 1.25,
+      "scoring_landlocked": 1.15
+    },
+    {
+      "intensity": "High",
+      "scoring_sea": 1.5,
+      "scoring_landlocked": 1.4
+    },
+    {
+      "intensity": "Default",
+      "scoring_sea": 1.1,
+      "scoring_landlocked": 1.0
+    }
+  ],
+  "row_count": 4
+}

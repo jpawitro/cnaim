@@ -1,0 +1,137 @@
+{
+  "table_id": "distance_from_coast_factor_lut",
+  "table_number": "22",
+  "table_name": "Distance From Coast Factor Lookup Table",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Lower",
+      "key": "lower"
+    },
+    {
+      "original": "Upper",
+      "key": "upper"
+    },
+    {
+      "original": "Bound Description",
+      "key": "bound_description"
+    },
+    {
+      "original": "Switchgear",
+      "key": "switchgear"
+    },
+    {
+      "original": "Transformers",
+      "key": "transformers"
+    },
+    {
+      "original": "Poles (Wood)",
+      "key": "poles_wood"
+    },
+    {
+      "original": "Poles (Steel)",
+      "key": "poles_steel"
+    },
+    {
+      "original": "Poles (Concrete)",
+      "key": "poles_concrete"
+    },
+    {
+      "original": "Towers (Structure)",
+      "key": "towers_structure"
+    },
+    {
+      "original": "Towers (Fittings)",
+      "key": "towers_fittings"
+    },
+    {
+      "original": "Towers (Conductor)",
+      "key": "towers_conductor"
+    }
+  ],
+  "rows": [
+    {
+      "lower": "-Infinity",
+      "upper": 1,
+      "bound_description": "Distance from Coast Banding (km)",
+      "switchgear": 1.35,
+      "transformers": 1.35,
+      "poles_wood": 1,
+      "poles_steel": 1.5,
+      "poles_concrete": 1.25,
+      "towers_structure": 1.8,
+      "towers_fittings": 2.0,
+      "towers_conductor": 2.0
+    },
+    {
+      "lower": 1,
+      "upper": 5,
+      "bound_description": "Distance from Coast Banding (km)",
+      "switchgear": 1.1,
+      "transformers": 1.1,
+      "poles_wood": 1,
+      "poles_steel": 1.2,
+      "poles_concrete": 1.1,
+      "towers_structure": 1.45,
+      "towers_fittings": 1.5,
+      "towers_conductor": 1.5
+    },
+    {
+      "lower": 5,
+      "upper": 10,
+      "bound_description": "Distance from Coast Banding (km)",
+      "switchgear": 1.05,
+      "transformers": 1.05,
+      "poles_wood": 1,
+      "poles_steel": 1.1,
+      "poles_concrete": 1.05,
+      "towers_structure": 1.2,
+      "towers_fittings": 1.2,
+      "towers_conductor": 1.2
+    },
+    {
+      "lower": 10,
+      "upper": 20,
+      "bound_description": "Distance from Coast Banding (km)",
+      "switchgear": 1.0,
+      "transformers": 1.0,
+      "poles_wood": 1,
+      "poles_steel": 1.0,
+      "poles_concrete": 1.0,
+      "towers_structure": 1.0,
+      "towers_fittings": 1.0,
+      "towers_conductor": 1.0
+    },
+    {
+      "lower": 20,
+      "upper": "Infinity",
+      "bound_description": "Distance from Coast Banding (km)",
+      "switchgear": 0.9,
+      "transformers": 0.9,
+      "poles_wood": 1,
+      "poles_steel": 1.0,
+      "poles_concrete": 1.0,
+      "towers_structure": 0.85,
+      "towers_fittings": 1.0,
+      "towers_conductor": 1.0
+    },
+    {
+      "lower": "Default",
+      "upper": "Default",
+      "bound_description": "Distance from Coast Banding (km)",
+      "switchgear": 1.0,
+      "transformers": 1.0,
+      "poles_wood": 1,
+      "poles_steel": 1.0,
+      "poles_concrete": 1.0,
+      "towers_structure": 1.0,
+      "towers_fittings": 1.0,
+      "towers_conductor": 1.0
+    }
+  ],
+  "row_count": 6
+}

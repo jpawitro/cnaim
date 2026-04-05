@@ -1,0 +1,267 @@
+{
+  "table_id": "categorisation_of_assets",
+  "table_number": "1",
+  "table_name": "Categorisation of Assets",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Health Index Asset Category",
+      "key": "health_index_asset_category"
+    },
+    {
+      "original": "Asset Register Category",
+      "key": "asset_register_category"
+    }
+  ],
+  "rows": [
+    {
+      "health_index_asset_category": "LV OHL Support",
+      "asset_register_category": "LV Poles"
+    },
+    {
+      "health_index_asset_category": "LV UGB",
+      "asset_register_category": "LV UGB"
+    },
+    {
+      "health_index_asset_category": "LV Switchgear and Other",
+      "asset_register_category": "LV Board (WM)"
+    },
+    {
+      "health_index_asset_category": "LV Switchgear and Other",
+      "asset_register_category": "LV Board (X-type Network) (WM)"
+    },
+    {
+      "health_index_asset_category": "LV Switchgear and Other",
+      "asset_register_category": "LV Circuit Breaker"
+    },
+    {
+      "health_index_asset_category": "LV Switchgear and Other",
+      "asset_register_category": "LV Pillar (ID)"
+    },
+    {
+      "health_index_asset_category": "LV Switchgear and Other",
+      "asset_register_category": "LV Pillar (OD at Substation)"
+    },
+    {
+      "health_index_asset_category": "LV Switchgear and Other",
+      "asset_register_category": "LV Pillar (OD not at a Substation)"
+    },
+    {
+      "health_index_asset_category": "HV OHL Support - Poles",
+      "asset_register_category": "6.6/11kV Poles"
+    },
+    {
+      "health_index_asset_category": "HV OHL Support - Poles",
+      "asset_register_category": "20kV Poles"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Primary",
+      "asset_register_category": "6.6/11kV CB (GM) Primary"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Primary",
+      "asset_register_category": "20kV CB (GM) Primary"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV CB (GM) Secondary"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV RMU"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV X-type RMU"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "6.6/11kV Switch (GM)"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "20kV CB (GM) Secondary"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "20kV RMU"
+    },
+    {
+      "health_index_asset_category": "HV Switchgear (GM) - Distribution",
+      "asset_register_category": "20kV Switch (GM)"
+    },
+    {
+      "health_index_asset_category": "HV Transformer (GM)",
+      "asset_register_category": "6.6/11kV Transformer (GM)"
+    },
+    {
+      "health_index_asset_category": "HV Transformer (GM)",
+      "asset_register_category": "20kV Transformer (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Support - Poles",
+      "asset_register_category": "33kV Pole"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Support - Poles",
+      "asset_register_category": "66kV Pole"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Fittings",
+      "asset_register_category": "33kV Fittings"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Fittings",
+      "asset_register_category": "66kV Fittings"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Conductor (Tower Lines)",
+      "asset_register_category": "33kV OHL (Tower Line) Conductor"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Conductor (Tower Lines)",
+      "asset_register_category": "66kV OHL (Tower Line) Conductor"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Support - Towers",
+      "asset_register_category": "33kV Tower"
+    },
+    {
+      "health_index_asset_category": "EHV OHL Support - Towers",
+      "asset_register_category": "66kV Tower"
+    },
+    {
+      "health_index_asset_category": "EHV UG Cable (Gas)",
+      "asset_register_category": "33kV UG Cable (Gas)"
+    },
+    {
+      "health_index_asset_category": "EHV UG Cable (Gas)",
+      "asset_register_category": "66kV UG Cable (Gas)"
+    },
+    {
+      "health_index_asset_category": "EHV UG Cable (Non Pressurised)",
+      "asset_register_category": "33kV UG Cable (Non Pressurised)"
+    },
+    {
+      "health_index_asset_category": "EHV UG Cable (Non Pressurised)",
+      "asset_register_category": "66kV UG Cable (Non Pressurised)"
+    },
+    {
+      "health_index_asset_category": "EHV UG Cable (Oil)",
+      "asset_register_category": "33kV UG Cable (Oil)"
+    },
+    {
+      "health_index_asset_category": "EHV UG Cable (Oil)",
+      "asset_register_category": "66kV UG Cable (Oil)"
+    },
+    {
+      "health_index_asset_category": "Submarine Cables",
+      "asset_register_category": "HV Sub Cable"
+    },
+    {
+      "health_index_asset_category": "Submarine Cables",
+      "asset_register_category": "EHV Sub Cable"
+    },
+    {
+      "health_index_asset_category": "Submarine Cables",
+      "asset_register_category": "132kV Sub Cable"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(ID) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Air Insulated Busbars)(OD) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(ID) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV CB (Gas Insulated Busbars)(OD) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV RMU"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "33kV Switch (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(ID) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "66kV CB (Air Insulated Busbars)(OD) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(ID) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Switchgear (GM)",
+      "asset_register_category": "66kV CB (Gas Insulated Busbars)(OD) (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "33kV Transformer (GM)"
+    },
+    {
+      "health_index_asset_category": "EHV Transformer",
+      "asset_register_category": "66kV Transformer (GM)"
+    },
+    {
+      "health_index_asset_category": "132kV OHL Fittings",
+      "asset_register_category": "132kV Fittings"
+    },
+    {
+      "health_index_asset_category": "132kV OHL Conductor (Tower Lines)",
+      "asset_register_category": "132kV OHL (Tower Line) Conductor"
+    },
+    {
+      "health_index_asset_category": "132kV OHL Support - Tower",
+      "asset_register_category": "132kV Tower"
+    },
+    {
+      "health_index_asset_category": "132kV UG Cable (Gas)",
+      "asset_register_category": "132kV UG Cable (Gas)"
+    },
+    {
+      "health_index_asset_category": "132kV UG Cable (Non Pressurised)",
+      "asset_register_category": "132kV UG Cable (Non Pressurised)"
+    },
+    {
+      "health_index_asset_category": "132kV UG Cable (Oil)",
+      "asset_register_category": "132kV UG Cable (Oil)"
+    },
+    {
+      "health_index_asset_category": "132kV CBs",
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(ID) (GM)"
+    },
+    {
+      "health_index_asset_category": "132kV CBs",
+      "asset_register_category": "132kV CB (Air Insulated Busbars)(OD) (GM)"
+    },
+    {
+      "health_index_asset_category": "132kV CBs",
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(ID) (GM)"
+    },
+    {
+      "health_index_asset_category": "132kV CBs",
+      "asset_register_category": "132kV CB (Gas Insulated Busbars)(OD) (GM)"
+    },
+    {
+      "health_index_asset_category": "132kV Transformer",
+      "asset_register_category": "132kV Transformer (GM)"
+    }
+  ],
+  "row_count": 61
+}

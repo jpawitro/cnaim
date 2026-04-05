@@ -1,0 +1,35 @@
+{
+  "table_id": "duty_factor_lut_switchgear",
+  "table_number": "32",
+  "table_name": "Duty Factor Lookup Table - Switchgear",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Number of operations",
+      "key": "number_of_operations"
+    },
+    {
+      "original": "Duty Factor",
+      "key": "duty_factor"
+    }
+  ],
+  "rows": [
+    {
+      "number_of_operations": "Normal/Low",
+      "duty_factor": 1.0
+    },
+    {
+      "number_of_operations": "High (eg: Auto-reclosers)",
+      "duty_factor": 1.2
+    },
+    {
+      "number_of_operations": "Default",
+      "duty_factor": 1.0
+    }
+  ],
+  "row_count": 3
+}

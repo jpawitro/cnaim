@@ -1,0 +1,43 @@
+{
+  "table_id": "critical_index_band_criteria",
+  "table_number": "7",
+  "table_name": "Criticality Index Banding Criteria",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Health Index Band",
+      "key": "health_index_band"
+    },
+    {
+      "original": "HEALTH SCORE USED TO DERIVE TYPICAL POF",
+      "key": "health_score_used_to_derive_typical_pof"
+    }
+  ],
+  "rows": [
+    {
+      "health_index_band": "HI1",
+      "health_score_used_to_derive_typical_pof": 1.23
+    },
+    {
+      "health_index_band": "HI2",
+      "health_score_used_to_derive_typical_pof": 4.25
+    },
+    {
+      "health_index_band": "HI3",
+      "health_score_used_to_derive_typical_pof": 6.0
+    },
+    {
+      "health_index_band": "HI4",
+      "health_score_used_to_derive_typical_pof": 7.25
+    },
+    {
+      "health_index_band": "HI5",
+      "health_score_used_to_derive_typical_pof": 9.0
+    }
+  ],
+  "row_count": 5
+}

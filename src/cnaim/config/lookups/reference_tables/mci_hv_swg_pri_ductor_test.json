@@ -1,0 +1,63 @@
+{
+  "table_id": "mci_hv_swg_pri_ductor_test",
+  "table_number": "154",
+  "table_name": "Measured Condition Input - HV Switchgear (GM) - Primary: Ductor Test",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Condition Criteria: Ductor Test Results",
+      "key": "condition_criteria_ductor_test_results"
+    },
+    {
+      "original": "Description",
+      "key": "description"
+    },
+    {
+      "original": "Condition Input Factor",
+      "key": "condition_input_factor"
+    },
+    {
+      "original": "Condition Input Cap",
+      "key": "condition_input_cap"
+    },
+    {
+      "original": "Condition Input Collar",
+      "key": "condition_input_collar"
+    }
+  ],
+  "rows": [
+    {
+      "condition_criteria_ductor_test_results": "As New",
+      "description": "The joint test result meets the manufacturers recommended value",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_ductor_test_results": "Upto 10% deterioration from New",
+      "description": "Up to 10% deterioration from the \u2018As New\u2019 condition",
+      "condition_input_factor": 1.1,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_ductor_test_results": "> 10% deterioration from New",
+      "description": "Over 10% deterioration from the \u2018As New\u2019 condition",
+      "condition_input_factor": 1.3,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    },
+    {
+      "condition_criteria_ductor_test_results": "Default",
+      "description": "No data available",
+      "condition_input_factor": 1.0,
+      "condition_input_cap": 10,
+      "condition_input_collar": 0.5
+    }
+  ],
+  "row_count": 4
+}

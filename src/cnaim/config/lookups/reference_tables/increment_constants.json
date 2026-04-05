@@ -1,0 +1,67 @@
+{
+  "table_id": "increment_constants",
+  "table_number": "25",
+  "table_name": "Increment Constants",
+  "source": {
+    "workbook": "references/cnaim.pdf",
+    "index_workbook": "README.md",
+    "index_sheet": "1 to 241"
+  },
+  "columns": [
+    {
+      "original": "Increment Constant",
+      "key": "increment_constant"
+    },
+    {
+      "original": "Switchgear",
+      "key": "switchgear"
+    },
+    {
+      "original": "Transformers",
+      "key": "transformers"
+    },
+    {
+      "original": "Submarine Cables",
+      "key": "submarine_cables"
+    },
+    {
+      "original": "Poles (Wood)",
+      "key": "poles_wood"
+    },
+    {
+      "original": "Poles (Steel)",
+      "key": "poles_steel"
+    },
+    {
+      "original": "Poles (Concrete)",
+      "key": "poles_concrete"
+    },
+    {
+      "original": "Towers (Structure)",
+      "key": "towers_structure"
+    },
+    {
+      "original": "Towers (Fittings)",
+      "key": "towers_fittings"
+    },
+    {
+      "original": "Towers (Conductor)",
+      "key": "towers_conductor"
+    }
+  ],
+  "rows": [
+    {
+      "increment_constant": "INC",
+      "switchgear": 0.05,
+      "transformers": 0.05,
+      "submarine_cables": 0.05,
+      "poles_wood": 0,
+      "poles_steel": 0,
+      "poles_concrete": 0,
+      "towers_structure": 0,
+      "towers_fittings": 0,
+      "towers_conductor": 0
+    }
+  ],
+  "row_count": 1
+}
