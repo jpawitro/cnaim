@@ -1,7 +1,9 @@
-# CNAIM Python Foundation
+# CNAIM Python Toolkit
 
-This repository contains a CNAIM-aligned Python module with OOP design and
-configuration-driven lookup tables.
+This repository contains a CNAIM-aligned Python library providing models and
+lookup-driven pipelines for assessing asset condition, probability of failure
+(PoF), consequence of failure (CoF), and final risk profiles used by UK
+Distribution Network Operators (DNOs).
 
 ## Current Scope
 
@@ -11,10 +13,8 @@ configuration-driven lookup tables.
 - Lookup tables stored as JSON under `src/cnaim/config/lookups`.
 - Full reference-table extraction under
     `src/cnaim/config/lookups/reference_tables` (243 tables).
-- Generic table-driven PoF/CoF models covering all asset classes/subclasses
-    from `asset_type_registry.json`.
-- PDF-first regression tests anchored to `references/cnaim.pdf` and
-    completeness markers documented in this README.
+- PDF-first regression tests anchored to the Ofgem CNAIM methodology PDF (link
+    below); local copies are not included in this repository.
 - Unit tests with pytest.
 - Linting and formatting with Ruff.
 - Type checking with mypy.
@@ -36,10 +36,41 @@ configuration-driven lookup tables.
 - `docs/API_REFERENCE.md`: Detailed API documentation and formula mapping.
 - `docs/REFERENCE_TABLES.md`: Complete index of extracted reference tables.
 
+## About CNAIM
+
+CNAIM stands for "Common Network Asset Indices Methodology". It is a UK DNO
+methodology that defines a consistent approach to assessing asset condition,
+deriving condition indices, and converting condition into probability of
+failure (PoF) and consequence of failure (CoF) scores. CNAIM provides:
+
+- a set of calibrated reference tables and scoring rules,
+- procedures for translating inspection and diagnostic information into
+    condition inputs, and
+- guidance to combine PoF and CoF into risk rankings.
+
+This project implements a selection of CNAIM's lookup tables and model
+pipelines to reproduce the parts of the methodology needed for computational
+risk assessment and automated regression tests.
+
+## Project name and rationale
+
+The previous title used the word "Foundation", which can imply an organisation
+or standards body. This repository is a code library and collection of
+utilities — a "toolkit" — so the project has been renamed here to "CNAIM
+Python Toolkit" to better reflect its purpose.
+
+Alternative names you may prefer:
+- CNAIM Python Library
+- CNAIM Toolkit
+- CNAIM Models
+- CNAIM Tools
+
+Tell me which one you prefer and I will update the repo title and badges.
+
 ## PDF-First Completeness Snapshot (2026-04-05)
 
 Baseline:
-- Source PDF: `references/cnaim.pdf`
+- Source PDF: [Ofgem CNAIM methodology](https://www.ofgem.gov.uk/decision/decision-distribution-network-operators-common-network-asset-indices-methodology-0)
 - Methodology edition: DNO Common Network Asset Indices Methodology v2.1 (01 April 2021)
 
 Implemented runtime scope:
@@ -71,7 +102,7 @@ Current implementation status by capability:
     - Generic OCI/MCI derivation breadth outside transformer-focused diagnostics
     - Network performance CoF for EHV/132-specific reference paths
 - Gap:
-    - Long-term risk matrix weighting pipeline (tables 239-241)
+    - Long-term risk matrix weighting pipeline (tables 236-241)
     - Full submarine/location-factor calibration execution path
 
 Prioritized next actions:
@@ -80,6 +111,7 @@ Prioritized next actions:
 3. Add broad OCI/MCI evaluators for non-transformer families.
 4. Resolve the Table 112 mapping defect with one canonical table artifact.
 5. Add section-level regression tests for risk matrices, location factors, and OCI/MCI completeness.
+
 
 ## Development Commands
 
