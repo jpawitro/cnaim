@@ -1,3 +1,9 @@
+"""Simple example runner for CNAIM models.
+
+Constructs an example TransformerAsset, computes PoF and CoF, and prints
+the derived RiskProfile. Run with `python main.py`.
+"""
+
 from cnaim import (
     CNAIMConsequenceModel,
     CNAIMPoFModel,

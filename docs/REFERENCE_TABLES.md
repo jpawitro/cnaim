@@ -4,6 +4,9 @@ This file is generated from `src/cnaim/config/lookups/reference_tables/_manifest
 
 Total tables: 243
 
+Note: CNAIM table numbers are source-aligned and include alphanumeric entries
+such as `8A`, `31A`, and `31B`, so numbering is not strictly sequential.
+
 | Table No. | Table ID | Table Name | JSON File | Rows |
 |---|---|---|---|---:|
 | 1 | categorisation_of_assets | Categorisation of Assets | src/cnaim/config/lookups/reference_tables/categorisation_of_assets.json | 61 |

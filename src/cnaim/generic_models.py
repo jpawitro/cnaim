@@ -704,7 +704,8 @@ class CNAIMConsequenceModel:
             row = self._access_overhead[health_key]
             if asset.overhead_access_type.value == "Type B":
                 value = row.get(
-                    "access_factor_type_b_criteria_major_crossing_e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc"
+                    "access_factor_type_b_criteria_major_crossing_"
+                    "e_g_associated_span_crosses_railway_line_major_road_large_waterway_etc"
                 )
                 if value is not None:
                     return _to_float(value, "financial.access_factor_ohl")
