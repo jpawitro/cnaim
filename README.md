@@ -65,8 +65,6 @@ Alternative names you may prefer:
 - CNAIM Models
 - CNAIM Tools
 
-Tell me which one you prefer and I will update the repo title and badges.
-
 ## PDF-First Completeness Snapshot (2026-04-05)
 
 Baseline:
@@ -123,3 +121,8 @@ uv run ruff format .
 uv run mypy src tests
 uv run pre-commit run --all-files
 ```
+
+## License
+
+- Code: Apache License 2.0 ([LICENSE](LICENSE))
+- CNAIM-derived data and table content attribution: Open Government Licence v3.0 guidance ([DATA_LICENSE.md](DATA_LICENSE.md))

@@ -1,4 +1,4 @@
-"""Foundation package for a CNAIM-aligned risk assessment module."""
+"""Toolkit package for a CNAIM-aligned risk assessment module."""
 
 from .assets import (
     Asset,

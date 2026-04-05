@@ -5,8 +5,9 @@ build-backend = "hatchling.build"
 [project]
 name = "cnaim"
 version = "0.1.0"
-description = "Python implementation foundation for CNAIM risk modelling"
+description = "Python toolkit for CNAIM-based PoF, CoF, and risk modelling"
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.13.8"
 dependencies = [
     "matplotlib>=3.10.8",
