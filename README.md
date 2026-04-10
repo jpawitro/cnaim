@@ -10,11 +10,13 @@ Distribution Network Operators (DNOs).
 - Core domain models with hierarchy: assets, installation, PoF, consequences,
     and final risk profile.
 - Pydantic validation for input models.
+- Submarine cable runtime support for location factor, OCI/MCI condition
+    modifiers, and EHV/132kV network-performance routing.
 - Lookup tables stored as JSON under `src/cnaim/config/lookups`.
 - Full reference-table extraction under
     `src/cnaim/config/lookups/reference_tables` (243 tables).
 - PDF-first regression tests anchored to the Ofgem CNAIM methodology PDF (link
-    below); local copies are not included in this repository.
+    below) with a local baseline copy under `docs/`.
 - Unit tests with pytest.
 - Linting and formatting with Ruff.
 - Type checking with mypy.
@@ -28,6 +30,7 @@ Distribution Network Operators (DNOs).
 - `src/cnaim/pof.py`: Transformer-focused PoF model.
 - `src/cnaim/consequences.py`: Transformer-focused CoF model.
 - `src/cnaim/generic_models.py`: Full-coverage table-driven PoF/CoF models.
+- `src/cnaim/submarine.py`: Submarine cable location-factor and condition-modifier pipeline.
 - `src/cnaim/risk_profile.py`: Final risk profile class and risk matrix mapping.
 - `src/cnaim/config/lookups/*.json`: Lookup/config data for formulas and mappings.
 
@@ -65,7 +68,7 @@ Alternative names you may prefer:
 - CNAIM Models
 - CNAIM Tools
 
-## PDF-First Completeness Snapshot (2026-04-05)
+## PDF-First Completeness Snapshot (2026-04-10)
 
 Baseline:
 - Source PDF: [Ofgem CNAIM methodology](https://www.ofgem.gov.uk/decision/decision-distribution-network-operators-common-network-asset-indices-methodology-0)
@@ -76,6 +79,8 @@ Implemented runtime scope:
 - `CNAIMConsequenceModel` (generic, table-driven): `src/cnaim/generic_models.py`
 - `Transformer11To20kVPoFModel` (specialized): `src/cnaim/pof.py`
 - Transformer diagnostics modifiers (Oil/DGA/FFA): `src/cnaim/diagnostics.py`
+- Submarine cable location factor and OCI/MCI pipeline: `src/cnaim/submarine.py`
+- EHV/132kV secure network-performance CoF routing (including submarine cables): `src/cnaim/generic_models.py`
 - Risk profile composition: `src/cnaim/risk_profile.py`
 
 Coverage metrics:
@@ -91,24 +96,29 @@ Current implementation status by capability:
 - Implemented:
     - Core generic PoF/CoF pipelines
     - Transformer-specific PoF path
+    - Submarine cable location-factor execution path (tables 25, 27-30)
+    - Submarine cable OCI/MCI execution path (tables 107, 189-191)
     - Duty-factor lookups in generic and transformer models
     - Health-score and reliability modifiers in active paths
     - Financial/Safety/Environmental CoF components
+    - EHV/132kV secure network-performance CoF path (table 235)
 - Partial:
-    - In-year risk matrix weighting depth
-    - General location-factor methodology from full lookup stack
-    - Generic OCI/MCI derivation breadth outside transformer-focused diagnostics
-    - Network performance CoF for EHV/132-specific reference paths
+    - General non-submarine location-factor methodology from tables 22-26
+    - Generic OCI/MCI derivation breadth outside transformer and submarine paths
+    - Risk-profile output remains a simplified current-year monetary/matrix view,
+        not the full table-weighted CNAIM risk-matrix workflow
 - Gap:
-    - Long-term risk matrix weighting pipeline (tables 236-241)
-    - Full submarine/location-factor calibration execution path
+    - In-year risk-matrix weighting pipeline (tables 236-238)
+    - Long-term risk / risk-index pipeline (tables 239-241)
+    - Runtime evaluators for the remaining family-specific OCI/MCI tables
+        already extracted under `reference_tables`
 
 Prioritized next actions:
-1. Implement full risk-matrix weighting for in-year and long-term cases (tables 236-241).
-2. Implement location-factor computation from lookup calibration tables (22-30).
-3. Add broad OCI/MCI evaluators for non-transformer families.
-4. Resolve the Table 112 mapping defect with one canonical table artifact.
-5. Add section-level regression tests for risk matrices, location factors, and OCI/MCI completeness.
+1. Implement table-driven in-year and long-term risk-matrix weighting using tables 236-241 and expose those results from `RiskProfile`.
+2. Implement the general non-submarine location-factor stack from tables 22-26 and wire it into `Installation.resolve_generic()` / `CNAIMPoFModel`.
+3. Add family-specific OCI/MCI evaluators for the remaining extracted assets (LV/HV/EHV switchgear, non-submarine cables, poles, towers, fittings, conductors) and convert them into `AssetConditionInput`.
+4. Resolve the Table 112 mapping defect with one canonical table artifact and extend PDF-first regression coverage around manifest/table consistency.
+5. Expand section-level regression tests for risk matrices, generic location factors, and family-specific OCI/MCI execution completeness.
 
 
 ## Development Commands

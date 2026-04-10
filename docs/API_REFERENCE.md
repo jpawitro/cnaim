@@ -2,7 +2,7 @@
 
 ## Overview
 
-The package currently exposes two modeling paths:
+The package currently exposes three API layers:
 
 1. Transformer-focused vertical slice:
    - `Transformer11To20kVPoFModel`
@@ -10,6 +10,10 @@ The package currently exposes two modeling paths:
 2. Table-driven generic coverage for all registry categories:
    - `CNAIMPoFModel`
    - `CNAIMConsequenceModel`
+3. Submarine cable specialisation layered onto the generic path:
+  - `submarine_location_factor`
+  - `SubmarineCableConditionInput`
+  - submarine OCI/MCI modifier helpers
 
 Both paths share core domain models (`Asset`, `Installation`, `PoFResult`,
 `ConsequenceBreakdown`) and can be combined into a final `RiskProfile`.
@@ -22,11 +26,16 @@ Both paths share core domain models (`Asset`, `Installation`, `PoFResult`,
   - `Asset`, `NetworkAsset`
   - `TransformerAsset`, `CableAsset`, `SwitchgearAsset`, `OverheadLineAsset`, `LowVoltageAsset`
   - `AssetCatalog`
+- Submarine enums:
+  - `SubmarineTopography`, `SubmarineSituation`
+  - `CombinedWaveEnergyIntensity`
+  - `SubmarineArmourCondition`, `SheathTestResult`
 - Installation:
   - `Installation`, `ResolvedInstallation`
 - PoF:
   - `Transformer11To20kVPoFModel`, `TransformerConditionInput`
   - `CNAIMPoFModel`, `AssetConditionInput`
+  - `SubmarineCableConditionInput`
   - `PoFResult`
 - Consequences:
   - `Transformer11kVConsequenceModel`
@@ -34,6 +43,12 @@ Both paths share core domain models (`Asset`, `Installation`, `PoFResult`,
   - `ConsequenceBreakdown`
 - Diagnostics helpers:
   - `oil_test_modifier`, `dga_test_modifier`, `ffa_test_modifier`
+- Submarine helpers:
+  - `submarine_location_factor`
+  - `submarine_armour_condition_modifier`
+  - `submarine_sheath_test_modifier`
+  - `submarine_partial_discharge_modifier`
+  - `submarine_fault_history_modifier`
 - Risk:
   - `RiskProfile`
 
@@ -58,11 +73,14 @@ Both paths share core domain models (`Asset`, `Installation`, `PoFResult`,
 - Default resolution methods:
   - `Installation.resolve_for_transformer()`
   - `Installation.resolve_generic()`
+  - `Installation.resolve_for_submarine_cable()`
 
 ### Conditions
 
 - `TransformerConditionInput`: transformer vertical-slice condition inputs.
 - `AssetConditionInput`: generic observed/measured factors and cap/collar values.
+- `SubmarineCableConditionInput`: submarine-specific observed/measured raw
+  inputs converted into `AssetConditionInput` using CNAIM MMI combination rules.
 
 ### Outputs
 
@@ -89,7 +107,8 @@ Implementation flow:
    - transformer: utilization and optional tap-operation factors
    - switchgear/lv: `switchgear_duty_profile`
    - cable: DF1 x DF2
-5. Apply health equations and compute PoF.
+5. For submarine cable assets, resolve location factor from tables 25 and 27-30.
+6. Apply health equations and compute PoF.
 
 Reference tables used:
 
@@ -97,6 +116,11 @@ Reference tables used:
 - `generic_terms_for_assets`
 - `pof_curve_parameters`
 - `normal_expected_life`
+- `increment_constants`
+- `submarin_cable_topog_factor`
+- `submarin_cable_sitution_factor`
+- `submarin_cable_wind_wave`
+- `combined_wave_ct_energy_factor`
 - `duty_factor_lut_distrib_tf`
 - `duty_factor_lut_grid_prim_tf`
 - `duty_factor_lut_switchgear`
@@ -114,7 +138,8 @@ Component formulas:
 - Financial: $F = F_{ref} \cdot f_{type} \cdot f_{access}$
 - Safety: $S = S_{ref} \cdot f_{safety} \cdot f_{reduction}$
 - Environmental: $E = E_{ref} \cdot f_{size} \cdot f_{proximity} \cdot f_{bunding}$
-- Network: $N = N_{ref} \cdot f_{customer}$
+- Network (LV/HV): $N = N_{ref} \cdot f_{customer}$
+- Network (EHV/132kV secure assets): $N = N_{ref,secure}$
 
 Reference tables used:
 
@@ -129,7 +154,15 @@ Reference tables used:
 - `size_enviromental_factor`
 - `location_environ_al_factor`
 - `ref_nw_perf_cost_fail_lv_hv`
+- `ref_nw_perf_cost_of_fail_ehv`
 - `customer_no_adjust_lv_hv_asset`
+
+Special routing currently implemented:
+
+- EHV and 132kV secure-network assets use table 235 directly for network
+  performance cost of failure.
+- `EHV Sub Cable` and `132kV Sub Cable` are routed through that same secure
+  network path.
 
 ### Transformer Vertical Slice
 
@@ -157,6 +190,25 @@ All diagnostics helpers return a `ConditionModifier` object
   - factor from FFA banding table
   - collar from $2.33 \cdot ffa^{0.68}$ with CNAIM bounds
 
+### Submarine Helpers
+
+The submarine helpers expose the currently implemented non-transformer
+condition/location execution path from the methodology:
+
+- `submarine_location_factor(...)`
+  - computes CNAIM equations 18 and 19 using tables 25 and 27-30
+- `submarine_armour_condition_modifier(...)`
+  - observed condition input from table 107
+- `submarine_sheath_test_modifier(...)`
+  - measured condition input from table 189
+- `submarine_partial_discharge_modifier(...)`
+  - measured condition input from table 190
+- `submarine_fault_history_modifier(...)`
+  - measured condition input from table 191
+- `SubmarineCableConditionInput.to_asset_condition_input()`
+  - combines submarine OCI/MCI values into generic `AssetConditionInput`
+    using CNAIM MMI parameters
+
 ## Health and PoF Equations
 
 Implemented in `cnaim.health`:
@@ -180,6 +232,12 @@ Computation summary:
 - Monetary risk: $risk = pof \cdot total\_cof$
 - Matrix coordinates from CHS and CI bands in `risk_matrix_bands.json`
 - Risk level thresholding (`Low`, `Medium`, `High`) from lookup config
+
+Current limitation:
+
+- The runtime `RiskProfile` is still the simplified current-year monetary risk
+  view. The methodology's table-driven in-year and long-term risk weighting
+  pipeline from tables 236-241 is not yet executed.
 
 ## Reference Table Index
 
@@ -235,4 +293,43 @@ modifier = oil_test_modifier(
 )
 
 print(modifier.factor, modifier.cap, modifier.collar)
+```
+
+### Submarine End-to-End Example
+
+```python
+from cnaim import (
+  CNAIMConsequenceModel,
+  CNAIMPoFModel,
+  CableAsset,
+  CombinedWaveEnergyIntensity,
+  Installation,
+  SheathTestResult,
+  SubmarineArmourCondition,
+  SubmarineCableConditionInput,
+  SubmarineSituation,
+  SubmarineTopography,
+)
+
+asset = CableAsset(
+  asset_id="SUB-001",
+  asset_name="EHV Submarine Cable",
+  asset_category="EHV Sub Cable",
+  topography=SubmarineTopography.VERY_HIGH,
+  situation=SubmarineSituation.BURIED,
+  wind_wave_rating=2,
+  combined_wave_energy_intensity=CombinedWaveEnergyIntensity.MODERATE,
+  is_landlocked=False,
+)
+
+installation = Installation(age_years=20)
+condition = SubmarineCableConditionInput(
+  armour_condition=SubmarineArmourCondition.POOR,
+  sheath_test_result=SheathTestResult.FAILED_MINOR,
+  partial_discharge_level="Medium",
+  fault_rate=0.02,
+).to_asset_condition_input()
+
+pof = CNAIMPoFModel().calculate_current(asset=asset, installation=installation, condition=condition)
+cof = CNAIMConsequenceModel().calculate(asset)
 ```

@@ -77,6 +77,71 @@ class Installation(BaseModel):
             location_factor=self.location_factor if self.location_factor is not None else 1.0,
         )
 
+    def resolve_for_submarine_cable(
+        self,
+        topography: str = "Default",
+        situation: str = "Default",
+        wind_wave_rating: int | None = None,
+        combined_wave_energy_intensity: str = "Default",
+        is_landlocked: bool = False,
+    ) -> ResolvedInstallation:
+        """Resolve Installation for a submarine cable, computing location factor from Tables 27-30.
+
+        If ``self.location_factor`` is explicitly set it takes precedence over
+        the computed value. All other fields follow the same defaults as
+        ``resolve_generic()``.
+
+        Parameters
+        ----------
+        topography:
+            Topography classification string matching Table 27.
+        situation:
+            Situation string matching Table 28.
+        wind_wave_rating:
+            Integer rating (1/2/3) matching Table 29; ``None`` = default.
+        combined_wave_energy_intensity:
+            Intensity string matching Table 30.
+        is_landlocked:
+            Selects landlocked scoring columns when ``True``.
+        """
+        from .submarine import submarine_location_factor
+
+        if self.location_factor is not None:
+            computed_lf = self.location_factor
+        else:
+            computed_lf = submarine_location_factor(
+                topography=topography,
+                situation=situation,
+                wind_wave_rating=wind_wave_rating,
+                combined_wave_energy_intensity=combined_wave_energy_intensity,
+                is_landlocked=is_landlocked,
+            )
+
+        return ResolvedInstallation(
+            age_years=self.age_years,
+            placement=self.placement or Placement.OUTDOOR,
+            utilisation_pct=self.utilisation_pct if self.utilisation_pct is not None else 100.0,
+            altitude_m=self.altitude_m if self.altitude_m is not None else 0.0,
+            distance_from_coast_km=self.distance_from_coast_km
+            if self.distance_from_coast_km is not None
+            else 100.0,
+            corrosion_category_index=self.corrosion_category_index
+            if self.corrosion_category_index is not None
+            else 1,
+            reliability_factor=self.reliability_factor
+            if self.reliability_factor is not None
+            else 1.0,
+            operating_voltage_pct=self.operating_voltage_pct
+            if self.operating_voltage_pct is not None
+            else 100.0,
+            tap_operations_per_day=self.tap_operations_per_day
+            if self.tap_operations_per_day is not None
+            else 7.0,
+            switchgear_duty_profile=self.switchgear_duty_profile
+            or SwitchgearDutyProfile.NORMAL_LOW,
+            location_factor=computed_lf,
+        )
+
     def resolve_generic(self) -> ResolvedInstallation:
         """Resolve generic defaults used by all-asset table-driven engines."""
         return ResolvedInstallation(

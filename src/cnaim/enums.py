@@ -95,3 +95,49 @@ class SwitchgearDutyProfile(StrEnum):
 
     NORMAL_LOW = "Normal/Low"
     HIGH = "High"
+
+
+class SubmarineTopography(StrEnum):
+    """Topography classification for submarine cable location factor (Table 27)."""
+
+    LOW = "Low Detrimental Topography"
+    MEDIUM = "Medium Detrimental Topography"
+    HIGH = "High Detrimental Topography"
+    VERY_HIGH = "Very High Detrimental Topography"
+    DEFAULT = "Default"
+
+
+class SubmarineSituation(StrEnum):
+    """Physical situation/installation of submarine cable (Table 28)."""
+
+    LAID_ON_BED = "Laid on bed"
+    COVERED = "Covered"
+    BURIED = "Buried"
+    DEFAULT = "Default"
+
+
+class CombinedWaveEnergyIntensity(StrEnum):
+    """Combined wave & current energy intensity for submarine cables (Table 30)."""
+
+    LOW = "Low"
+    MODERATE = "Moderate"
+    HIGH = "High"
+    DEFAULT = "Default"
+
+
+class SubmarineArmourCondition(StrEnum):
+    """External condition of armour for submarine cable OCI (Table 107)."""
+
+    GOOD = "Good"
+    POOR = "Poor"
+    CRITICAL = "Critical"
+    DEFAULT = "Default"
+
+
+class SheathTestResult(StrEnum):
+    """Sheath test result for submarine cable MCI (Table 189)."""
+
+    PASS = "Pass"
+    FAILED_MINOR = "Failed Minor"
+    FAILED_MAJOR = "Failed Major"
+    DEFAULT = "Default"

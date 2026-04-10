@@ -19,6 +19,13 @@ from .diagnostics import (
     ffa_test_modifier,
     oil_test_modifier,
 )
+from .enums import (
+    CombinedWaveEnergyIntensity,
+    SheathTestResult,
+    SubmarineArmourCondition,
+    SubmarineSituation,
+    SubmarineTopography,
+)
 from .generic_models import (
     AssetConditionInput,
     CNAIMConsequenceModel,
@@ -31,6 +38,14 @@ from .pof import (
     TransformerConditionInput,
 )
 from .risk_profile import RiskProfile
+from .submarine import (
+    SubmarineCableConditionInput,
+    submarine_armour_condition_modifier,
+    submarine_fault_history_modifier,
+    submarine_location_factor,
+    submarine_partial_discharge_modifier,
+    submarine_sheath_test_modifier,
+)
 
 __all__ = [
     "Asset",
@@ -39,6 +54,7 @@ __all__ = [
     "CNAIMConsequenceModel",
     "CNAIMPoFModel",
     "CableAsset",
+    "CombinedWaveEnergyIntensity",
     "ConsequenceBreakdown",
     "dga_test_modifier",
     "ffa_test_modifier",
@@ -50,9 +66,19 @@ __all__ = [
     "PoFResult",
     "ResolvedInstallation",
     "RiskProfile",
+    "SheathTestResult",
+    "SubmarineArmourCondition",
+    "SubmarineCableConditionInput",
+    "SubmarineSituation",
+    "SubmarineTopography",
     "SwitchgearAsset",
     "Transformer11To20kVPoFModel",
     "Transformer11kVConsequenceModel",
     "TransformerAsset",
     "TransformerConditionInput",
+    "submarine_armour_condition_modifier",
+    "submarine_fault_history_modifier",
+    "submarine_location_factor",
+    "submarine_partial_discharge_modifier",
+    "submarine_sheath_test_modifier",
 ]

@@ -15,7 +15,7 @@ from dataclasses import dataclass
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from .assets import NetworkAsset
+from .assets import CableAsset, NetworkAsset
 from .consequences import ConsequenceBreakdown
 from .enums import AssetFamily, RiskLevel
 from .health import (
@@ -39,6 +39,35 @@ def _to_float(value: object, context: str) -> float:
     if numeric is None:
         raise ValueError(f"Expected numeric value for {context}, got {value!r}")
     return numeric
+
+
+def _is_submarine_asset(asset: CableAsset) -> bool:
+    """Return ``True`` when the cable asset is a submarine cable.
+
+    Detection is primarily table-driven: the asset category must map to the
+    "Submarine Cables" functional failure category. As a fast path we also
+    accept any asset that has at least one submarine-specific field populated
+    (topography, situation, wind_wave_rating, or combined_wave_energy_intensity).
+    """
+    # Fast path: submarine-specific fields are populated
+    if (
+        asset.topography is not None
+        or asset.situation is not None
+        or asset.wind_wave_rating is not None
+        or asset.combined_wave_energy_intensity is not None
+    ):
+        return True
+
+    # Category-based detection for known submarine cable category names
+    if asset.asset_category is not None:
+        cat = canonical_name(asset.asset_category)
+        # Matches "EHV Sub Cable", "132kV Sub Cable", etc.
+        if "sub" in cat and "cable" in cat:
+            return True
+        if "submarine" in cat:
+            return True
+
+    return False
 
 
 @dataclass(frozen=True)
@@ -208,7 +237,21 @@ class CNAIMPoFModel:
         if asset.asset_category is None:
             raise ValueError("asset.asset_category must be provided")
 
-        resolved_installation = installation.resolve_generic()
+        # Route submarine cables through the submarine location-factor resolver
+        if isinstance(asset, CableAsset) and _is_submarine_asset(asset):
+            resolved_installation = installation.resolve_for_submarine_cable(
+                topography=asset.topography.value if asset.topography is not None else "Default",
+                situation=asset.situation.value if asset.situation is not None else "Default",
+                wind_wave_rating=asset.wind_wave_rating,
+                combined_wave_energy_intensity=(
+                    asset.combined_wave_energy_intensity.value
+                    if asset.combined_wave_energy_intensity is not None
+                    else "Default"
+                ),
+                is_landlocked=asset.is_landlocked,
+            )
+        else:
+            resolved_installation = installation.resolve_generic()
         condition_input = condition or AssetConditionInput()
 
         expected_life_years = self._resolve_expected_life_years(
@@ -586,6 +629,16 @@ class CNAIMConsequenceModel:
             "rows"
         ]
 
+        # EHV & 132kV secure network reference costs (Table 235) — used for
+        # all EHV/132kV assets including submarine cables.
+        self._network_reference_ehv = {
+            canonical_name(str(row["asset_category"])): _to_float(
+                row["reference_cost_for_assets_in_secure_networks_gbp"],
+                "ehv_network.reference_cost",
+            )
+            for row in load_reference_table("ref_nw_perf_cost_of_fail_ehv")["rows"]
+        }
+
     def calculate(self, asset: NetworkAsset) -> ConsequenceBreakdown:
         """Calculate financial/safety/environmental/network CoF components."""
         if asset.asset_category is None:
@@ -914,6 +967,18 @@ class CNAIMConsequenceModel:
             reference["network_performance_gbp"],
             "reference.network_performance_gbp",
         )
+
+        # EHV & 132kV assets — use secure network methodology (Table 235).
+        # The reference cost from that table already incorporates load-at-risk
+        # and outage probability, so no customer-factor adjustment is applied.
+        if asset.asset_category is not None:
+            ehv_key = canonical_name(asset.asset_category)
+            if ehv_key in self._network_reference_ehv:
+                return self._network_reference_ehv[ehv_key]
+            # Also check health category for EHV/132kV assets not in asset-level table
+            hc_key = canonical_name(health_category)
+            if hc_key in self._network_reference_ehv:
+                return self._network_reference_ehv[hc_key]
 
         if asset.no_customers <= 0:
             return base

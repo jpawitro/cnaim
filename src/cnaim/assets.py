@@ -8,8 +8,11 @@ from .enums import (
     AccessType,
     AssetFamily,
     CableLayout,
+    CombinedWaveEnergyIntensity,
     OverheadAccessType,
     RiskLevel,
+    SubmarineSituation,
+    SubmarineTopography,
     TransformerType,
 )
 from .lookups import load_lookup
@@ -72,6 +75,13 @@ class CableAsset(NetworkAsset):
 
     family: AssetFamily = AssetFamily.CABLE
     cable_type: str | None = Field(default=None, min_length=1)
+
+    # Submarine-specific fields (all optional; non-submarine cables leave these as None/False)
+    topography: SubmarineTopography | None = None
+    situation: SubmarineSituation | None = None
+    wind_wave_rating: int | None = Field(default=None, ge=1, le=3)
+    combined_wave_energy_intensity: CombinedWaveEnergyIntensity | None = None
+    is_landlocked: bool = False
 
     @model_validator(mode="after")
     def _default_category(self) -> CableAsset:

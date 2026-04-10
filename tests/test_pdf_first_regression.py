@@ -11,7 +11,7 @@ from cnaim import Installation, Transformer11To20kVPoFModel, TransformerAsset
 from cnaim.health import mmi
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PDF_PATH = PROJECT_ROOT / "references" / "cnaim.pdf"
+PDF_PATH = PROJECT_ROOT / "docs" / "dno_common_network_asset_indices_methodology_v2.1_final_01-04-2021.pdf"
 README_PATH = PROJECT_ROOT / "README.md"
 
 
