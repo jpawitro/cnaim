@@ -5,6 +5,11 @@ from __future__ import annotations
 from pydantic import BaseModel, ConfigDict, Field
 
 from .enums import Placement, SwitchgearDutyProfile
+from .location_factors import (
+    location_factor_column_for_asset,
+    location_factor_from_tables,
+    resolve_placement,
+)
 from .lookups import load_lookup
 
 
@@ -43,26 +48,51 @@ class Installation(BaseModel):
     switchgear_duty_profile: SwitchgearDutyProfile | None = None
     location_factor: float | None = Field(default=None, gt=0)
 
-    def resolve_for_transformer(self) -> ResolvedInstallation:
-        """Resolve missing transformer-related fields using lookup defaults."""
-        location_cfg = load_lookup("location_factor_transformer_11_20kv.json")
+    def resolve_for_transformer(
+        self,
+        asset_category: str | None = None,
+        sub_division: str | None = None,
+    ) -> ResolvedInstallation:
+        """Resolve missing transformer-related fields using table-driven defaults."""
         duty_cfg = load_lookup("duty_factor_transformer_11_20kv.json")
+
+        resolved_placement = resolve_placement(
+            explicit_placement=self.placement,
+            asset_category=asset_category,
+            fallback=Placement.INDOOR,
+        )
+        resolved_altitude = self.altitude_m if self.altitude_m is not None else 150.0
+        resolved_distance = (
+            self.distance_from_coast_km if self.distance_from_coast_km is not None else 15.0
+        )
+        resolved_corrosion = (
+            self.corrosion_category_index if self.corrosion_category_index is not None else 3
+        )
+
+        if self.location_factor is not None:
+            computed_lf = self.location_factor
+        else:
+            factor_column = location_factor_column_for_asset(
+                asset_category=asset_category,
+                sub_division=sub_division,
+            ) or "transformers"
+            computed_lf = location_factor_from_tables(
+                factor_column=factor_column,
+                placement=resolved_placement,
+                altitude_m=resolved_altitude,
+                distance_from_coast_km=resolved_distance,
+                corrosion_category_index=resolved_corrosion,
+            )
 
         return ResolvedInstallation(
             age_years=self.age_years,
-            placement=self.placement or Placement(location_cfg["default_placement"]),
+            placement=resolved_placement,
             utilisation_pct=self.utilisation_pct
             if self.utilisation_pct is not None
             else float(duty_cfg["default_utilisation_pct"]),
-            altitude_m=self.altitude_m
-            if self.altitude_m is not None
-            else float(location_cfg["default_altitude_m"]),
-            distance_from_coast_km=self.distance_from_coast_km
-            if self.distance_from_coast_km is not None
-            else float(location_cfg["default_distance_from_coast_km"]),
-            corrosion_category_index=self.corrosion_category_index
-            if self.corrosion_category_index is not None
-            else int(location_cfg["default_corrosion_category_index"]),
+            altitude_m=resolved_altitude,
+            distance_from_coast_km=resolved_distance,
+            corrosion_category_index=resolved_corrosion,
             reliability_factor=self.reliability_factor
             if self.reliability_factor is not None
             else 1.0,
@@ -74,7 +104,7 @@ class Installation(BaseModel):
             else 7.0,
             switchgear_duty_profile=self.switchgear_duty_profile
             or SwitchgearDutyProfile.NORMAL_LOW,
-            location_factor=self.location_factor if self.location_factor is not None else 1.0,
+            location_factor=computed_lf,
         )
 
     def resolve_for_submarine_cable(
@@ -142,19 +172,50 @@ class Installation(BaseModel):
             location_factor=computed_lf,
         )
 
-    def resolve_generic(self) -> ResolvedInstallation:
+    def resolve_generic(
+        self,
+        asset_category: str | None = None,
+        sub_division: str | None = None,
+    ) -> ResolvedInstallation:
         """Resolve generic defaults used by all-asset table-driven engines."""
+        resolved_placement = resolve_placement(
+            explicit_placement=self.placement,
+            asset_category=asset_category,
+            fallback=Placement.OUTDOOR,
+        )
+        resolved_altitude = self.altitude_m if self.altitude_m is not None else 0.0
+        resolved_distance = (
+            self.distance_from_coast_km if self.distance_from_coast_km is not None else 100.0
+        )
+        resolved_corrosion = (
+            self.corrosion_category_index if self.corrosion_category_index is not None else 1
+        )
+
+        if self.location_factor is not None:
+            computed_lf = self.location_factor
+        else:
+            factor_column = location_factor_column_for_asset(
+                asset_category=asset_category,
+                sub_division=sub_division,
+            )
+            if factor_column is None:
+                computed_lf = 1.0
+            else:
+                computed_lf = location_factor_from_tables(
+                    factor_column=factor_column,
+                    placement=resolved_placement,
+                    altitude_m=resolved_altitude,
+                    distance_from_coast_km=resolved_distance,
+                    corrosion_category_index=resolved_corrosion,
+                )
+
         return ResolvedInstallation(
             age_years=self.age_years,
-            placement=self.placement or Placement.OUTDOOR,
+            placement=resolved_placement,
             utilisation_pct=self.utilisation_pct if self.utilisation_pct is not None else 100.0,
-            altitude_m=self.altitude_m if self.altitude_m is not None else 0.0,
-            distance_from_coast_km=self.distance_from_coast_km
-            if self.distance_from_coast_km is not None
-            else 100.0,
-            corrosion_category_index=self.corrosion_category_index
-            if self.corrosion_category_index is not None
-            else 1,
+            altitude_m=resolved_altitude,
+            distance_from_coast_km=resolved_distance,
+            corrosion_category_index=resolved_corrosion,
             reliability_factor=self.reliability_factor
             if self.reliability_factor is not None
             else 1.0,
@@ -166,5 +227,5 @@ class Installation(BaseModel):
             else 7.0,
             switchgear_duty_profile=self.switchgear_duty_profile
             or SwitchgearDutyProfile.NORMAL_LOW,
-            location_factor=self.location_factor if self.location_factor is not None else 1.0,
+            location_factor=computed_lf,
         )

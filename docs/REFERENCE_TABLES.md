@@ -7,6 +7,16 @@ Total tables: 243
 Note: CNAIM table numbers are source-aligned and include alphanumeric entries
 such as `8A`, `31A`, and `31B`, so numbering is not strictly sequential.
 
+Runtime integration note (tables 22-26):
+
+- Tables 22-25 are active in runtime for non-submarine location-factor
+	calculations across switchgear, transformers, poles (material-aware), and
+	overhead line tower/fittings/conductor categories.
+- Table 26 is active for default placement resolution when deriving
+	non-submarine location factors.
+- Non-submarine cable categories remain neutral (`location_factor=1.0`) unless
+	explicitly overridden because tables 22-24 do not include cable columns.
+
 | Table No. | Table ID | Table Name | JSON File | Rows |
 |---|---|---|---|---:|
 | 1 | categorisation_of_assets | Categorisation of Assets | src/cnaim/config/lookups/reference_tables/categorisation_of_assets.json | 61 |

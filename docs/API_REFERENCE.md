@@ -107,8 +107,9 @@ Implementation flow:
    - transformer: utilization and optional tap-operation factors
    - switchgear/lv: `switchgear_duty_profile`
    - cable: DF1 x DF2
-5. For submarine cable assets, resolve location factor from tables 25 and 27-30.
-6. Apply health equations and compute PoF.
+5. For non-submarine assets, resolve location factor from tables 22-26.
+6. For submarine cable assets, resolve location factor from tables 25 and 27-30.
+7. Apply health equations and compute PoF.
 
 Reference tables used:
 
@@ -116,6 +117,10 @@ Reference tables used:
 - `generic_terms_for_assets`
 - `pof_curve_parameters`
 - `normal_expected_life`
+- `distance_from_coast_factor_lut`
+- `altitude_factor_lut`
+- `corrosion_category_factor_lut`
+- `environment_indoor_outdoor`
 - `increment_constants`
 - `submarin_cable_topog_factor`
 - `submarin_cable_sitution_factor`
@@ -126,6 +131,13 @@ Reference tables used:
 - `duty_factor_lut_switchgear`
 - `duty_factor_lut_cables_df1`
 - `duty_factor_lut_cables_df2`
+
+Location-factor routing notes:
+
+- Non-submarine cable categories remain neutral (`location_factor=1.0`) unless
+  `Installation.location_factor` is explicitly provided, because tables 22-24
+  do not define cable-specific columns.
+- Explicit `Installation.location_factor` overrides table-derived values.
 
 ### Generic CoF (`CNAIMConsequenceModel`)
 
@@ -170,6 +182,14 @@ Special routing currently implemented:
 
 - `calculate_current(asset: TransformerAsset, installation: Installation, condition: TransformerConditionInput | None = None) -> PoFResult`
 - `calculate_future(asset: TransformerAsset, installation: Installation, condition: TransformerConditionInput | None = None, simulation_end_year: int = 100) -> PoFResult`
+
+Transformer location-factor behavior:
+
+- Uses the same table-driven location-factor stack from tables 22-26 as the
+  generic path (`transformers` column mapping).
+- Installation placement defaults from table 26 when available, then falls back
+  to `Indoor` in transformer-specific resolution.
+- Explicit `Installation.location_factor` takes precedence over table lookup.
 
 `Transformer11kVConsequenceModel` method:
 
@@ -272,7 +292,6 @@ installation = Installation(
     age_years=12,
     utilisation_pct=80,
     tap_operations_per_day=10,
-    location_factor=1.0,
 )
 
 pof = CNAIMPoFModel().calculate_current(asset=asset, installation=installation)

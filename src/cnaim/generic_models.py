@@ -251,7 +251,10 @@ class CNAIMPoFModel:
                 is_landlocked=asset.is_landlocked,
             )
         else:
-            resolved_installation = installation.resolve_generic()
+            resolved_installation = installation.resolve_generic(
+                asset_category=asset.asset_category,
+                sub_division=asset.sub_division,
+            )
         condition_input = condition or AssetConditionInput()
 
         expected_life_years = self._resolve_expected_life_years(

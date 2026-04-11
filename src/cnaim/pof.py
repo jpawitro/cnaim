@@ -27,6 +27,7 @@ from .health import (
     pof_cubic,
 )
 from .installation import Installation
+from .location_factors import location_factor_column_for_asset, location_factor_from_tables
 from .lookups import as_bands, load_lookup, lookup_factor_interval
 
 
@@ -94,12 +95,9 @@ class Transformer11To20kVPoFModel(ProbabilityOfFailureModel):
         """Load PoF, duty, location, and condition lookup tables."""
         self._pof_params = load_lookup("transformer_11_20kv_pof_params.json")
         self._duty_cfg = load_lookup("duty_factor_transformer_11_20kv.json")
-        self._location_cfg = load_lookup("location_factor_transformer_11_20kv.json")
         self._condition_cfg = load_lookup("transformer_condition_lookup.json")
 
         self._duty_bands = as_bands(self._duty_cfg["bands"])
-        self._altitude_bands = as_bands(self._location_cfg["altitude_factors"])
-        self._coast_bands = as_bands(self._location_cfg["coast_factors"])
 
     def calculate_current(
         self,
@@ -167,7 +165,10 @@ class Transformer11To20kVPoFModel(ProbabilityOfFailureModel):
         condition: TransformerConditionInput | None,
     ) -> dict[str, float]:
         condition_input = condition or TransformerConditionInput()
-        resolved = installation.resolve_for_transformer()
+        resolved = installation.resolve_for_transformer(
+            asset_category=asset.asset_category,
+            sub_division=asset.sub_division,
+        )
 
         asset_key = asset.transformer_type.value
         if asset_key not in self._pof_params:
@@ -176,12 +177,17 @@ class Transformer11To20kVPoFModel(ProbabilityOfFailureModel):
         params = self._pof_params[asset_key]
 
         duty_factor = self._lookup_duty_factor(resolved.utilisation_pct)
-        location_factor = self._lookup_location_factor(
-            placement=resolved.placement,
-            altitude_m=resolved.altitude_m,
-            distance_from_coast_km=resolved.distance_from_coast_km,
-            corrosion_category_index=resolved.corrosion_category_index,
-        )
+        if installation.location_factor is not None:
+            location_factor = installation.location_factor
+        else:
+            location_factor = self._lookup_location_factor(
+                asset_category=asset.asset_category,
+                sub_division=asset.sub_division,
+                placement=resolved.placement,
+                altitude_m=resolved.altitude_m,
+                distance_from_coast_km=resolved.distance_from_coast_km,
+                corrosion_category_index=resolved.corrosion_category_index,
+            )
 
         expected_life_years = float(params["normal_expected_life_years"]) / (
             duty_factor * location_factor
@@ -229,52 +235,25 @@ class Transformer11To20kVPoFModel(ProbabilityOfFailureModel):
 
     def _lookup_location_factor(
         self,
+        asset_category: str | None,
+        sub_division: str | None,
         placement: Placement,
         altitude_m: float,
         distance_from_coast_km: float,
         corrosion_category_index: int,
     ) -> float:
-        cfg = self._location_cfg
+        factor_column = location_factor_column_for_asset(
+            asset_category=asset_category,
+            sub_division=sub_division,
+        ) or "transformers"
 
-        if (
-            placement.value == cfg["default_placement"]
-            and altitude_m == float(cfg["default_altitude_m"])
-            and distance_from_coast_km == float(cfg["default_distance_from_coast_km"])
-            and corrosion_category_index == int(cfg["default_corrosion_category_index"])
-        ):
-            return float(cfg["default_location_factor"])
-
-        altitude_factor = lookup_factor_interval(altitude_m, self._altitude_bands)
-        coast_factor = lookup_factor_interval(distance_from_coast_km, self._coast_bands)
-        corrosion_factor = float(cfg["corrosion_factors"][str(corrosion_category_index)])
-
-        factors = [coast_factor, corrosion_factor, altitude_factor]
-        increment = float(cfg["increment_constant"])
-
-        if placement == Placement.OUTDOOR:
-            if max(factors) > 1:
-                count_factor = len([factor for factor in factors if factor > 1])
-                return max(factors) + ((count_factor - 1) * increment)
-            return min(factors)
-
-        if max(factors) > 1:
-            count_factor = len([factor for factor in factors if factor > 1])
-            initial_location = max(factors) + ((count_factor - 1) * increment)
-        else:
-            initial_location = min(factors)
-
-        min_coast = min(band.factor for band in self._coast_bands)
-        min_corrosion = min(float(value) for value in cfg["corrosion_factors"].values())
-        min_altitude = min(band.factor for band in self._altitude_bands)
-        min_factors = [min_coast, min_corrosion, min_altitude]
-
-        if max(min_factors) > 1:
-            count_min = len([factor for factor in min_factors if factor > 1])
-            min_initial = max(min_factors) + ((count_min - 1) * increment)
-        else:
-            min_initial = min(min_factors)
-
-        return 0.25 * (initial_location - min_initial) + min_initial
+        return location_factor_from_tables(
+            factor_column=factor_column,
+            placement=placement,
+            altitude_m=altitude_m,
+            distance_from_coast_km=distance_from_coast_km,
+            corrosion_category_index=corrosion_category_index,
+        )
 
     def _measured_modifier(
         self,
