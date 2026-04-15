@@ -10,8 +10,13 @@ Distribution Network Operators (DNOs).
 - Core domain models with hierarchy: assets, installation, PoF, consequences,
     and final risk profile.
 - Pydantic validation for input models.
+- Table-driven OCI/MCI derivation across non-transformer families (LV,
+    switchgear, non-submarine cable, poles, towers, fittings, and tower-line
+    conductors) via typed condition-input models.
 - Submarine cable runtime support for location factor, OCI/MCI condition
     modifiers, and EHV/132kV network-performance routing.
+- Risk profile support for both simplified monetary risk and methodology
+    tables 236-241 in-year/long-term weighting outputs.
 - Lookup tables stored as JSON under `src/cnaim/config/lookups`.
 - Full reference-table extraction under
     `src/cnaim/config/lookups/reference_tables` (243 tables).
@@ -68,7 +73,7 @@ Alternative names you may prefer:
 - CNAIM Models
 - CNAIM Tools
 
-## PDF-First Completeness Snapshot (2026-04-11)
+## PDF-First Completeness Snapshot (2026-04-15)
 
 Baseline:
 - Source PDF: [Ofgem CNAIM methodology](https://www.ofgem.gov.uk/decision/decision-distribution-network-operators-common-network-asset-indices-methodology-0)
@@ -80,9 +85,11 @@ Implemented runtime scope:
 - `Transformer11To20kVPoFModel` (specialized): `src/cnaim/pof.py`
 - Transformer diagnostics modifiers (Oil/DGA/FFA): `src/cnaim/diagnostics.py`
 - General non-submarine location-factor pipeline (tables 22-26): `src/cnaim/location_factors.py` + `src/cnaim/installation.py`
+- General non-submarine OCI/MCI evaluation pipeline (tables 35-202 except transformer/submarine special paths):
+    `src/cnaim/condition_models.py` + `src/cnaim/condition_engine.py` + `src/cnaim/generic_models.py`
 - Submarine cable location factor and OCI/MCI pipeline: `src/cnaim/submarine.py`
 - EHV/132kV secure network-performance CoF routing (including submarine cables): `src/cnaim/generic_models.py`
-- Risk profile composition: `src/cnaim/risk_profile.py`
+- Risk profile composition with optional methodology weighting outputs (tables 236-241): `src/cnaim/risk_profile.py`
 
 Coverage metrics:
 - Expected asset register categories from PDF taxonomy: 61
@@ -90,8 +97,9 @@ Coverage metrics:
 - Coverage: 61/61 (100%).
 - Extracted reference table JSON files: 243
 - Effective numbered table coverage after 31A/31B handling: 240/241 (99.6%)
-- Known data issue: Table 112 mapping inconsistency (manifest number exists,
-    but no dedicated canonical table JSON mapped solely to 112)
+- Table 112 mapping defect resolved via canonical 112/113 artifact split:
+    - Table 112 -> `oci_hv_pole_visual_pole_cond.json`
+    - Table 113 -> `oci_hv_pole_pole_top_rot.json`
 
 Current implementation status by capability:
 - Implemented:
@@ -103,23 +111,18 @@ Current implementation status by capability:
     - Submarine cable OCI/MCI execution path (tables 107, 189-191)
     - Duty-factor lookups in generic and transformer models
     - Health-score and reliability modifiers in active paths
+    - Table-driven non-transformer OCI/MCI runtime evaluation across remaining families
     - Financial/Safety/Environmental CoF components
     - EHV/132kV secure network-performance CoF path (table 235)
-- Partial:
-    - Generic OCI/MCI derivation breadth outside transformer and submarine paths
-    - Risk-profile output remains a simplified current-year monetary/matrix view,
-        not the full table-weighted CNAIM risk-matrix workflow
-- Gap:
-    - In-year risk-matrix weighting pipeline (tables 236-238)
-    - Long-term risk / risk-index pipeline (tables 239-241)
-    - Runtime evaluators for the remaining family-specific OCI/MCI tables
-        already extracted under `reference_tables`
+    - Risk-profile in-year and long-term weighting outputs (tables 236-241)
+- Compatibility note:
+    - `RiskProfile.from_results(...)` preserves the original simplified output by default.
+    - Pass `compute_table_weights=True` with `asset_category` to enable table 236-241 fields.
 
 Prioritized next actions:
-1. Implement table-driven in-year and long-term risk-matrix weighting using tables 236-241 and expose those results from `RiskProfile`.
-2. Add family-specific OCI/MCI evaluators for the remaining extracted assets (LV/HV/EHV switchgear, non-submarine cables, poles, towers, fittings, conductors) and convert them into `AssetConditionInput`.
-3. Resolve the Table 112 mapping defect with one canonical table artifact and extend PDF-first regression coverage around manifest/table consistency.
-4. Expand section-level regression tests for risk matrices and family-specific OCI/MCI execution completeness.
+1. Expand scenario-level regression tests for every non-transformer OCI/MCI profile and every CI/HI band combination in risk tables 236-241.
+2. Add convenience API(s) that attach table-weighted risk outputs directly in end-to-end workflows without requiring explicit `compute_table_weights` flags.
+3. Add data-quality checks for extracted source artifacts (for example `_x000D_` markers and missing category keys) in CI.
 
 
 ## Development Commands

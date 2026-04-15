@@ -111,7 +111,7 @@
       "h5_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 534
     },
     {
-      "asset_register_category": null,
+      "asset_register_category": "LV Pillar (ID)",
       "criticality_index_band": "C1",
       "h1_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 21,
       "h2_in_year_monetised_risk_weighting_gbp_at_2020_21_prices_for_each_health_index_band": 24,

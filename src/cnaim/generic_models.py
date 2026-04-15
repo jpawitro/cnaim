@@ -16,6 +16,8 @@ from dataclasses import dataclass
 from pydantic import BaseModel, ConfigDict, Field
 
 from .assets import CableAsset, NetworkAsset
+from .condition_engine import evaluate_table_driven_condition
+from .condition_models import TableDrivenConditionInput
 from .consequences import ConsequenceBreakdown
 from .enums import AssetFamily, RiskLevel
 from .health import (
@@ -167,7 +169,7 @@ class CNAIMPoFModel:
         self,
         asset: NetworkAsset,
         installation: Installation,
-        condition: AssetConditionInput | None = None,
+        condition: AssetConditionInput | TableDrivenConditionInput | None = None,
     ) -> PoFResult:
         """Calculate current annual probability of failure for any asset.
 
@@ -183,7 +185,7 @@ class CNAIMPoFModel:
         self,
         asset: NetworkAsset,
         installation: Installation,
-        condition: AssetConditionInput | None = None,
+        condition: AssetConditionInput | TableDrivenConditionInput | None = None,
         simulation_end_year: int = 100,
     ) -> PoFResult:
         """Calculate current PoF and future PoF trajectory per year."""
@@ -232,7 +234,7 @@ class CNAIMPoFModel:
         self,
         asset: NetworkAsset,
         installation: Installation,
-        condition: AssetConditionInput | None,
+        condition: AssetConditionInput | TableDrivenConditionInput | None,
     ) -> dict[str, float]:
         if asset.asset_category is None:
             raise ValueError("asset.asset_category must be provided")
@@ -255,7 +257,10 @@ class CNAIMPoFModel:
                 asset_category=asset.asset_category,
                 sub_division=asset.sub_division,
             )
-        condition_input = condition or AssetConditionInput()
+        condition_input = self._resolve_condition_input(
+            asset_category=asset.asset_category,
+            condition=condition,
+        )
 
         expected_life_years = self._resolve_expected_life_years(
             asset.asset_category,
@@ -316,6 +321,36 @@ class CNAIMPoFModel:
             "current_health_score": current_health_score,
             "current_pof": current_pof,
         }
+
+    def _resolve_condition_input(
+        self,
+        asset_category: str,
+        condition: AssetConditionInput | TableDrivenConditionInput | None,
+    ) -> AssetConditionInput:
+        if condition is None:
+            return AssetConditionInput()
+
+        if isinstance(condition, AssetConditionInput):
+            return condition
+
+        aggregate = evaluate_table_driven_condition(
+            asset_category=asset_category,
+            condition=condition,
+        )
+        if aggregate is None:
+            raise ValueError(
+                "Table-driven condition inputs are not supported for asset "
+                f"category {asset_category!r}."
+            )
+
+        return AssetConditionInput(
+            observed_condition_factor=aggregate.observed_factor,
+            measured_condition_factor=aggregate.measured_factor,
+            observed_condition_cap=aggregate.observed_cap,
+            measured_condition_cap=aggregate.measured_cap,
+            observed_condition_collar=aggregate.observed_collar,
+            measured_condition_collar=aggregate.measured_collar,
+        )
 
     def _resolve_health_category(self, asset_category: str) -> str:
         try:

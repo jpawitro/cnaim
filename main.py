@@ -41,12 +41,24 @@ def main() -> None:
     risk_profile = RiskProfile.from_results(
         asset_id=asset.asset_id, pof_result=pof_result, consequence=consequence
     )
+    weighted_profile = RiskProfile.from_results(
+        asset_id=asset.asset_id,
+        pof_result=pof_result,
+        consequence=consequence,
+        asset_category=asset.asset_category,
+        compute_table_weights=True,
+    )
 
     print(
         f"Asset {risk_profile.asset_id}: PoF={risk_profile.pof:.6f}, "
         f"CoF={risk_profile.total_cof:.2f}, "
         f"Risk={risk_profile.monetary_risk:.2f}, "
         f"Level={risk_profile.risk_level}"
+    )
+    print(
+        "Weighted outputs: "
+        f"in-year={weighted_profile.in_year_monetised_risk}, "
+        f"long-term={weighted_profile.long_term_risk_index}"
     )
 
 

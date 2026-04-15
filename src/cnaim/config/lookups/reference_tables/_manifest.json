@@ -804,10 +804,10 @@
       "row_count": 4
     },
     {
-      "table_id": "oci_hv_pole_visual_pole_cond",
+      "table_id": "oci_hv_pole_pole_top_rot",
       "table_number": "113",
-      "table_name": "Observed Condition Input - HV Pole: Visual Pole Condition: Pole Top Rot",
-      "file": "src/cnaim/config/lookups/reference_tables/oci_hv_pole_visual_pole_cond.json",
+      "table_name": "Observed Condition Input - HV Pole: Pole Top Rot",
+      "file": "src/cnaim/config/lookups/reference_tables/oci_hv_pole_pole_top_rot.json",
       "row_count": 3
     },
     {

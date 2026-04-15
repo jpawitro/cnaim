@@ -2,15 +2,23 @@
 
 ## Overview
 
-The package currently exposes three API layers:
+The package currently exposes four API layers:
 
 1. Transformer-focused vertical slice:
    - `Transformer11To20kVPoFModel`
    - `Transformer11kVConsequenceModel`
-2. Table-driven generic coverage for all registry categories:
+2. Table-driven generic PoF/CoF coverage for all registry categories:
    - `CNAIMPoFModel`
    - `CNAIMConsequenceModel`
-3. Submarine cable specialisation layered onto the generic path:
+3. Typed non-transformer OCI/MCI condition-input models and evaluator:
+  - `LowVoltageConditionInput`
+  - `SwitchgearConditionInput`
+  - `NonSubmarineCableConditionInput`
+  - `PoleConditionInput`
+  - `TowerConditionInput`
+  - `FittingsConditionInput`
+  - `TowerLineConductorConditionInput`
+4. Submarine cable specialisation layered onto the generic path:
   - `submarine_location_factor`
   - `SubmarineCableConditionInput`
   - submarine OCI/MCI modifier helpers
@@ -35,6 +43,9 @@ Both paths share core domain models (`Asset`, `Installation`, `PoFResult`,
 - PoF:
   - `Transformer11To20kVPoFModel`, `TransformerConditionInput`
   - `CNAIMPoFModel`, `AssetConditionInput`
+  - `LowVoltageConditionInput`, `SwitchgearConditionInput`
+  - `NonSubmarineCableConditionInput`, `PoleConditionInput`
+  - `TowerConditionInput`, `FittingsConditionInput`, `TowerLineConductorConditionInput`
   - `SubmarineCableConditionInput`
   - `PoFResult`
 - Consequences:
@@ -79,6 +90,15 @@ Both paths share core domain models (`Asset`, `Installation`, `PoFResult`,
 
 - `TransformerConditionInput`: transformer vertical-slice condition inputs.
 - `AssetConditionInput`: generic observed/measured factors and cap/collar values.
+- Non-transformer typed OCI/MCI models routed by asset category in
+  `CNAIMPoFModel`:
+  - `LowVoltageConditionInput`
+  - `SwitchgearConditionInput`
+  - `NonSubmarineCableConditionInput`
+  - `PoleConditionInput`
+  - `TowerConditionInput`
+  - `FittingsConditionInput`
+  - `TowerLineConductorConditionInput`
 - `SubmarineCableConditionInput`: submarine-specific observed/measured raw
   inputs converted into `AssetConditionInput` using CNAIM MMI combination rules.
 
@@ -95,8 +115,8 @@ Both paths share core domain models (`Asset`, `Installation`, `PoFResult`,
 
 Primary methods:
 
-- `calculate_current(asset: NetworkAsset, installation: Installation, condition: AssetConditionInput | None = None) -> PoFResult`
-- `calculate_future(asset: NetworkAsset, installation: Installation, condition: AssetConditionInput | None = None, simulation_end_year: int = 100) -> PoFResult`
+- `calculate_current(asset: NetworkAsset, installation: Installation, condition: AssetConditionInput | TableDrivenConditionInput | None = None) -> PoFResult`
+- `calculate_future(asset: NetworkAsset, installation: Installation, condition: AssetConditionInput | TableDrivenConditionInput | None = None, simulation_end_year: int = 100) -> PoFResult`
 
 Implementation flow:
 
@@ -110,6 +130,13 @@ Implementation flow:
 5. For non-submarine assets, resolve location factor from tables 22-26.
 6. For submarine cable assets, resolve location factor from tables 25 and 27-30.
 7. Apply health equations and compute PoF.
+
+Condition routing notes:
+
+- Transformer and submarine dedicated paths remain in their specialized modules.
+- For non-transformer/non-submarine categories, typed condition models are
+  evaluated with table-driven OCI/MCI logic and converted to
+  `AssetConditionInput` at runtime.
 
 Reference tables used:
 
@@ -245,19 +272,24 @@ Implemented in `cnaim.health`:
 
 Create a final risk output with:
 
-- `RiskProfile.from_results(asset_id, pof_result, consequence)`
+- `RiskProfile.from_results(asset_id, pof_result, consequence, asset_category=None, compute_table_weights=False)`
 
 Computation summary:
 
 - Monetary risk: $risk = pof \cdot total\_cof$
 - Matrix coordinates from CHS and CI bands in `risk_matrix_bands.json`
 - Risk level thresholding (`Low`, `Medium`, `High`) from lookup config
+- Optional methodology risk matrix fields (tables 236-241) when
+  `compute_table_weights=True` and `asset_category` is provided:
+  - in-year HI/CI bands and monetized risk weighting
+  - typical CoF and in-year PoF weights
+  - long-term HI/CI bands and risk-index weighting
+  - forecast ageing rate and cumulative discounted PoF weighting
 
-Current limitation:
+Normalization behavior for risk tables:
 
-- The runtime `RiskProfile` is still the simplified current-year monetary risk
-  view. The methodology's table-driven in-year and long-term risk weighting
-  pipeline from tables 236-241 is not yet executed.
+- Category lookups remove common extraction artifacts (for example `_x000D_`)
+  before canonical matching so runtime categories map reliably to table rows.
 
 ## Reference Table Index
 
@@ -297,6 +329,14 @@ installation = Installation(
 pof = CNAIMPoFModel().calculate_current(asset=asset, installation=installation)
 cof = CNAIMConsequenceModel().calculate(asset)
 risk = RiskProfile.from_results(asset_id=asset.asset_id, pof_result=pof, consequence=cof)
+
+risk_weighted = RiskProfile.from_results(
+  asset_id=asset.asset_id,
+  pof_result=pof,
+  consequence=cof,
+  asset_category=asset.asset_category,
+  compute_table_weights=True,
+)
 ```
 
 ### Diagnostics Helper Example

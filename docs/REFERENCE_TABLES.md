@@ -17,6 +17,12 @@ Runtime integration note (tables 22-26):
 - Non-submarine cable categories remain neutral (`location_factor=1.0`) unless
 	explicitly overridden because tables 22-24 do not include cable columns.
 
+Runtime integration note (tables 236-241):
+
+- `RiskProfile.from_results(..., compute_table_weights=True, asset_category=...)`
+	uses tables 236-241 to derive in-year and long-term risk weighting outputs.
+- The original simplified monetary/matrix outputs remain available by default.
+
 | Table No. | Table ID | Table Name | JSON File | Rows |
 |---|---|---|---|---:|
 | 1 | categorisation_of_assets | Categorisation of Assets | src/cnaim/config/lookups/reference_tables/categorisation_of_assets.json | 61 |
@@ -133,7 +139,7 @@ Runtime integration note (tables 22-26):
 | 110 | oci_lv_pole_pole_leaning | Observed Condition Input - LV Pole: Pole Leaning | src/cnaim/config/lookups/reference_tables/oci_lv_pole_pole_leaning.json | 3 |
 | 111 | oci_lv_pole_bird_animal_damage | Observed Condition Input - LV Pole: Bird / Animal Damage | src/cnaim/config/lookups/reference_tables/oci_lv_pole_bird_animal_damage.json | 3 |
 | 112 | oci_hv_pole_visual_pole_cond | Observed Condition Input - HV Pole: Visual Pole Condition | src/cnaim/config/lookups/reference_tables/oci_hv_pole_visual_pole_cond.json | 4 |
-| 113 | oci_hv_pole_visual_pole_cond | Observed Condition Input - HV Pole: Visual Pole Condition: Pole Top Rot | src/cnaim/config/lookups/reference_tables/oci_hv_pole_visual_pole_cond.json | 3 |
+| 113 | oci_hv_pole_pole_top_rot | Observed Condition Input - HV Pole: Pole Top Rot | src/cnaim/config/lookups/reference_tables/oci_hv_pole_pole_top_rot.json | 3 |
 | 114 | oci_hv_pole_pole_leaning | Observed Condition Input - HV Pole: Pole Leaning | src/cnaim/config/lookups/reference_tables/oci_hv_pole_pole_leaning.json | 3 |
 | 115 | oci_hv_pole_bird_animal_damage | Observed Condition Input - HV Pole: Bird / Animal Damage | src/cnaim/config/lookups/reference_tables/oci_hv_pole_bird_animal_damage.json | 3 |
 | 116 | oci_ehv_pole_visual_pole_cond | Observed Condition Input - EHV Pole: Visual Pole Condition | src/cnaim/config/lookups/reference_tables/oci_ehv_pole_visual_pole_cond.json | 4 |
